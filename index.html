@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0a090c" />
+    <meta name="description" content="附近机会雷达公开活动目录" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>附近机会雷达 · 公开活动目录</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand"><span class="brand-mark">⌁</span><span><strong>附近机会雷达</strong><small>NEARBY SOCIAL RADAR</small></span></div>
+      <span class="public-pill">公开活动目录</span>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">DISCOVER / XI'AN</p>
+          <h1>把附近的可能，留给今天。</h1>
+          <p class="hero-copy">从讲座、比赛到志愿和校园活动，查看经过来源核验的公开机会。</p>
+        </div>
+        <div class="hero-note"><span>每日同步</span><strong id="sync-time">正在读取</strong><small id="sync-status">公开快照</small></div>
+      </section>
+      <section class="filter-panel" aria-label="活动筛选">
+        <label class="search"><span aria-hidden="true">⌕</span><input id="query" type="search" placeholder="搜索活动、主办方或地点" /></label>
+        <label><span class="sr-only">类型</span><select id="type"><option value="all">全部类型</option></select></label>
+        <label><span class="sr-only">时间</span><select id="timing"><option value="upcoming">即将开始</option><option value="week">未来 7 天</option><option value="month">未来 30 天</option><option value="all">全部时间</option></select></label>
+        <label><span class="sr-only">费用</span><select id="fee"><option value="all">全部费用</option><option value="free">免费</option><option value="paid">付费</option></select></label>
+      </section>
+      <section class="summary"><div><span class="eyebrow">CURRENT OPPORTUNITIES</span><h2 id="count">读取活动中</h2></div><a class="source-link" href="https://github.com/victkk11-beep/nearby-social-radar" target="_blank" rel="noreferrer">查看项目来源 ↗</a></section>
+      <section id="list" class="activity-grid" aria-live="polite"></section>
+      <section id="empty" class="empty" hidden><div class="empty-mark">✦</div><h2>暂时没有匹配的活动</h2><p>换一个关键词或放宽筛选范围。</p></section>
+    </main>
+    <footer>公开数据来自可追溯来源 · 活动详情与报名要求请回到原文核验</footer>
+    <script src="app.js" defer></script>
+  </body>
+</html>
