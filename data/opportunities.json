@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-24T08:27:18.252Z",
-  "checkedAt": "2026-09-24T08:27:18.252Z",
-  "lastSuccessfulAt": "2026-09-24T08:27:18.252Z",
+  "generatedAt": "2026-09-24T11:23:57.125Z",
+  "checkedAt": "2026-09-24T11:23:57.125Z",
+  "lastSuccessfulAt": "2026-09-24T11:23:57.125Z",
   "status": "degraded",
   "statusMessage": "部分来源采集失败，显示 18 条最近快照",
-  "sourceCount": 18,
-  "sourceFailures": 2,
+  "sourceCount": 21,
+  "sourceFailures": 3,
   "sourceHealth": [
     {
       "name": "西安交通大学学术资源平台",
@@ -30,7 +30,23 @@
     {
       "name": "西安交通大学就业招聘日历",
       "status": "ok",
-      "items": 440
+      "items": 441
+    },
+    {
+      "name": "西安交大能动学院就业实践",
+      "status": "ok",
+      "items": 186
+    },
+    {
+      "name": "隆基绿能职业发展",
+      "status": "ok",
+      "items": 121
+    },
+    {
+      "name": "西安能动相关实习发现",
+      "status": "failed",
+      "items": 0,
+      "error": "robots.txt 不允许采集此页面。"
     },
     {
       "name": "交大青年之声",
@@ -333,29 +349,6 @@
       "registrationUrl": "https://live.bilibili.com/3356592"
     },
     {
-      "id": "op-f0df3fa379b1953baceab5659c54d97e030c0c509374d4163ef069aa94242089",
-      "type": "internship",
-      "title": "华能澜沧江水电股份有限公司2026年校园招聘",
-      "description": "校内招聘会。时间：2026-10-09 10:10:00 至 2026-10-09 12:00:00。地点或参与方式：就创中心204报告厅。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1791511800,
-      "endsAt": 1791518400,
-      "registrationDeadline": null,
-      "venueName": "就创中心204报告厅",
-      "city": "西安",
-      "isOnline": false,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=89f8a4f5e5084dbe98815cd3810ae6ab",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=89f8a4f5e5084dbe98815cd3810ae6ab"
-    },
-    {
       "id": "op-70dc0771bef29ca4ccc4804b3ddc898c0516e9f55c619c42f8111765817de433",
       "type": "internship",
       "title": "中国人民解放军火箭军工程大学2026年校园招聘",
@@ -377,6 +370,29 @@
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=a7e631dde0ba45c683fd57c930289d7a",
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=a7e631dde0ba45c683fd57c930289d7a"
+    },
+    {
+      "id": "op-f0df3fa379b1953baceab5659c54d97e030c0c509374d4163ef069aa94242089",
+      "type": "internship",
+      "title": "华能澜沧江水电股份有限公司2026年校园招聘",
+      "description": "校内招聘会。时间：2026-10-09 10:10:00 至 2026-10-09 12:00:00。地点或参与方式：就创中心204报告厅。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1791511800,
+      "endsAt": 1791518400,
+      "registrationDeadline": null,
+      "venueName": "就创中心204报告厅",
+      "city": "西安",
+      "isOnline": false,
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=89f8a4f5e5084dbe98815cd3810ae6ab",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=89f8a4f5e5084dbe98815cd3810ae6ab"
     },
     {
       "id": "op-5f6297966fd9ac0e98ab1ec982204e102b61fc15293ce3a31eb36b1d21c9fb42",
@@ -425,10 +441,10 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=dccf559e93df4010ac001743587d71a4"
     },
     {
-      "id": "op-fee2a30e48134cdd168a28ed6a86adcc3917ef5c9f1c1310bb5861fbae0814a4",
+      "id": "op-f48aec8df30e18bfe36d5652afcdbe8722d86e8adf76fb3ed2e4dcf7f640a5a5",
       "type": "internship",
-      "title": "东海实验室2027年校园招聘",
-      "description": "校内招聘会。时间：2026-10-11 14:10:00 至 2026-10-11 16:00:00。地点或参与方式：敏行楼1-3052。",
+      "title": "湖北省电力规划设计研究院有限公司 2027届秋季校园招聘",
+      "description": "校内招聘会。时间：2026-10-10 14:10:00 至 2026-10-10 16:00:00。地点或参与方式：敏行楼1-3052。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "校内招聘会",
       "tags": [
@@ -436,16 +452,16 @@
         "校园招聘",
         "线下"
       ],
-      "startsAt": 1791699000,
-      "endsAt": 1791705600,
+      "startsAt": 1791612600,
+      "endsAt": 1791619200,
       "registrationDeadline": null,
       "venueName": "敏行楼1-3052",
       "city": "西安",
       "isOnline": false,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=403d5d42994f48c2b4a36346cc672da2",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=403d5d42994f48c2b4a36346cc672da2"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=d2cf2afdb203469d8da05651b4a8a01b",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=d2cf2afdb203469d8da05651b4a8a01b"
     },
     {
       "id": "op-f205779ad76dd742ed2339c2d4a328174557da26f95fe7b211034eb05a764a34",
