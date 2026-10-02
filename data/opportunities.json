@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-02T07:52:53.730Z",
-  "checkedAt": "2026-10-02T07:52:53.730Z",
-  "lastSuccessfulAt": "2026-10-02T07:52:53.730Z",
+  "generatedAt": "2026-10-02T08:05:04.831Z",
+  "checkedAt": "2026-10-02T08:05:04.831Z",
+  "lastSuccessfulAt": "2026-10-02T08:05:04.831Z",
   "status": "degraded",
   "statusMessage": "部分来源采集失败，显示 27 条最近快照",
   "sourceCount": 25,
@@ -138,7 +138,7 @@
       "items": 35
     }
   ],
-  "geocodeRemaining": 0,
+  "geocodeRemaining": 27,
   "items": [
     {
       "id": "op-b533e5cf51f1cff3505b34c0f7e43a1a1d3bfe69c54715271a7a7839af77844d",
