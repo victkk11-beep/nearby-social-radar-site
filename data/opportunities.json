@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-01T23:11:42.949Z",
-  "checkedAt": "2026-10-01T23:11:42.949Z",
-  "lastSuccessfulAt": "2026-10-01T23:11:42.949Z",
+  "generatedAt": "2026-10-02T05:52:51.926Z",
+  "checkedAt": "2026-10-02T05:52:51.926Z",
+  "lastSuccessfulAt": "2026-10-02T05:52:51.926Z",
   "status": "degraded",
   "statusMessage": "部分来源采集失败，显示 27 条最近快照",
   "sourceCount": 26,
-  "sourceFailures": 6,
+  "sourceFailures": 4,
   "sourceHealth": [
     {
       "name": "西安交通大学学术资源平台",
@@ -65,9 +65,8 @@
     },
     {
       "name": "陕汽控股人才招聘",
-      "status": "failed",
-      "items": 0,
-      "error": "fetch failed"
+      "status": "ok",
+      "items": 36
     },
     {
       "name": "西安能动相关实习发现",
@@ -129,9 +128,8 @@
     },
     {
       "name": "西安交通大学创新港活动",
-      "status": "failed",
-      "items": 0,
-      "error": "fetch failed"
+      "status": "ok",
+      "items": 41
     },
     {
       "name": "西安市体育局公开活动",
