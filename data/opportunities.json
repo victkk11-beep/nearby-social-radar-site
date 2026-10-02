@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-02T07:00:59.033Z",
-  "checkedAt": "2026-10-02T07:00:59.033Z",
-  "lastSuccessfulAt": "2026-10-02T07:00:59.033Z",
+  "generatedAt": "2026-10-02T07:52:53.730Z",
+  "checkedAt": "2026-10-02T07:52:53.730Z",
+  "lastSuccessfulAt": "2026-10-02T07:52:53.730Z",
   "status": "degraded",
   "statusMessage": "部分来源采集失败，显示 27 条最近快照",
-  "sourceCount": 26,
-  "sourceFailures": 6,
+  "sourceCount": 25,
+  "sourceFailures": 5,
   "sourceHealth": [
     {
       "name": "西安交通大学学术资源平台",
@@ -56,7 +56,7 @@
       "name": "陕鼓集团人才招聘",
       "status": "failed",
       "items": 0,
-      "error": "fetch failed"
+      "error": "来源网络请求失败（ECONNREFUSED）。"
     },
     {
       "name": "中国西电集团加入我们",
@@ -67,13 +67,7 @@
       "name": "陕汽控股人才招聘",
       "status": "failed",
       "items": 0,
-      "error": "fetch failed"
-    },
-    {
-      "name": "西安能动相关实习发现",
-      "status": "failed",
-      "items": 0,
-      "error": "robots.txt 不允许采集此页面。"
+      "error": "来源网络请求失败（ETIMEDOUT）。"
     },
     {
       "name": "交大青年之声",
@@ -84,7 +78,7 @@
       "name": "陕西省图书馆活动预告",
       "status": "failed",
       "items": 0,
-      "error": "fetch failed"
+      "error": "来源网络请求失败（UND_ERR_CONNECT_TIMEOUT）。"
     },
     {
       "name": "仲英书院官方活动",
@@ -125,13 +119,13 @@
       "name": "西安交通大学医学部活动",
       "status": "failed",
       "items": 0,
-      "error": "fetch failed"
+      "error": "来源网络请求失败（ERR_TLS_CERT_ALTNAME_INVALID）。"
     },
     {
       "name": "西安交通大学创新港活动",
       "status": "failed",
       "items": 0,
-      "error": "fetch failed"
+      "error": "来源网络请求失败（ETIMEDOUT）。"
     },
     {
       "name": "西安市体育局公开活动",
