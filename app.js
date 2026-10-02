@@ -15,7 +15,15 @@ function outsideChina(latitude, longitude) { return longitude < 72.004 || longit
 function transformLatitude(x, y) { let ret = -100 + 2 * x + 3 * y + 0.2 * y * y + 0.1 * x * y + 0.2 * Math.sqrt(Math.abs(x)); ret += (20 * Math.sin(6 * x * GCJ_PI) + 20 * Math.sin(2 * x * GCJ_PI)) * 2 / 3; ret += (20 * Math.sin(y * GCJ_PI) + 40 * Math.sin(y / 3 * GCJ_PI)) * 2 / 3; ret += (160 * Math.sin(y / 12 * GCJ_PI) + 320 * Math.sin(y * GCJ_PI / 30)) * 2 / 3; return ret; }
 function transformLongitude(x, y) { let ret = 300 + x + 2 * y + 0.1 * x * x + 0.1 * x * y + 0.1 * Math.sqrt(Math.abs(x)); ret += (20 * Math.sin(6 * x * GCJ_PI) + 20 * Math.sin(2 * x * GCJ_PI)) * 2 / 3; ret += (20 * Math.sin(x * GCJ_PI) + 40 * Math.sin(x / 3 * GCJ_PI)) * 2 / 3; ret += (150 * Math.sin(x / 12 * GCJ_PI) + 300 * Math.sin(x / 30 * GCJ_PI)) * 2 / 3; return ret; }
 function gcj02ToWgs84(latitude, longitude) { if (outsideChina(latitude, longitude)) return [latitude, longitude]; const dLatitude = transformLatitude(longitude - 105, latitude - 35); const dLongitude = transformLongitude(longitude - 105, latitude - 35); const radians = latitude / 180 * GCJ_PI; const magic = 1 - GCJ_EE * Math.sin(radians) ** 2; const sqrtMagic = Math.sqrt(magic); const latitudeDelta = dLatitude * 180 / ((GCJ_A * (1 - GCJ_EE)) / (magic * sqrtMagic) * GCJ_PI); const longitudeDelta = dLongitude * 180 / (GCJ_A / sqrtMagic * Math.cos(radians) * GCJ_PI); return [latitude * 2 - (latitude + latitudeDelta), longitude * 2 - (longitude + longitudeDelta)]; }
-function mapCoordinate(value) { if (!value || !Number.isFinite(Number(value.latitude)) || !Number.isFinite(Number(value.longitude))) return null; const latitude = Number(value.latitude); const longitude = Number(value.longitude); return value.coordinateSystem === "gcj02" ? gcj02ToWgs84(latitude, longitude) : [latitude, longitude]; }
+function mapCoordinate(value) { if (!value || value.latitude === null || value.latitude === undefined || value.longitude === null || value.longitude === undefined || !["gcj02", "wgs84"].includes(value.coordinateSystem)) return null; const latitude = Number(value.latitude); const longitude = Number(value.longitude); if (!Number.isFinite(latitude) || !Number.isFinite(longitude) || (latitude === 0 && longitude === 0) || latitude < -90 || latitude > 90 || longitude < -180 || longitude > 180) return null; return value.coordinateSystem === "gcj02" ? gcj02ToWgs84(latitude, longitude) : [latitude, longitude]; }
+function campusReference(item, center) {
+  if (item.isOnline || mapCoordinate(item)) return null;
+  const venue = `${item.venueName || ""} ${item.address || ""}`;
+  if (/创新港|敏行楼|涵英楼/.test(venue)) return { name: "创新港校区", coordinate: [34.25755, 108.65215] };
+  if (/雁塔校区/.test(venue)) return { name: "雁塔校区", coordinate: gcj02ToWgs84(34.216116, 108.940770) };
+  if (/兴庆校区|仲英楼/.test(venue) && center) return { name: "兴庆校区", coordinate: center };
+  return null;
+}
 function showMapFallback(message) { const map = $("#public-map"); const fallback = $("#map-fallback"); if (publicMap) { publicMap.remove(); publicMap = null; } if (map) map.hidden = true; if (fallback) { fallback.hidden = false; $("#map-fallback-text").textContent = message; } $("#map-status").textContent = message; }
 function renderPublicMap(snapshot) {
   const container = $("#public-map");
@@ -24,8 +32,16 @@ function renderPublicMap(snapshot) {
   if (fallback) fallback.hidden = true;
   container.hidden = false;
   const center = mapCoordinate(snapshot.center);
-  const points = (snapshot.items ?? []).flatMap((item) => { const coordinate = mapCoordinate(item); return coordinate ? [{ item, coordinate }] : []; });
-  const initial = center || points[0]?.coordinate;
+  const points = (snapshot.items ?? []).flatMap((item) => { const coordinate = mapCoordinate(item); return coordinate && !item.isOnline ? [{ item, coordinate }] : []; });
+  const campusGroups = new Map();
+  for (const item of snapshot.items ?? []) {
+    const reference = campusReference(item, center);
+    if (!reference) continue;
+    const group = campusGroups.get(reference.name) || { ...reference, items: [] };
+    group.items.push(item);
+    campusGroups.set(reference.name, group);
+  }
+  const initial = center || points[0]?.coordinate || campusGroups.values().next().value?.coordinate;
   if (!initial) { showMapFallback("本轮快照暂时没有可用坐标；下一次采集会继续尝试解析活动地点。"); return; }
   if (!window.L) { showMapFallback("地图底图加载失败，但活动列表仍可正常使用；可稍后重新加载页面。"); return; }
   if (publicMap) { publicMap.remove(); publicMap = null; }
@@ -38,9 +54,15 @@ function renderPublicMap(snapshot) {
     const popup = `<strong>${escapeHtml(item.title)}</strong><br><span>${escapeHtml(item.venueName || item.city || "地点待定")}</span>${link ? `<br><a href="${escapeHtml(link)}" target="_blank" rel="noreferrer">查看原文 ↗</a>` : ""}`;
     layers.push(window.L.marker(coordinate).addTo(publicMap).bindPopup(popup));
   });
+  for (const group of campusGroups.values()) {
+    const entries = group.items.map((item) => { const link = safeHttpUrl(item.sourceUrl) || safeHttpUrl(item.registrationUrl); return `<li>${link ? `<a href="${escapeHtml(link)}" target="_blank" rel="noreferrer">${escapeHtml(item.title)}</a>` : escapeHtml(item.title)}</li>`; }).join("");
+    const popup = `<strong>${escapeHtml(group.name)} · ${group.items.length} 条</strong><br><span>校区参考点，非具体楼宇坐标；请以原文地点为准。</span><ul>${entries}</ul>`;
+    layers.push(window.L.circleMarker(group.coordinate, { radius: 11, color: "#8b671c", fillColor: "#e9bd4c", fillOpacity: 0.7, weight: 2 }).addTo(publicMap).bindPopup(popup));
+  }
   const bounds = window.L.featureGroup(layers).getBounds();
   if (bounds.isValid() && layers.length > 1) publicMap.fitBounds(bounds.pad(0.18)); else publicMap.setView(initial, 13);
-  $("#map-status").textContent = points.length ? `已定位 ${points.length} 个公开活动${center ? ` · 参考起点：${snapshot.center.name || "兴庆校区"}` : ""}` : `已显示参考起点${snapshot.center?.name ? `：${snapshot.center.name}` : ""} · 活动坐标待补齐`;
+  const approximateCount = [...campusGroups.values()].reduce((total, group) => total + group.items.length, 0);
+  $("#map-status").textContent = `精确坐标 ${points.length} 条 · 校区参考位置 ${approximateCount} 条${center ? ` · 起点：${snapshot.center.name || "兴庆校区"}` : ""}`;
 }
 function formatDate(value) { if (!value) return "时间待定"; return new Intl.DateTimeFormat("zh-CN", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" }).format(new Date(value * 1000)); }
 function formatSnapshotTime(value) { return value ? new Intl.DateTimeFormat("zh-CN", { dateStyle: "medium", timeStyle: "short" }).format(new Date(value)) : "待同步"; }
