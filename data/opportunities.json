@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-02T22:57:32.084Z",
-  "checkedAt": "2026-10-02T22:57:32.084Z",
-  "lastSuccessfulAt": "2026-10-02T22:57:32.084Z",
+  "generatedAt": "2026-10-03T09:14:05.335Z",
+  "checkedAt": "2026-10-03T09:14:05.335Z",
+  "lastSuccessfulAt": "2026-10-03T09:14:05.335Z",
   "status": "degraded",
   "statusMessage": "部分来源采集失败，显示 27 条最近快照",
   "sourceCount": 25,
-  "sourceFailures": 3,
+  "sourceFailures": 2,
   "sourceHealth": [
     {
       "name": "西安交通大学学术资源平台",
@@ -74,10 +74,9 @@
       "items": 31
     },
     {
-      "name": "陕西省图书馆活动预告",
-      "status": "failed",
-      "items": 0,
-      "error": "来源网络请求失败（UND_ERR_CONNECT_TIMEOUT）。"
+      "name": "陕西公共文化云·西安活动",
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "仲英书院官方活动",
@@ -121,9 +120,9 @@
       "error": "来源网络请求失败（ERR_TLS_CERT_ALTNAME_INVALID）。"
     },
     {
-      "name": "西安交通大学创新港活动",
+      "name": "交大新闻网·创新港活动",
       "status": "ok",
-      "items": 41
+      "items": 127
     },
     {
       "name": "西安市体育局公开活动",
