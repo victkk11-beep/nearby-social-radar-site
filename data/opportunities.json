@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-03T09:14:05.335Z",
-  "checkedAt": "2026-10-03T09:14:05.335Z",
-  "lastSuccessfulAt": "2026-10-03T09:14:05.335Z",
+  "generatedAt": "2026-10-03T22:07:42.111Z",
+  "checkedAt": "2026-10-03T22:07:42.111Z",
+  "lastSuccessfulAt": "2026-10-03T22:07:42.111Z",
   "status": "degraded",
   "statusMessage": "部分来源采集失败，显示 27 条最近快照",
   "sourceCount": 25,
