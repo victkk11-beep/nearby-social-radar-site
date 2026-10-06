@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-04T22:20:25.179Z",
-  "checkedAt": "2026-10-04T22:20:25.179Z",
-  "lastSuccessfulAt": "2026-10-04T22:20:25.179Z",
+  "generatedAt": "2026-10-06T00:48:43.393Z",
+  "checkedAt": "2026-10-06T00:48:43.393Z",
+  "lastSuccessfulAt": "2026-10-06T00:48:43.393Z",
   "status": "degraded",
   "statusMessage": "部分来源采集失败，显示 27 条最近快照",
   "sourceCount": 25,
@@ -35,7 +35,7 @@
     {
       "name": "西安交大能动学院就业实践",
       "status": "ok",
-      "items": 186
+      "items": 187
     },
     {
       "name": "西安交大能动学院奖学金通知",
@@ -122,7 +122,7 @@
     {
       "name": "交大新闻网·创新港活动",
       "status": "ok",
-      "items": 127
+      "items": 126
     },
     {
       "name": "西安市体育局公开活动",
