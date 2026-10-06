@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-06T00:48:43.393Z",
-  "checkedAt": "2026-10-06T00:48:43.393Z",
-  "lastSuccessfulAt": "2026-10-06T00:48:43.393Z",
+  "generatedAt": "2026-10-06T23:03:43.792Z",
+  "checkedAt": "2026-10-06T23:03:43.792Z",
+  "lastSuccessfulAt": "2026-10-06T23:03:43.792Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 27 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 28 条最近快照",
   "sourceCount": 25,
-  "sourceFailures": 2,
+  "sourceFailures": 4,
   "sourceHealth": [
     {
       "name": "西安交通大学学术资源平台",
@@ -65,8 +65,9 @@
     },
     {
       "name": "陕汽控股人才招聘",
-      "status": "ok",
-      "items": 36
+      "status": "failed",
+      "items": 0,
+      "error": "来源网络请求失败（ETIMEDOUT）。"
     },
     {
       "name": "交大青年之声",
@@ -75,8 +76,9 @@
     },
     {
       "name": "陕西公共文化云·西安活动",
-      "status": "ok",
-      "items": 12
+      "status": "failed",
+      "items": 0,
+      "error": "来源网络请求失败（UND_ERR_CONNECT_TIMEOUT）。"
     },
     {
       "name": "仲英书院官方活动",
@@ -122,7 +124,7 @@
     {
       "name": "交大新闻网·创新港活动",
       "status": "ok",
-      "items": 126
+      "items": 127
     },
     {
       "name": "西安市体育局公开活动",
@@ -346,10 +348,10 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=a7e631dde0ba45c683fd57c930289d7a"
     },
     {
-      "id": "op-f8a79883628efd8250dccfca87cc48dff68a32efa5d41009b1317cbae9b2f74b",
+      "id": "op-8e79dce796d5b6ccadb15f973a65ed79513f31192e448e4511184d174dc6902c",
       "type": "internship",
-      "title": "中国船舶集团组团招聘",
-      "description": "组团招聘。时间：2026-10-09 14:00:00 至 2026-10-09 17:00:00。地点或参与方式：五号楼南广场。",
+      "title": "中国船舶集团有限公司2027届校园招聘",
+      "description": "组团招聘。时间：2026-10-09 14:00:00 至 2026-10-09 17:00:00。地点或参与方式：五号楼南广场（双选将在宣讲结束后进行）。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "组团招聘",
       "tags": [
@@ -360,7 +362,7 @@
       "startsAt": 1791525600,
       "endsAt": 1791536400,
       "registrationDeadline": null,
-      "venueName": "五号楼南广场",
+      "venueName": "五号楼南广场（双选将在宣讲结束后进行）",
       "city": "西安",
       "isOnline": false,
       "latitude": null,
@@ -368,8 +370,8 @@
       "coordinateSystem": null,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=ff925e6463244ec2b133f22cb88a9602",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=ff925e6463244ec2b133f22cb88a9602"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=688973bc590a4417b497679ff6bbff40",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=688973bc590a4417b497679ff6bbff40"
     },
     {
       "id": "op-f48aec8df30e18bfe36d5652afcdbe8722d86e8adf76fb3ed2e4dcf7f640a5a5",
@@ -824,6 +826,32 @@
       "sourceName": "钱学森学院官方活动",
       "sourceUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm",
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
+    },
+    {
+      "id": "op-f8a79883628efd8250dccfca87cc48dff68a32efa5d41009b1317cbae9b2f74b",
+      "type": "internship",
+      "title": "中国船舶集团组团招聘",
+      "description": "组团招聘。时间：2026-10-09 14:00:00 至 2026-10-09 17:00:00。地点或参与方式：五号楼南广场。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "组团招聘",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1791525600,
+      "endsAt": 1791536400,
+      "registrationDeadline": null,
+      "venueName": "五号楼南广场",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=ff925e6463244ec2b133f22cb88a9602",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=ff925e6463244ec2b133f22cb88a9602"
     }
   ],
   "center": {
