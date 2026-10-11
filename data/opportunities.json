@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-10T22:30:59.901Z",
-  "checkedAt": "2026-10-10T22:30:59.901Z",
-  "lastSuccessfulAt": "2026-10-10T22:30:59.901Z",
+  "generatedAt": "2026-10-11T06:02:52.132Z",
+  "checkedAt": "2026-10-11T06:02:52.132Z",
+  "lastSuccessfulAt": "2026-10-11T06:02:52.132Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 37 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 38 条最近快照",
   "sourceCount": 25,
   "sourceFailures": 2,
   "sourceHealth": [
@@ -30,7 +30,7 @@
     {
       "name": "西安交通大学就业招聘日历",
       "status": "ok",
-      "items": 169
+      "items": 171
     },
     {
       "name": "西安交大能动学院就业实践",
@@ -135,7 +135,7 @@
       "items": 35
     }
   ],
-  "geocodeRemaining": 17,
+  "geocodeRemaining": 14,
   "items": [
     {
       "id": "op-c086b3143ca300f01fd1fc417d7f72892c951ebaf898c787460950ce1785f0c7",
@@ -311,9 +311,9 @@
       "venueName": "敏行楼1-3059",
       "city": "西安",
       "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
+      "latitude": 34.250812,
+      "longitude": 108.661243,
+      "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=56d7e038e69f4b279a0fc5fa39686e21",
@@ -388,9 +388,9 @@
       "venueName": "敏行楼1-3057",
       "city": "西安",
       "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
+      "latitude": 34.250812,
+      "longitude": 108.661243,
+      "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=adf2c6d2b16e4c4482e22529a2d1a450",
@@ -578,6 +578,32 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=6e36c4dfad5e45629f26825000530e75"
     },
     {
+      "id": "op-ba07150c12f6f3dac255b04059f7e6010d6f14d99c12da3df244c30ed47f0a53",
+      "type": "internship",
+      "title": "湖北省宜昌市“招才兴业”千企百校行西安交通大学站专场活动公告",
+      "description": "组团招聘。时间：2026-10-16 09:30:00 至 2026-10-16 12:00:00。地点或参与方式：西安交通大学兴庆校区主楼多功能厅、四大发明广场。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "组团招聘",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1792114200,
+      "endsAt": 1792123200,
+      "registrationDeadline": null,
+      "venueName": "西安交通大学兴庆校区主楼多功能厅、四大发明广场",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.244725,
+      "longitude": 108.983475,
+      "coordinateSystem": "gcj02",
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=cdb52ca4b95641a8944ec5a7cbefc82f",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=cdb52ca4b95641a8944ec5a7cbefc82f"
+    },
+    {
       "id": "op-12b1773427c1dce6c9304466320f68ed599dc8d9fec71cd91e89d12e7c52e686",
       "type": "internship",
       "title": "核与辐射安全监管干部招录（招聘）",
@@ -595,39 +621,13 @@
       "venueName": "创新港校区敏行楼(1号楼)6116会议室",
       "city": "西安",
       "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=b081b75ca2b84380b9e85724bc1c05ba",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=b081b75ca2b84380b9e85724bc1c05ba"
-    },
-    {
-      "id": "op-4726ce7fa07a08aad34bb9e8d6706360754174a8e0996fce395820b8b66024f6",
-      "type": "internship",
-      "title": "中国石化销售股份有限公司陕西石油分公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-10-16 10:10:00 至 2026-10-16 12:00:00。地点或参与方式：敏行楼1-3052。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1792116600,
-      "endsAt": 1792123200,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
-      "city": "西安",
-      "isOnline": false,
       "latitude": 34.250812,
       "longitude": 108.661243,
       "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=2d58290c084348f693b567a38bdccbd9",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=2d58290c084348f693b567a38bdccbd9"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=b081b75ca2b84380b9e85724bc1c05ba",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=b081b75ca2b84380b9e85724bc1c05ba"
     },
     {
       "id": "op-378cfeba3d92239f56593098c3f0b9e07e8d61bb4224b0763f66d601971b7deb",
@@ -753,6 +753,32 @@
       "sourceName": "钱学森学院官方活动",
       "sourceUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm",
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
+    },
+    {
+      "id": "op-4726ce7fa07a08aad34bb9e8d6706360754174a8e0996fce395820b8b66024f6",
+      "type": "internship",
+      "title": "中国石化销售股份有限公司陕西石油分公司2027年校园招聘",
+      "description": "校内招聘会。时间：2026-10-16 10:10:00 至 2026-10-16 12:00:00。地点或参与方式：敏行楼1-3052。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1792116600,
+      "endsAt": 1792123200,
+      "registrationDeadline": null,
+      "venueName": "敏行楼1-3052",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.250812,
+      "longitude": 108.661243,
+      "coordinateSystem": "gcj02",
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=2d58290c084348f693b567a38bdccbd9",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=2d58290c084348f693b567a38bdccbd9"
     },
     {
       "id": "op-88f8fed910d1ef1aac185209a29b3d88e831804f4b2b5a84e519dd698d8d83c8",
