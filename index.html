@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#0a090c" />
     <meta name="description" content="附近机会雷达公开活动目录" />
     <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20261012" />
     <title>附近机会雷达 · 公开活动目录</title>
   </head>
   <body>
@@ -29,14 +29,14 @@
         <label><span class="sr-only">时间</span><select id="timing"><option value="upcoming">即将开始</option><option value="week">未来 7 天</option><option value="month">未来 30 天</option><option value="all">全部时间</option></select></label>
         <label><span class="sr-only">费用</span><select id="fee"><option value="all">全部费用</option><option value="free">免费</option><option value="paid">付费</option></select></label>
       </section>
-      <section class="summary"><div><span class="eyebrow">CURRENT OPPORTUNITIES</span><h2 id="count">读取活动中</h2></div><a class="source-link" href="https://github.com/victkk11-beep/nearby-social-radar" target="_blank" rel="noreferrer">查看项目来源 ↗</a></section>
-      <section class="map-panel" aria-labelledby="map-heading">
+      <section class="summary"><div><span class="eyebrow">CURRENT OPPORTUNITIES</span><h2 id="count" role="status" aria-live="polite">读取活动中</h2></div><a class="source-link" href="https://github.com/victkk11-beep/nearby-social-radar" target="_blank" rel="noreferrer">查看项目来源 ↗</a></section>
+      <details id="map-panel" class="map-panel"><summary class="map-toggle">查看活动地图</summary><div>
         <div class="map-panel-heading"><div><span class="eyebrow">MAP / XI'AN</span><h2 id="map-heading">把活动放回附近。</h2><p id="map-status">正在读取地图坐标</p></div><a id="map-open" class="source-link" href="https://uri.amap.com/" target="_blank" rel="noreferrer">在高德地图中打开 ↗</a></div>
         <div id="public-map" class="public-map" role="region" aria-label="西安公开活动地图"></div>
         <div id="map-fallback" class="map-fallback" hidden><span class="empty-mark">⌖</span><p id="map-fallback-text">本轮快照暂时没有可用坐标。</p></div>
         <p class="map-attribution">地图底图 © 高德地图 · 圆形标记仅表示校区参考位置，具体地点以原文为准</p>
-      </section>
-      <section id="list" class="activity-grid" aria-live="polite"></section>
+      </div></details>
+      <section id="list" class="activity-grid"></section>
       <section id="empty" class="empty" hidden><div class="empty-mark">✦</div><h2>暂时没有匹配的活动</h2><p>换一个关键词或放宽筛选范围。</p></section>
     </main>
     <footer>公开数据来自可追溯来源 · 活动详情与报名要求请回到原文核验</footer>
