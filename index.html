@@ -3,44 +3,71 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#0a090c" />
-    <meta name="description" content="附近机会雷达公开活动目录" />
+    <meta name="theme-color" content="#fbfaf7" />
+    <meta name="description" content="发现西安交通大学与西安周边值得参与的公开活动。" />
     <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="stylesheet" href="styles.css?v=20261012" />
-    <title>附近机会雷达 · 公开活动目录</title>
+    <link rel="stylesheet" href="styles.css?v=20261014" />
+    <title>附近机会雷达 · 公开活动</title>
   </head>
   <body>
-    <header class="site-header">
-      <div class="brand"><span class="brand-mark">⌁</span><span><strong>附近机会雷达</strong><small>NEARBY SOCIAL RADAR</small></span></div>
-      <span class="public-pill">公开活动目录</span>
-    </header>
-    <main>
-      <section class="hero">
-        <div>
-          <p class="eyebrow">DISCOVER / XI'AN</p>
-          <h1>把附近的可能，留给今天。</h1>
-          <p class="hero-copy">从讲座、比赛到志愿和校园活动，查看经过来源核验的公开机会。</p>
+    <a class="skip-link" href="#main-content">跳转到主要内容</a>
+    <svg class="icon-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="icon-radar" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2"/><path d="m12 12 5-5M12 3v2"/></symbol>
+      <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></symbol>
+      <symbol id="icon-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+      <symbol id="icon-map" viewBox="0 0 24 24"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6ZM9 3v15M15 6v15"/></symbol>
+      <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+      <symbol id="icon-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></symbol>
+      <symbol id="icon-filter" viewBox="0 0 24 24"><path d="M4 7h16M7 12h10M10 17h4"/></symbol>
+      <symbol id="icon-refresh" viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M5.5 9A7 7 0 0 1 18 7l2 5M4 12l2 5a7 7 0 0 0 12.5-2"/></symbol>
+      <symbol id="icon-locate" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></symbol>
+    </svg>
+    <aside class="sidebar" aria-label="站点导航">
+      <a class="brand" href="./"><span class="brand-mark"><svg><use href="#icon-radar"/></svg></span><span>附近机会雷达<small>NEARBY SOCIAL RADAR</small></span></a>
+      <nav><a class="nav-active" href="./" aria-current="page"><svg><use href="#icon-radar"/></svg>发现机会</a></nav>
+      <p class="sidebar-foot">公开活动目录<br />来源与更新时间可追溯</p>
+    </aside>
+    <div class="app-shell">
+      <header class="site-header">
+        <a class="mobile-brand" href="./"><svg><use href="#icon-radar"/></svg>附近机会雷达</a>
+        <label class="header-search"><svg><use href="#icon-search"/></svg><span class="sr-only">搜索活动、地点或关键词</span><input id="global-search" type="search" placeholder="搜索活动、地点或关键词" autocomplete="off" /></label>
+        <span class="header-location"><svg><use href="#icon-pin"/></svg>西安交通大学 · 兴庆校区</span>
+        <span class="public-badge">公开活动</span>
+      </header>
+      <main id="main-content">
+        <section class="hero" aria-label="发现附近的活动">
+          <div class="hero-copy"><h1>把附近的可能，<span>留给今天。</span></h1><p>讲座、展览、运动与公益，都在附近发生。</p></div>
+          <div class="story-marquee" aria-hidden="true">
+            <div class="story-column"><div class="story-track"><div class="story-set"><span class="story-tile gate"></span><span class="story-tile sculpture"></span><span class="story-tile gate"></span><span class="story-tile sculpture"></span></div><div class="story-set"><span class="story-tile gate"></span><span class="story-tile sculpture"></span><span class="story-tile gate"></span><span class="story-tile sculpture"></span></div></div></div>
+            <div class="story-column"><div class="story-track"><div class="story-set"><span class="story-tile autumn"></span><span class="story-tile innovation-harbor"></span><span class="story-tile autumn"></span><span class="story-tile innovation-harbor"></span></div><div class="story-set"><span class="story-tile autumn"></span><span class="story-tile innovation-harbor"></span><span class="story-tile autumn"></span><span class="story-tile innovation-harbor"></span></div></div></div>
+            <div class="story-column"><div class="story-track"><div class="story-set"><span class="story-tile insignia"></span><span class="story-tile aerial"></span><span class="story-tile insignia"></span><span class="story-tile aerial"></span></div><div class="story-set"><span class="story-tile insignia"></span><span class="story-tile aerial"></span><span class="story-tile insignia"></span><span class="story-tile aerial"></span></div></div></div>
+          </div>
+        </section>
+        <details id="filters" class="filters"><summary><span><svg><use href="#icon-filter"/></svg>筛选活动</span><small id="filter-count">全部活动</small></summary>
+          <div class="filter-row">
+            <label class="filter-search"><span class="sr-only">搜索机会</span><svg><use href="#icon-search"/></svg><input id="query" type="search" placeholder="搜索名称、主办方或标签" autocomplete="off" /></label>
+            <label><span class="sr-only">类型</span><select id="type"><option value="all">全部类型</option></select></label>
+            <label><span class="sr-only">时间</span><select id="timing"><option value="upcoming">即将开始</option><option value="week">未来 7 天</option><option value="month">未来 30 天</option><option value="all">全部时间</option></select></label>
+            <label><span class="sr-only">距离</span><select id="nearby"><option value="all">全部距离</option><option value="1" disabled>校园 5 km</option></select></label>
+            <label><span class="sr-only">费用</span><select id="fee"><option value="all">全部费用</option><option value="free">免费</option><option value="paid">付费</option><option value="unknown">费用未知</option></select></label>
+            <label><span class="sr-only">参与方式</span><select id="mode"><option value="all">线上与线下</option><option value="online">仅线上</option><option value="offline">仅线下</option></select></label>
+            <button id="clear-filters" type="button" class="clear-filters">清除筛选</button>
+          </div>
+        </details>
+        <section class="section-heading"><div><h2>附近活动</h2><p id="section-place">西安 · 5 km</p></div><div class="view-tabs" role="group" aria-label="查看方式"><button id="list-tab" type="button" class="active" aria-pressed="true"><svg><use href="#icon-list"/></svg>列表</button><button id="map-tab" type="button" aria-pressed="false"><svg><use href="#icon-map"/></svg>地图</button></div></section>
+        <div class="list-meta"><span id="count" role="status" aria-live="polite">读取活动中</span><button id="locate" type="button"><svg><use href="#icon-locate"/></svg>使用当次位置</button><label><span class="sr-only">排序方式</span><select id="sort"><option value="actionability">综合可行动性</option><option value="distance" disabled>距离最近</option></select></label></div>
+        <p id="location-message" class="location-message" role="status" hidden></p>
+        <div id="discovery-content" class="discovery-content">
+          <section id="list" class="activity-grid" aria-label="机会列表"></section>
+          <aside id="map-panel" class="map-panel"><div class="map-panel-heading"><div><h3>附近的活动</h3><p id="map-status">正在读取地图坐标</p></div><a id="map-open" href="https://uri.amap.com/" target="_blank" rel="noreferrer">在高德打开 ↗</a></div><div id="public-map" class="public-map" role="region" aria-label="西安公开活动地图"></div><div id="map-fallback" class="map-fallback" hidden><p id="map-fallback-text">本轮快照暂时没有可用坐标。</p></div><p class="map-attribution">地图由高德提供 · 参考位置不代表具体楼宇</p></aside>
         </div>
-        <div class="hero-note" aria-live="polite"><span>最近成功同步</span><strong id="sync-time">正在读取</strong><small id="sync-status">公开快照</small><small id="sync-check"></small><small id="source-health"></small><button id="refresh-data" class="refresh-button" type="button">重新加载数据</button></div>
-      </section>
-      <section class="filter-panel" aria-label="活动筛选">
-        <label class="search"><span aria-hidden="true">⌕</span><input id="query" type="search" placeholder="搜索活动、主办方或地点" /></label>
-        <label><span class="sr-only">类型</span><select id="type"><option value="all">全部类型</option></select></label>
-        <label><span class="sr-only">时间</span><select id="timing"><option value="upcoming">即将开始</option><option value="week">未来 7 天</option><option value="month">未来 30 天</option><option value="all">全部时间</option></select></label>
-        <label><span class="sr-only">费用</span><select id="fee"><option value="all">全部费用</option><option value="free">免费</option><option value="paid">付费</option></select></label>
-      </section>
-      <section class="summary"><div><span class="eyebrow">CURRENT OPPORTUNITIES</span><h2 id="count" role="status" aria-live="polite">读取活动中</h2></div><a class="source-link" href="https://github.com/victkk11-beep/nearby-social-radar" target="_blank" rel="noreferrer">查看项目来源 ↗</a></section>
-      <details id="map-panel" class="map-panel"><summary class="map-toggle">查看活动地图</summary><div>
-        <div class="map-panel-heading"><div><span class="eyebrow">MAP / XI'AN</span><h2 id="map-heading">把活动放回附近。</h2><p id="map-status">正在读取地图坐标</p></div><a id="map-open" class="source-link" href="https://uri.amap.com/" target="_blank" rel="noreferrer">在高德地图中打开 ↗</a></div>
-        <div id="public-map" class="public-map" role="region" aria-label="西安公开活动地图"></div>
-        <div id="map-fallback" class="map-fallback" hidden><span class="empty-mark">⌖</span><p id="map-fallback-text">本轮快照暂时没有可用坐标。</p></div>
-        <p class="map-attribution">地图底图 © 高德地图 · 圆形标记仅表示校区参考位置，具体地点以原文为准</p>
-      </div></details>
-      <section id="list" class="activity-grid"></section>
-      <section id="empty" class="empty" hidden><div class="empty-mark">✦</div><h2>暂时没有匹配的活动</h2><p>换一个关键词或放宽筛选范围。</p></section>
-    </main>
-    <footer>公开数据来自可追溯来源 · 活动详情与报名要求请回到原文核验</footer>
+        <section id="empty" class="empty" hidden><h2>这里暂时没有匹配的机会</h2><p>调整筛选条件再看看。</p></section>
+        <section class="sync-line" aria-label="数据更新时间"><span>最近同步：<time id="sync-time">正在读取</time></span><span id="sync-status">公开快照</span><span id="sync-check"></span><span id="source-health"></span><button id="refresh-data" type="button"><svg><use href="#icon-refresh"/></svg>重新加载</button></section>
+      </main>
+      <footer>公开数据来自可追溯来源 · 活动详情与报名要求请以原文为准</footer>
+    </div>
+    <nav class="mobile-nav" aria-label="手机主导航"><a href="./" aria-current="page"><svg><use href="#icon-radar"/></svg>发现</a></nav>
     <script src="map-config.js" defer></script>
-    <script src="app.js" defer></script>
+    <script src="app.js?v=20261014" defer></script>
   </body>
 </html>
