@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#fbfaf7" />
     <meta name="description" content="浏览西安交通大学和西安本地的讲座、比赛、展览与志愿活动。" />
+    <script>try{if(localStorage.getItem("nearby-social-radar:theme")==="dark")document.documentElement.dataset.theme="dark"}catch{}</script>
     <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="stylesheet" href="styles.css?v=20261014" />
+    <link rel="stylesheet" href="styles.css?v=20261015-theme" />
     <title>附近机会雷达 · 公开活动</title>
   </head>
   <body>
@@ -21,6 +22,8 @@
       <symbol id="icon-filter" viewBox="0 0 24 24"><path d="M4 7h16M7 12h10M10 17h4"/></symbol>
       <symbol id="icon-refresh" viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M5.5 9A7 7 0 0 1 18 7l2 5M4 12l2 5a7 7 0 0 0 12.5-2"/></symbol>
       <symbol id="icon-locate" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></symbol>
+      <symbol id="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></symbol>
+      <symbol id="icon-moon" viewBox="0 0 24 24"><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"/></symbol>
     </svg>
     <aside class="sidebar" aria-label="站点导航">
       <a class="brand" href="./"><span class="brand-mark"><svg><use href="#icon-radar"/></svg></span><span>附近机会雷达<small>NEARBY SOCIAL RADAR</small></span></a>
@@ -33,6 +36,7 @@
         <label class="header-search"><svg><use href="#icon-search"/></svg><span class="sr-only">搜索活动、地点或关键词</span><input id="global-search" type="search" placeholder="搜索活动、地点或关键词" autocomplete="off" /></label>
         <span class="header-location"><svg><use href="#icon-pin"/></svg>西安交通大学 · 兴庆校区</span>
         <span class="public-badge">公开活动</span>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换到暗色主题" title="切换主题"><svg class="theme-sun"><use href="#icon-sun"/></svg><svg class="theme-moon"><use href="#icon-moon"/></svg></button>
       </header>
       <main id="main-content">
         <section class="hero" aria-label="发现附近的活动">
@@ -68,6 +72,6 @@
     </div>
     <nav class="mobile-nav" aria-label="手机主导航"><a href="./" aria-current="page"><svg><use href="#icon-radar"/></svg>发现</a></nav>
     <script src="map-config.js" defer></script>
-    <script src="app.js?v=20261014" defer></script>
+    <script src="app.js?v=20261015-theme" defer></script>
   </body>
 </html>

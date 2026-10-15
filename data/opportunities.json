@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-15T09:05:36.913Z",
-  "checkedAt": "2026-10-15T09:05:36.913Z",
-  "lastSuccessfulAt": "2026-10-15T09:05:36.913Z",
+  "generatedAt": "2026-10-15T10:06:05.078Z",
+  "checkedAt": "2026-10-15T10:06:05.078Z",
+  "lastSuccessfulAt": "2026-10-15T10:06:05.078Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 37 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 38 条最近快照",
   "sourceCount": 25,
   "sourceFailures": 2,
   "sourceHealth": [
@@ -30,7 +30,7 @@
     {
       "name": "西安交通大学就业招聘日历",
       "status": "ok",
-      "items": 221
+      "items": 222
     },
     {
       "name": "西安交大能动学院就业实践",
@@ -498,10 +498,10 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=c24cf4371d2c41018f974116c1f87bdd"
     },
     {
-      "id": "op-0e764820bd69231c1e1a1290667763c39a1ab20cc1affd864edd52ff275c848d",
+      "id": "op-bc94d1062190e6c06713605f9dacb72db69908964d2acf443ac5deca0906d932",
       "type": "recruitment",
-      "title": "国创公司、长沙矿山研究院有限责任公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-10-17 14:10:00 至 2026-10-17 16:00:00。地点或参与方式：敏行楼1-3059。",
+      "title": "“齐鲁卫生‘职’等你”山东卫健招聘",
+      "description": "校内招聘会。时间：2026-10-17 10:10:00 至 2026-10-17 12:00:00。地点或参与方式：西配楼101。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "校内招聘会",
       "tags": [
@@ -509,19 +509,19 @@
         "校园招聘",
         "线下"
       ],
-      "startsAt": 1792217400,
-      "endsAt": 1792224000,
+      "startsAt": 1792203000,
+      "endsAt": 1792209600,
       "registrationDeadline": null,
-      "venueName": "敏行楼1-3059",
+      "venueName": "西配楼101",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
+      "latitude": 34.242475,
+      "longitude": 108.643825,
       "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=9e48fcd519764ef1a24055b8c455a934",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=9e48fcd519764ef1a24055b8c455a934"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=e9860b35ff034122915f3d5cefe64fbb",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=e9860b35ff034122915f3d5cefe64fbb"
     },
     {
       "id": "op-11ab3df16eb3f3cad30ae8da165a3e6010e5943417d4abcd3fd71d2b8dfdf567",
@@ -778,6 +778,32 @@
       "sourceName": "钱学森学院官方活动",
       "sourceUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm",
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
+    },
+    {
+      "id": "op-0e764820bd69231c1e1a1290667763c39a1ab20cc1affd864edd52ff275c848d",
+      "type": "recruitment",
+      "title": "国创公司、长沙矿山研究院有限责任公司2027年校园招聘",
+      "description": "校内招聘会。时间：2026-10-17 14:10:00 至 2026-10-17 16:00:00。地点或参与方式：敏行楼1-3059。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1792217400,
+      "endsAt": 1792224000,
+      "registrationDeadline": null,
+      "venueName": "敏行楼1-3059",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.250812,
+      "longitude": 108.661243,
+      "coordinateSystem": "gcj02",
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=9e48fcd519764ef1a24055b8c455a934",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=9e48fcd519764ef1a24055b8c455a934"
     },
     {
       "id": "op-1e624ec49bfa9656b3e7226124d22f22fcd50f8ab3c37a16cd7a1a1ee174e7cf",

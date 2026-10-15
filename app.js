@@ -14,6 +14,10 @@ let mapRevision = 0;
 let sessionCenter = null;
 let view = "list";
 const GCJ_PI = Math.PI;
+const themeToggle = $("#theme-toggle");
+function setTheme(theme) { document.documentElement.dataset.theme = theme; try { localStorage.setItem("nearby-social-radar:theme", theme); } catch {} const dark = theme === "dark"; themeToggle?.setAttribute("aria-label", dark ? "切换到暖白主题" : "切换到暗色主题"); themeToggle?.setAttribute("aria-pressed", String(dark)); document.querySelector('meta[name="theme-color"]')?.setAttribute("content", dark ? "#0a090c" : "#fbfaf7"); }
+if (themeToggle && document.documentElement.dataset.theme === "dark") setTheme("dark");
+themeToggle?.addEventListener("click", () => setTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark"));
 const GCJ_A = 6378245;
 const GCJ_EE = 0.006693421622965943;
 function outsideChina(latitude, longitude) { return longitude < 72.004 || longitude > 137.8347 || latitude < 0.8293 || latitude > 55.8271; }
