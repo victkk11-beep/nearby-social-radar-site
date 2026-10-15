@@ -32,7 +32,7 @@ function campusReference(item, center) {
 function showMapFallback(message) { mapRevision++; const map = $("#public-map"); const fallback = $("#map-fallback"); if (publicMap) { publicMap.destroy(); publicMap = null; } if (map) map.hidden = true; if (fallback) { fallback.hidden = false; $("#map-fallback-text").textContent = message; } $("#map-status").textContent = message; }
 function loadAMap() {
   if (window.AMap) return Promise.resolve(window.AMap);
-  if (!mapConfig.key || !mapConfig.serviceHost) return Promise.reject(new Error("高德网页地图尚未配置 JS API Key 和安全代理。"));
+  if (!mapConfig.key || !mapConfig.serviceHost) return Promise.reject(new Error("地图尚未启用，请先在列表中查看活动。"));
   if (!amapLoader) amapLoader = new Promise((resolve, reject) => {
     try {
       const host = new URL(mapConfig.serviceHost);
@@ -43,7 +43,7 @@ function loadAMap() {
     script.src = `https://webapi.amap.com/maps?v=2.0&key=${encodeURIComponent(mapConfig.key)}`;
     script.async = true;
     script.onload = () => window.AMap ? resolve(window.AMap) : reject(new Error("高德地图没有完成初始化。"));
-    script.onerror = () => reject(new Error("高德地图脚本加载失败，请检查 Key 域名白名单与安全代理。"));
+    script.onerror = () => reject(new Error("地图加载失败，请刷新重试；也可从列表查看活动。"));
     document.head.appendChild(script);
   }).catch((error) => { amapLoader = null; throw error; });
   return amapLoader;
@@ -65,7 +65,7 @@ function renderPublicMap(snapshot, items = snapshot.items ?? []) {
     campusGroups.set(reference.name, group);
   }
   const initial = center || points[0]?.coordinate || campusGroups.values().next().value?.coordinate;
-  if (!initial) { showMapFallback("本轮快照暂时没有可用坐标；下一次采集会继续尝试解析活动地点。"); return; }
+  if (!initial) { showMapFallback("地图暂时没有活动位置。你仍可在列表中查看活动。"); return; }
   const revision = ++mapRevision;
   const openAt = points[0]?.coordinate || initial;
   $("#map-open").href = `https://uri.amap.com/marker?position=${openAt[0]},${openAt[1]}&name=${encodeURIComponent(points[0]?.item.title || snapshot.center?.name || "西安活动")}`;
@@ -134,7 +134,7 @@ function saveCachedSnapshot(snapshot) { try { localStorage.setItem(SNAPSHOT_CACH
 function showSnapshot(snapshot, statusOverride = null) {
   currentSnapshot = snapshot; state.items = Array.isArray(snapshot.items) ? snapshot.items : [];
   $("#sync-time").textContent = formatSnapshotTime(snapshot.lastSuccessfulAt || snapshot.generatedAt);
-  $("#sync-status").textContent = statusOverride || snapshot.statusMessage || "公开快照";
+  $("#sync-status").textContent = statusOverride || snapshot.statusMessage || "活动数据";
   $("#sync-status").dataset.status = statusOverride ? "stale" : snapshot.status || "stale";
   $("#sync-check").textContent = snapshot.checkedAt ? `检查时间：${formatSnapshotTime(snapshot.checkedAt)}` : "";
   const failedSources = (snapshot.sourceHealth ?? []).filter((source) => source.status === "failed");
@@ -148,7 +148,7 @@ function showSnapshot(snapshot, statusOverride = null) {
 async function boot() {
   const refresh = $("#refresh-data"); refresh.disabled = true;
   try { const response = await fetch(assetUrl("data/opportunities.json"), { cache: "no-store" }); if (!response.ok) throw new Error("snapshot unavailable"); const snapshot = await response.json(); saveCachedSnapshot(snapshot); showSnapshot(snapshot); }
-  catch { const cached = readCachedSnapshot(); if (cached) showSnapshot(cached, "网络暂时不可用，显示上次成功快照"); else { $("#sync-time").textContent = "暂时不可用"; $("#sync-status").textContent = "请稍后刷新"; $("#sync-status").dataset.status = "degraded"; $("#sync-check").textContent = "无法读取公开快照"; $("#count").textContent = "活动数据暂不可用"; $("#empty").hidden = false; } }
+  catch { const cached = readCachedSnapshot(); if (cached) showSnapshot(cached, "网络中断，正在显示上次更新的活动。"); else { $("#sync-time").textContent = "暂时不可用"; $("#sync-status").textContent = "请稍后刷新"; $("#sync-status").dataset.status = "degraded"; $("#sync-check").textContent = "无法读取活动数据"; $("#count").textContent = "活动数据暂不可用"; $("#empty").hidden = false; } }
   finally { refresh.disabled = false; }
 }
 for (const id of ["type", "timing", "nearby", "fee", "mode", "sort"]) $(`#${id}`).addEventListener("change", applyFilters);

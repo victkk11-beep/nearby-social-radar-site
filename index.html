@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#fbfaf7" />
-    <meta name="description" content="发现西安交通大学与西安周边值得参与的公开活动。" />
+    <meta name="description" content="浏览西安交通大学和西安本地的讲座、比赛、展览与志愿活动。" />
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="stylesheet" href="styles.css?v=20261014" />
     <title>附近机会雷达 · 公开活动</title>
@@ -36,7 +36,7 @@
       </header>
       <main id="main-content">
         <section class="hero" aria-label="发现附近的活动">
-          <div class="hero-copy"><h1>把附近的可能，<span>留给今天。</span></h1><p>讲座、展览、运动与公益，都在附近发生。</p></div>
+          <div class="hero-copy"><h1>看看附近，<span>有什么活动。</span></h1><p>讲座、比赛、展览与志愿活动，按时间、类型和地点查找。</p></div>
           <div class="story-marquee" aria-hidden="true">
             <div class="story-column"><div class="story-track"><div class="story-set"><span class="story-tile gate"></span><span class="story-tile sculpture"></span><span class="story-tile gate"></span><span class="story-tile sculpture"></span></div><div class="story-set"><span class="story-tile gate"></span><span class="story-tile sculpture"></span><span class="story-tile gate"></span><span class="story-tile sculpture"></span></div></div></div>
             <div class="story-column"><div class="story-track"><div class="story-set"><span class="story-tile autumn"></span><span class="story-tile innovation-harbor"></span><span class="story-tile autumn"></span><span class="story-tile innovation-harbor"></span></div><div class="story-set"><span class="story-tile autumn"></span><span class="story-tile innovation-harbor"></span><span class="story-tile autumn"></span><span class="story-tile innovation-harbor"></span></div></div></div>
@@ -59,12 +59,12 @@
         <p id="location-message" class="location-message" role="status" hidden></p>
         <div id="discovery-content" class="discovery-content">
           <section id="list" class="activity-grid" aria-label="机会列表"></section>
-          <aside id="map-panel" class="map-panel"><div class="map-panel-heading"><div><h3>附近的活动</h3><p id="map-status">正在读取地图坐标</p></div><a id="map-open" href="https://uri.amap.com/" target="_blank" rel="noreferrer">在高德打开 ↗</a></div><div id="public-map" class="public-map" role="region" aria-label="西安公开活动地图"></div><div id="map-fallback" class="map-fallback" hidden><p id="map-fallback-text">本轮快照暂时没有可用坐标。</p></div><p class="map-attribution">地图由高德提供 · 参考位置不代表具体楼宇</p></aside>
+          <aside id="map-panel" class="map-panel"><div class="map-panel-heading"><div><h3>附近的活动</h3><p id="map-status">正在读取活动位置</p></div><a id="map-open" href="https://uri.amap.com/" target="_blank" rel="noreferrer">在高德打开 ↗</a></div><div id="public-map" class="public-map" role="region" aria-label="西安公开活动地图"></div><div id="map-fallback" class="map-fallback" hidden><p id="map-fallback-text">地图暂时没有可显示的活动。</p></div><p class="map-attribution">地图由高德提供 · 参考位置不代表具体楼宇</p></aside>
         </div>
-        <section id="empty" class="empty" hidden><h2>这里暂时没有匹配的机会</h2><p>调整筛选条件再看看。</p></section>
-        <section class="sync-line" aria-label="数据更新时间"><span>最近同步：<time id="sync-time">正在读取</time></span><span id="sync-status">公开快照</span><span id="sync-check"></span><span id="source-health"></span><button id="refresh-data" type="button"><svg><use href="#icon-refresh"/></svg>重新加载</button></section>
+        <section id="empty" class="empty" hidden><h2>没有找到符合条件的活动</h2><p>试试调整时间、类型或距离。</p></section>
+        <section class="sync-line" aria-label="数据更新时间"><span>最近同步：<time id="sync-time">正在读取</time></span><span id="sync-status">活动数据</span><span id="sync-check"></span><span id="source-health"></span><button id="refresh-data" type="button"><svg><use href="#icon-refresh"/></svg>重新加载</button></section>
       </main>
-      <footer>公开数据来自可追溯来源 · 活动详情与报名要求请以原文为准</footer>
+      <footer>活动信息来自公开来源。时间、地点与报名要求请以原文为准。</footer>
     </div>
     <nav class="mobile-nav" aria-label="手机主导航"><a href="./" aria-current="page"><svg><use href="#icon-radar"/></svg>发现</a></nav>
     <script src="map-config.js" defer></script>

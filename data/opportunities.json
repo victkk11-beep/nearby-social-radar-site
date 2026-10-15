@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-14T22:18:22.659Z",
-  "checkedAt": "2026-10-14T22:18:22.659Z",
-  "lastSuccessfulAt": "2026-10-14T22:18:22.659Z",
+  "generatedAt": "2026-10-15T09:05:36.913Z",
+  "checkedAt": "2026-10-15T09:05:36.913Z",
+  "lastSuccessfulAt": "2026-10-15T09:05:36.913Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 40 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 37 条最近快照",
   "sourceCount": 25,
   "sourceFailures": 2,
   "sourceHealth": [
@@ -30,7 +30,7 @@
     {
       "name": "西安交通大学就业招聘日历",
       "status": "ok",
-      "items": 216
+      "items": 221
     },
     {
       "name": "西安交大能动学院就业实践",
@@ -122,7 +122,7 @@
     {
       "name": "交大新闻网·创新港活动",
       "status": "ok",
-      "items": 127
+      "items": 128
     },
     {
       "name": "西安市体育局公开活动",
@@ -576,6 +576,32 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=70898c1296474bcdacccfc2b7715dc9a"
     },
     {
+      "id": "op-352fed0f252e54762be7c7cd9b609972a4484edb5f85d9a582d7a6417f8f349d",
+      "type": "recruitment",
+      "title": "月邀星辰 才聚宜春 江西·宜春2026年重点产业人才引进对接会暨“市委书记进校园”（西安交通大学）活动",
+      "description": "组团招聘。时间：2026-10-18 14:30:00 至 2026-10-18 18:00:00。地点或参与方式：西安交通大学兴庆校区四大发明广场。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "组团招聘",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1792305000,
+      "endsAt": 1792317600,
+      "registrationDeadline": null,
+      "venueName": "西安交通大学兴庆校区四大发明广场",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.2459,
+      "longitude": 108.98386,
+      "coordinateSystem": "gcj02",
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=a10dc5d5626d4c2089ff907046e8861a",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=a10dc5d5626d4c2089ff907046e8861a"
+    },
+    {
       "id": "op-8716d098670b546cb85ce78adf48422741bb690d572a67339efabb208e463018",
       "type": "recruitment",
       "title": "特来电新能源股份有限公司2027年校园招聘",
@@ -679,32 +705,6 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=1cc93215f1144f828ca8b459566537e2"
     },
     {
-      "id": "op-1e624ec49bfa9656b3e7226124d22f22fcd50f8ab3c37a16cd7a1a1ee174e7cf",
-      "type": "recruitment",
-      "title": "中国长江三峡集团有限公司2027年高校毕业生招聘",
-      "description": "校内招聘会。时间：2026-10-20 10:10:00 至 2026-10-20 12:00:00。地点或参与方式：躬行楼3-5009。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1792462200,
-      "endsAt": 1792468800,
-      "registrationDeadline": null,
-      "venueName": "躬行楼3-5009",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.281975,
-      "longitude": 109.046175,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=4682ed39cb6a4e4f89cdd5ec167d0f9f",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=4682ed39cb6a4e4f89cdd5ec167d0f9f"
-    },
-    {
       "id": "op-c255c49f7637b99b95cf1202d3a951da30ebdfaf6fce07717b5be1562f3da102",
       "type": "lecture",
       "title": "周惠久论坛——Deformation and Failure of Advanced Structural Materials",
@@ -780,10 +780,10 @@
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
     },
     {
-      "id": "op-77f27ea6e2dc845200ee873438f38b126f8c862d551e13632f1f25ce33d7cd0d",
+      "id": "op-1e624ec49bfa9656b3e7226124d22f22fcd50f8ab3c37a16cd7a1a1ee174e7cf",
       "type": "recruitment",
-      "title": "中导光电设备股份有限公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-10-14 10:10:00 至 2026-10-14 12:00:00。地点或参与方式：敏行楼1-3052。",
+      "title": "中国长江三峡集团有限公司2027年高校毕业生招聘",
+      "description": "校内招聘会。时间：2026-10-20 10:10:00 至 2026-10-20 12:00:00。地点或参与方式：躬行楼3-5009。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "校内招聘会",
       "tags": [
@@ -791,96 +791,19 @@
         "校园招聘",
         "线下"
       ],
-      "startsAt": 1791943800,
-      "endsAt": 1791950400,
+      "startsAt": 1792462200,
+      "endsAt": 1792468800,
       "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
+      "venueName": "躬行楼3-5009",
       "city": "西安",
       "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
+      "latitude": 34.281975,
+      "longitude": 109.046175,
+      "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=8d6b26364ccd4cca884f5072b228f341",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=8d6b26364ccd4cca884f5072b228f341"
-    },
-    {
-      "id": "op-177deb13f77242ea9f9dfa89c136d7cc3ee93dd53efa5d2d024d56725ffb69b3",
-      "type": "recruitment",
-      "title": "江苏隆达超合金股份有限公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-10-14 10:10:00 至 2026-10-14 12:00:00。地点或参与方式：敏行楼1-3059。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1791943800,
-      "endsAt": 1791950400,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3059",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=a43904a9aa204be3a3309a50ba966d9b",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=a43904a9aa204be3a3309a50ba966d9b"
-    },
-    {
-      "id": "op-d19c7143bee3ebe09b19790f61041d30a8a9473acc45e00a050fce6f30f3066d",
-      "type": "recruitment",
-      "title": "高拓石油天然气技术（唐山）有限责任公司2026年校园招聘",
-      "description": "空中宣讲会（其他平台）。时间：2026-10-14 10:10:00 至 2026-10-14 12:00:00。地点或参与方式：校外空中宣讲会（254-411-186）。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "空中宣讲会（其他平台）",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线上"
-      ],
-      "startsAt": 1791943800,
-      "endsAt": 1791950400,
-      "registrationDeadline": null,
-      "venueName": null,
-      "city": "西安",
-      "isOnline": true,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=a8e029f512c64fce85b018499ee6b5e3",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=a8e029f512c64fce85b018499ee6b5e3"
-    },
-    {
-      "id": "op-f205779ad76dd742ed2339c2d4a328174557da26f95fe7b211034eb05a764a34",
-      "type": "salon",
-      "title": "【新生养成教育】钱学森书院举办校友分享会",
-      "description": "为了让同学们对创新创业有更深的了解，10月14日，钱学森书院在仲英楼B905举办校友分享会，91级少年班校友赵清华出席此次分享会。 讲座伊始，赵清华校友讲述创业故事，分享成功经验。在西安交通大学毕业后，她前往美国洛杉矶攻读博士学位并创办2RedBeans（两颗红豆）公司。该公司的目标是提升全球华人的幸福力，现已成为全球最大的交友平台之一。 赵清华校友主要从事业上、生活上的感悟两方面进行分享。在事业上，她强调思维方式的重要性，讲解了“复利效应，长期主义”和“第一性原理，批判性思维”，告诉我们要看到事物的发展趋势和本质，而不是汲汲于当下，汲汲于表面。 在生活上，赵清华校友从“无所不在的巴普洛原则”、“恋爱的简单原则”、“寻找伴侣的科学方法”以及“游戏化你的人生”四个具体方面讲述如何科学地谈恋爱和生活，拥有幸福人生，同学们对此兴趣浓厚，与赵清华校友展开热烈讨论。赵清华校友还向同学们简要介绍了公司的概况，包括“未来发展计划”和“产品”，让同学们对自主创业有了更加深入的了解。 最后，赵清华校友为同学们解答了“如何与他人相处”，“国内外工作环境差别”等问题。本次分享拓展了同学们的视野，对同学们规划自己的职业生涯、平衡恋爱与生活有重要的指导作用。",
-      "organizer": "钱学森学院官方活动",
-      "category": null,
-      "tags": [
-        "西安交通大学",
-        "书院活动"
-      ],
-      "startsAt": 1791950400,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "仲英楼B905",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "unknown",
-      "sourceName": "钱学森学院官方活动",
-      "sourceUrl": "https://bjb.xjtu.edu.cn/info/1077/2575.htm",
-      "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2575.htm"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=4682ed39cb6a4e4f89cdd5ec167d0f9f",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=4682ed39cb6a4e4f89cdd5ec167d0f9f"
     },
     {
       "id": "op-644eb199efb5574f6d4760f856bcad10d2221c496c70a3373c86a36a45dd7941",
