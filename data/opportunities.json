@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-15T22:15:48.466Z",
-  "checkedAt": "2026-10-15T22:15:48.466Z",
-  "lastSuccessfulAt": "2026-10-15T22:15:48.466Z",
+  "generatedAt": "2026-10-16T10:46:27.738Z",
+  "checkedAt": "2026-10-16T10:46:27.738Z",
+  "lastSuccessfulAt": "2026-10-16T10:46:27.738Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 40 条最近快照",
-  "sourceCount": 25,
-  "sourceFailures": 2,
+  "statusMessage": "部分来源采集失败，显示 39 条最近快照",
+  "sourceCount": 24,
+  "sourceFailures": 1,
   "sourceHealth": [
     {
       "name": "西安交通大学学术资源平台",
@@ -30,7 +30,7 @@
     {
       "name": "西安交通大学就业招聘日历",
       "status": "ok",
-      "items": 222
+      "items": 227
     },
     {
       "name": "西安交大能动学院就业实践",
@@ -114,15 +114,9 @@
       "items": 28
     },
     {
-      "name": "西安交通大学医学部活动",
-      "status": "failed",
-      "items": 0,
-      "error": "来源网络请求失败（ERR_TLS_CERT_ALTNAME_INVALID）。"
-    },
-    {
       "name": "交大新闻网·创新港活动",
       "status": "ok",
-      "items": 128
+      "items": 125
     },
     {
       "name": "西安市体育局公开活动",
@@ -132,7 +126,7 @@
     {
       "name": "西安市文物局公开活动",
       "status": "ok",
-      "items": 35
+      "items": 36
     }
   ],
   "geocodeRemaining": 1,
@@ -341,6 +335,55 @@
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=e9860b35ff034122915f3d5cefe64fbb",
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=e9860b35ff034122915f3d5cefe64fbb"
+    },
+    {
+      "id": "op-dd64c6d52e3bc7aa1009fdbbeb325d2052b0ff0dd8ec12b09a288389e28c21a6",
+      "type": "lecture",
+      "title": "略论因声求义与音义匹配",
+      "description": "主讲：黄仁瑄。校区：兴庆校区。",
+      "organizer": "西安交通大学",
+      "category": "学术讲座",
+      "tags": [
+        "西安交通大学",
+        "兴庆校区"
+      ],
+      "startsAt": 1792209600,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": "主楼B202",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.282639,
+      "longitude": 108.893249,
+      "coordinateSystem": "gcj02",
+      "feeType": "unknown",
+      "sourceName": "西安交通大学学术资源平台",
+      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7011.htm",
+      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7011.htm"
+    },
+    {
+      "id": "op-9cdde300ece9df77fff84e53953942d0e8fdfa4de2a352bb29183ec260655983",
+      "type": "competition",
+      "title": "关于举办第十八届全国大学生数学竞赛培训的通知",
+      "description": "各参赛同学： 第十八届全国大学生数学竞赛初赛将于2026年11月14日上午9:00—11:30举行，为了帮助大家更好地掌握竞赛课程的知识，提升数学能力，并在竞赛中取得优异成绩，数学竞赛工作组特举办数学竞赛培训。培训主要通过讲解真题对竞赛课程内容进行总结和归纳，对重点与难点进行深入讲解。 具体培训时间及内容安排如下： 数学专业类 时间 地点 授课教师 课程 10月17日（周六）19:00-22:00 主楼D-204 贾惠莲 数学分析、高等代数 非数学专业类 10月18日（周日）19:00-22:00 主楼D-204 赵小艳 高等数学 欢迎大家听课。 数学与统计学院数学竞赛工作组 2026.10.16",
+      "organizer": "西安交通大学本科生院通知",
+      "category": null,
+      "tags": [
+        "西安交通大学"
+      ],
+      "startsAt": 1792234800,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": null,
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "unknown",
+      "sourceName": "西安交通大学本科生院通知",
+      "sourceUrl": "http://dean.xjtu.edu.cn/info/1172/10531.htm",
+      "registrationUrl": "http://dean.xjtu.edu.cn/info/1172/10531.htm"
     },
     {
       "id": "op-11ab3df16eb3f3cad30ae8da165a3e6010e5943417d4abcd3fd71d2b8dfdf567",
@@ -779,83 +822,6 @@
       "sourceName": "西安交大能动学院奖学金通知",
       "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5894.htm",
       "registrationUrl": "https://epe.xjtu.edu.cn/info/1483/5894.htm"
-    },
-    {
-      "id": "op-a79b8312a930de5d02d0d88bbf5b2762821c0e1e6559cbdf86937c70156719e3",
-      "type": "recruitment",
-      "title": "才聚科新区 智汇科技城——四川省绵阳科技城新区2026年下半年招才引智活动",
-      "description": "校内招聘会。时间：2026-10-15 10:00:00 至 2026-10-15 12:00:00。地点或参与方式：学生就业创业中心一楼大厅。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1792029600,
-      "endsAt": 1792036800,
-      "registrationDeadline": null,
-      "venueName": "学生就业创业中心一楼大厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.242475,
-      "longitude": 108.643825,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=0dfc0d3c5f784bcc9b5e0b2df78db62d",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=0dfc0d3c5f784bcc9b5e0b2df78db62d"
-    },
-    {
-      "id": "op-f59cff0d7a910e9a17845d716f60b6813cad046b1978b3cc7d3f987b288cfa1d",
-      "type": "recruitment",
-      "title": "国网内蒙古东部电力有限公司宣讲会",
-      "description": "校内招聘会。时间：2026-10-15 10:10:00 至 2026-10-15 12:00:00。地点或参与方式：躬行楼3-2031。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1792030200,
-      "endsAt": 1792036800,
-      "registrationDeadline": null,
-      "venueName": "躬行楼3-2031",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.281975,
-      "longitude": 109.046175,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=6e36c4dfad5e45629f26825000530e75",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=6e36c4dfad5e45629f26825000530e75"
-    },
-    {
-      "id": "op-b6c38a54c334e2741cc74bcf231a5dd0c79cdbb31f95d8b02fc1bc3c4f03746b",
-      "type": "lecture",
-      "title": "周惠久论坛——基于物理演化过程的智能计算",
-      "description": "主讲：沈健。校区：兴庆校区。",
-      "organizer": "西安交通大学",
-      "category": "学术讲座",
-      "tags": [
-        "西安交通大学",
-        "兴庆校区"
-      ],
-      "startsAt": 1792036800,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "兴庆校区 仲英楼 第...",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.246233,
-      "longitude": 108.983741,
-      "coordinateSystem": "gcj02",
-      "feeType": "unknown",
-      "sourceName": "西安交通大学学术资源平台",
-      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7010.htm",
-      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7010.htm"
     },
     {
       "id": "op-0e764820bd69231c1e1a1290667763c39a1ab20cc1affd864edd52ff275c848d",
