@@ -151,7 +151,7 @@ function showSnapshot(snapshot, statusOverride = null) {
 }
 async function boot() {
   const refresh = $("#refresh-data"); refresh.disabled = true;
-  try { const response = await fetch(assetUrl("data/opportunities.json"), { cache: "no-store" }); if (!response.ok) throw new Error("snapshot unavailable"); const snapshot = await response.json(); saveCachedSnapshot(snapshot); showSnapshot(snapshot); }
+  try { const response = await fetch(assetUrl("data/opportunities.json"), { cache: "no-store" }); if (!response.ok) throw new Error("snapshot unavailable"); const snapshot = await response.json(); saveCachedSnapshot(snapshot); const offline = (typeof navigator !== "undefined" && !navigator.onLine) || response.headers?.get?.("X-NSR-Offline") === "true"; showSnapshot(snapshot, offline ? "离线浏览，显示最近缓存的活动。" : null); }
   catch { const cached = readCachedSnapshot(); if (cached) showSnapshot(cached, "网络中断，正在显示上次更新的活动。"); else { $("#sync-time").textContent = "暂时不可用"; $("#sync-status").textContent = "请稍后刷新"; $("#sync-status").dataset.status = "degraded"; $("#sync-check").textContent = "无法读取活动数据"; $("#count").textContent = "活动数据暂不可用"; $("#empty").hidden = false; } }
   finally { refresh.disabled = false; }
 }
@@ -166,4 +166,7 @@ const syncFilterVisibility = () => { $("#filters").open = filterMedia.matches; }
 filterMedia.addEventListener("change", syncFilterVisibility);
 syncFilterVisibility();
 $("#refresh-data").addEventListener("click", () => void boot());
+window.addEventListener?.("offline", () => { if (currentSnapshot) { $("#sync-status").textContent = "已离线，显示最近缓存的活动。"; $("#sync-status").dataset.status = "stale"; } });
+window.addEventListener?.("online", () => void boot());
+if (typeof navigator !== "undefined" && "serviceWorker" in navigator) navigator.serviceWorker.register(assetUrl("service-worker.js"), { scope: publicRoot.pathname }).catch(() => {});
 boot();
