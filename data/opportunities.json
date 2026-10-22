@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-21T22:19:57.011Z",
-  "checkedAt": "2026-10-21T22:19:57.011Z",
-  "lastSuccessfulAt": "2026-10-21T22:19:57.011Z",
+  "generatedAt": "2026-10-22T22:19:33.900Z",
+  "checkedAt": "2026-10-22T22:19:33.900Z",
+  "lastSuccessfulAt": "2026-10-22T22:19:33.900Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 45 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 43 条最近快照",
   "sourceCount": 24,
-  "sourceFailures": 2,
+  "sourceFailures": 3,
   "sourceHealth": [
     {
       "name": "西安交通大学学术资源平台",
@@ -29,13 +29,14 @@
     },
     {
       "name": "西安交通大学就业招聘日历",
-      "status": "ok",
-      "items": 253
+      "status": "failed",
+      "items": 0,
+      "error": "来源返回 HTTP 404。"
     },
     {
       "name": "西安交大能动学院就业实践",
       "status": "ok",
-      "items": 187
+      "items": 188
     },
     {
       "name": "西安交大能动学院奖学金通知",
@@ -117,7 +118,7 @@
     {
       "name": "交大新闻网·创新港活动",
       "status": "ok",
-      "items": 123
+      "items": 124
     },
     {
       "name": "西安市体育局公开活动",
@@ -132,6 +133,181 @@
   ],
   "geocodeRemaining": 2,
   "items": [
+    {
+      "id": "op-c9c3cb5aea755f7f0caf2c93b8850bb7d4b8055c871036471af402bb436313e5",
+      "type": "lecture",
+      "title": "周惠久论坛——锆合金织构调控、表面改性及疲劳损伤",
+      "description": "主讲：张聪惠。校区：兴庆校区。",
+      "organizer": "西安交通大学",
+      "category": "学术讲座",
+      "tags": [
+        "西安交通大学",
+        "兴庆校区"
+      ],
+      "startsAt": 1792728000,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": "仲英楼材料学院第一...",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "unknown",
+      "sourceName": "西安交通大学学术资源平台",
+      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7019.htm",
+      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7019.htm"
+    },
+    {
+      "id": "op-f6565d3c2711f361a2a393507d7fbd1bdbe84fe1db5e5d845dfa82bc36550db6",
+      "type": "lecture",
+      "title": "周惠久论坛——密排六方合金形变与强韧化定量研究",
+      "description": "主讲：信运昌。校区：兴庆校区。",
+      "organizer": "西安交通大学",
+      "category": "学术讲座",
+      "tags": [
+        "西安交通大学",
+        "兴庆校区"
+      ],
+      "startsAt": 1792728000,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": "仲英楼材料学院第一...",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 33.976849,
+      "longitude": 109.233478,
+      "coordinateSystem": "gcj02",
+      "feeType": "unknown",
+      "sourceName": "西安交通大学学术资源平台",
+      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7014.htm",
+      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7014.htm"
+    },
+    {
+      "id": "op-53937481286b8bd7d2bc8db290d2b2c8000816d4ca4bd335d1f7d47d5f478dce",
+      "type": "lecture",
+      "title": "周惠久论坛——纳米材料热传导：从理论到应用",
+      "description": "主讲：张刚。校区：兴庆校区。",
+      "organizer": "西安交通大学",
+      "category": "学术讲座",
+      "tags": [
+        "西安交通大学",
+        "兴庆校区"
+      ],
+      "startsAt": 1793160000,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": "仲英楼材料学院第一...",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 33.976849,
+      "longitude": 109.233478,
+      "coordinateSystem": "gcj02",
+      "feeType": "unknown",
+      "sourceName": "西安交通大学学术资源平台",
+      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7020.htm",
+      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7020.htm"
+    },
+    {
+      "id": "op-c255c49f7637b99b95cf1202d3a951da30ebdfaf6fce07717b5be1562f3da102",
+      "type": "lecture",
+      "title": "周惠久论坛——Deformation and Failure of Advanced Structural Materials",
+      "description": "主讲：Bernd Gludovatz 教...。校区：兴庆校区。",
+      "organizer": "西安交通大学",
+      "category": "学术讲座",
+      "tags": [
+        "西安交通大学",
+        "兴庆校区"
+      ],
+      "startsAt": 1793332800,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": "科创大厦9F报告厅",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.222915,
+      "longitude": 108.915164,
+      "coordinateSystem": "gcj02",
+      "feeType": "unknown",
+      "sourceName": "西安交通大学学术资源平台",
+      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7007.htm",
+      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7007.htm"
+    },
+    {
+      "id": "op-36567b286cb5a5a20c9cc5bfd52a76f45143af1233f888d341801c21e5a1dde8",
+      "type": "lecture",
+      "title": "中文权威期刊学术论文论证设计与关键部分写作：引言、综述、讨论及结果分析",
+      "description": "主讲：姚战琪。校区：兴庆校区。",
+      "organizer": "西安交通大学",
+      "category": "学术讲座",
+      "tags": [
+        "西安交通大学",
+        "兴庆校区"
+      ],
+      "startsAt": 1794456000,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": "管理学院315会议室",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "unknown",
+      "sourceName": "西安交通大学学术资源平台",
+      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7018.htm",
+      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7018.htm"
+    },
+    {
+      "id": "op-2e01be15e09b9a2c96bbff3e8b9e3be7cfd46a73532b386cf7a8e36872176c15",
+      "type": "lecture",
+      "title": "“从少年，向未来”拔尖创新人才培养高层论坛暨 西安交通大学少年班创立40周年大会举办",
+      "description": "11月29日，“从少年，向未来”——拔尖创新人才培养高层论坛暨西安交通大学少年班创立40周年大会在西安交通大学兴庆校区举行。西安交通大学校长、中国工程院院士张立群，西安交通大学西迁老教授李能贵、胡奈赛，陕西省教育厅副厅长何玉麒、陕西省教育学会会长张新民，中国科学技术大学党委常委、组织部部长申成龙，西安交通大学原副校长程光旭，校党委常委、组织部部长周远出席活动。少年班校友、校内任课教师代表，兄弟院校、中学代表等近500名嘉宾共同参会。大会由西安交通大学校长助理单文华主持。 大会在庄严的国歌声中拉开帷幕。单文华代表学校向与会的各级领导、校友代表、教师代表和广大师生表示热烈欢迎，向一直以来关心、支持学校发展的单位和社会各界表示衷心感谢。 活动现场，中央新闻纪录电影制片厂“发现之旅”频道团队为少年班创立40周年录制的“从少年，向未来”主题纪录片正式发布。该片展现了西安交大少年班创立40年来关于教育教学改革的探索之路，生动呈现了少年班学生的成长轨迹与精神面貌。 菲尔兹奖得主、世界著名数学家丘成桐先生进行视频致辞，他期待西安交大少年班继续发挥示范引领作用，为国家的拔尖创新人才培养体系建设贡献经验。中国科学院院士、西安交大“珠峰计划”导师施一公、薛其坤以视频的方式送来真挚祝福与深切嘱托，希望少年班学子在科研道路上敢于质疑、不惧困难，实现从“0”到“1”的创新突破，并在个人成长中厚植家国情怀，勇担时代使命。 何玉麒在讲话中肯定了西安交大少年班40年来为陕西教育事业和国家人才培养作出的重要贡献，希望西安交大坚持立德树人根本任务，继续深化教育教学改革，培养更多拔尖创新人才，助力教育强国建设。 张新民表示，陕西省教育学会将以此为契机，继续深化与西安交大的战略合作，共同探索拔尖创新人才早期培养的新路径，推动全省基础教育、基础教育与高等教育衔接高质量发展。 申成龙指出，40年来，西安交大少年班培养了一大批基础扎实、能力突出、富有创新精神的优秀人才，赢得了社会各界的广泛赞誉。作为国内早期探索少年英才培养的先行者，中国科大少年班学院与西安交通大学少年班共同肩负着“早出人才、出好人才”的光荣使命，双方将加强交流与合作，为全面推进中国式现代化贡献教育力量。 西安交大钱学森学院常务副院长杨森作少年班40周年办学情况汇报，全面展示了交大少年班在课程体系构建、师资队伍建设、学子培养等领域取得的丰硕成果。他表示，钱学森学院将继续坚持以钱学森“集大成、得智慧”的教育理念为指引，打破学科界限，以更开放的视野、更系统的布局、更坚定的信念，推动少年班事业焕发新的活力。 为凝聚校友力量、助力学院高质量发展，大会现场举行了钱学森学院校友会、钱学森学院发展基金启动仪式。校友关系发展部主任许佳辉宣读关于同意成立钱学森学院校友会的批复，并向校友会代表颁发校友证书、授旗。 1989级少年班校友陈曦、2012级少年班校友郭人杰，2020级少年班学生任真分别代表校友和在校生发言。海内外少年班校友也通过视频祝福的形式，表达了对母校的感恩之情与美好祝愿。 少年班教师代表李红分享了自己在育人历程中的感动与坚守，传递了对教育事业的赤诚与热爱。 四十载育桃李，四十年铸师魂。张立群为少年班教师代表颁发纪念证书及徽章，致敬他们“因材施教、笃学育人”的教育初心。 张立群在总结致辞中指出，四十年的实践启示我们，真正的教育创新，必须尊重学生个性和潜能、遵循教育规律、面向未来需要。从少年班出发，西安交大已构建起“强基—卓越—交叉”拔尖创新人才培养三级学科体系、“学段衔接—本研贯通—产教融合”培养模式体系，形成了多元化、多层级的拔尖创新人才培养方阵和涵盖选拔、培养、评价与发展的全链条育人机制，构筑起面向未来、开放协同的人才培养新格局，为中国教育改革积累了宝贵经验，贡献了交大智慧。 张立群指出，教育必须主动应变、科学求变，着力培养能",
+      "organizer": "钱学森学院官方活动",
+      "category": null,
+      "tags": [
+        "西安交通大学",
+        "书院活动"
+      ],
+      "startsAt": 1795924800,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": "西安交通大学兴庆校区",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.246233,
+      "longitude": 108.983741,
+      "coordinateSystem": "gcj02",
+      "feeType": "unknown",
+      "sourceName": "钱学森学院官方活动",
+      "sourceUrl": "https://bjb.xjtu.edu.cn/info/1010/4297.htm",
+      "registrationUrl": "https://bjb.xjtu.edu.cn/info/1010/4297.htm"
+    },
+    {
+      "id": "op-2a7fccbb5259a8895d8f52fcf292a1c808a9eaec06222fcc000898f47d4efe6e",
+      "type": "online",
+      "title": "钱学森学院与音乐教育中心联合举办 “寒冬战疫 钱音暖心”线上音乐会",
+      "description": "2021年12月，疫情让西安的这个冬天变得不平凡。然而，封城隔离了病毒，却隔离不了温暖。12月31日， 值新的一年即将来临之际，钱学森学院和音乐教育中心采取崭新的方式，联合举办了一场以“寒冬战疫 钱音暖心”为主题的线上音乐会，为师生们的隔离生活带来温暖与亮色。音乐会以腾讯会议的形式开展，并与听众进行在线互动。钱学森学院常务副院长杨森、副院长王娟、钱学森书院院务主任田博、钱学森班项目主任罗先觉、专业模块主任张爱民、段玉岗、陈雪江、刘文凤，以及音乐教育中心党支部书记曹耿献、主任方小迪、相关任课教师、钱学森班同学等出席线上音乐会。曹耿献对本次音乐会进行指导，钱学森班2021级的同学主演，同时特别邀请了“艺术与科学的交汇”课程教师管晓宏院士、以及梁睿等音乐老师参演。 杨森进行开场致词。他充分肯定了同学们为举办本次音乐会所付出的努力，指出“音乐创作与欣赏”课程是钱学森班的特色课程之一，充分体现了钱学森“集大成 的智慧”教育思想，对于塑造形象思维、促进学科跨界融合具有重要意义。他还鼓励大家遵守防疫政策，坚定抗疫信心，西安必会安然无恙。 音乐会以丰富多彩的形式展现了音乐艺术的魅力。诗歌朗诵《长来长往长安》展现了抗疫工作中无数个平凡的英雄，带给人感动与信心。古筝、竹琴、鼓、吉他、竹笛、小提琴、钢琴、古琴等各色乐器以悠扬优美的旋律，体现了不同的人物情感和山川意境，带来醉人的艺术享受。歌曲演唱充分体现了同学们的演唱功力，展现了美好的青春岁月。 最后，西迁老教授马知恩和钱学森班项目主任罗先觉分别致辞，鼓励同学们在疫情隔离期间克服困难、努力学习，增强交大人的责任感与使命感，向时代和人民交出一份合格的答卷。 艺术欣赏与创作课程历来是钱学森班的特色课程之一，包括音乐、陶艺、书画、建筑设计等多种艺术形式，充分体现了钱学森“大成智慧学”教育思想中“量智与性智”相结合、“逻辑思维与形象思维”相结合的思想精髓。自2007年钱学森班创办起，每年钱学森班音乐课结课后，都会举行音乐汇报演出，本次音乐会是第15场汇报演出，也是西安交通大学《音乐欣赏与创作》第四届线上音乐会。 文字 吴孟晗 图片 音乐教育中心",
+      "organizer": "钱学森学院官方活动",
+      "category": null,
+      "tags": [
+        "西安交通大学",
+        "书院活动"
+      ],
+      "startsAt": 1798689600,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": null,
+      "city": "西安",
+      "isOnline": true,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "unknown",
+      "sourceName": "钱学森学院官方活动",
+      "sourceUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm",
+      "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
+    },
     {
       "id": "op-597f57c4c4e6f96fffe5f629537d7c608aeef2de535e71f1eae608f9b862a94d",
       "type": "recruitment",
@@ -337,31 +513,6 @@
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=bb9831b199b64a84a4f424e5509b0c6a",
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=bb9831b199b64a84a4f424e5509b0c6a"
-    },
-    {
-      "id": "op-f6565d3c2711f361a2a393507d7fbd1bdbe84fe1db5e5d845dfa82bc36550db6",
-      "type": "lecture",
-      "title": "周惠久论坛——密排六方合金形变与强韧化定量研究",
-      "description": "主讲：信运昌。校区：兴庆校区。",
-      "organizer": "西安交通大学",
-      "category": "学术讲座",
-      "tags": [
-        "西安交通大学",
-        "兴庆校区"
-      ],
-      "startsAt": 1792728000,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "仲英楼材料学院第一...",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 33.976849,
-      "longitude": 109.233478,
-      "coordinateSystem": "gcj02",
-      "feeType": "unknown",
-      "sourceName": "西安交通大学学术资源平台",
-      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7014.htm",
-      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7014.htm"
     },
     {
       "id": "op-9603fac27424e31c9c43be3fa8e9128c3ce2e400a580318e0d522967a8013bc3",
@@ -598,106 +749,6 @@
       "registrationUrl": "https://live.bilibili.com/3356592"
     },
     {
-      "id": "op-c255c49f7637b99b95cf1202d3a951da30ebdfaf6fce07717b5be1562f3da102",
-      "type": "lecture",
-      "title": "周惠久论坛——Deformation and Failure of Advanced Structural Materials",
-      "description": "主讲：Bernd Gludovatz 教...。校区：兴庆校区。",
-      "organizer": "西安交通大学",
-      "category": "学术讲座",
-      "tags": [
-        "西安交通大学",
-        "兴庆校区"
-      ],
-      "startsAt": 1793332800,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "科创大厦9F报告厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.222915,
-      "longitude": 108.915164,
-      "coordinateSystem": "gcj02",
-      "feeType": "unknown",
-      "sourceName": "西安交通大学学术资源平台",
-      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7007.htm",
-      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7007.htm"
-    },
-    {
-      "id": "op-36567b286cb5a5a20c9cc5bfd52a76f45143af1233f888d341801c21e5a1dde8",
-      "type": "lecture",
-      "title": "中文权威期刊学术论文论证设计与关键部分写作：引言、综述、讨论及结果分析",
-      "description": "主讲：姚战琪。校区：兴庆校区。",
-      "organizer": "西安交通大学",
-      "category": "学术讲座",
-      "tags": [
-        "西安交通大学",
-        "兴庆校区"
-      ],
-      "startsAt": 1794456000,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "管理学院315会议室",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.241903,
-      "longitude": 108.981362,
-      "coordinateSystem": "gcj02",
-      "feeType": "unknown",
-      "sourceName": "西安交通大学学术资源平台",
-      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7018.htm",
-      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7018.htm"
-    },
-    {
-      "id": "op-2e01be15e09b9a2c96bbff3e8b9e3be7cfd46a73532b386cf7a8e36872176c15",
-      "type": "lecture",
-      "title": "“从少年，向未来”拔尖创新人才培养高层论坛暨 西安交通大学少年班创立40周年大会举办",
-      "description": "11月29日，“从少年，向未来”——拔尖创新人才培养高层论坛暨西安交通大学少年班创立40周年大会在西安交通大学兴庆校区举行。西安交通大学校长、中国工程院院士张立群，西安交通大学西迁老教授李能贵、胡奈赛，陕西省教育厅副厅长何玉麒、陕西省教育学会会长张新民，中国科学技术大学党委常委、组织部部长申成龙，西安交通大学原副校长程光旭，校党委常委、组织部部长周远出席活动。少年班校友、校内任课教师代表，兄弟院校、中学代表等近500名嘉宾共同参会。大会由西安交通大学校长助理单文华主持。 大会在庄严的国歌声中拉开帷幕。单文华代表学校向与会的各级领导、校友代表、教师代表和广大师生表示热烈欢迎，向一直以来关心、支持学校发展的单位和社会各界表示衷心感谢。 活动现场，中央新闻纪录电影制片厂“发现之旅”频道团队为少年班创立40周年录制的“从少年，向未来”主题纪录片正式发布。该片展现了西安交大少年班创立40年来关于教育教学改革的探索之路，生动呈现了少年班学生的成长轨迹与精神面貌。 菲尔兹奖得主、世界著名数学家丘成桐先生进行视频致辞，他期待西安交大少年班继续发挥示范引领作用，为国家的拔尖创新人才培养体系建设贡献经验。中国科学院院士、西安交大“珠峰计划”导师施一公、薛其坤以视频的方式送来真挚祝福与深切嘱托，希望少年班学子在科研道路上敢于质疑、不惧困难，实现从“0”到“1”的创新突破，并在个人成长中厚植家国情怀，勇担时代使命。 何玉麒在讲话中肯定了西安交大少年班40年来为陕西教育事业和国家人才培养作出的重要贡献，希望西安交大坚持立德树人根本任务，继续深化教育教学改革，培养更多拔尖创新人才，助力教育强国建设。 张新民表示，陕西省教育学会将以此为契机，继续深化与西安交大的战略合作，共同探索拔尖创新人才早期培养的新路径，推动全省基础教育、基础教育与高等教育衔接高质量发展。 申成龙指出，40年来，西安交大少年班培养了一大批基础扎实、能力突出、富有创新精神的优秀人才，赢得了社会各界的广泛赞誉。作为国内早期探索少年英才培养的先行者，中国科大少年班学院与西安交通大学少年班共同肩负着“早出人才、出好人才”的光荣使命，双方将加强交流与合作，为全面推进中国式现代化贡献教育力量。 西安交大钱学森学院常务副院长杨森作少年班40周年办学情况汇报，全面展示了交大少年班在课程体系构建、师资队伍建设、学子培养等领域取得的丰硕成果。他表示，钱学森学院将继续坚持以钱学森“集大成、得智慧”的教育理念为指引，打破学科界限，以更开放的视野、更系统的布局、更坚定的信念，推动少年班事业焕发新的活力。 为凝聚校友力量、助力学院高质量发展，大会现场举行了钱学森学院校友会、钱学森学院发展基金启动仪式。校友关系发展部主任许佳辉宣读关于同意成立钱学森学院校友会的批复，并向校友会代表颁发校友证书、授旗。 1989级少年班校友陈曦、2012级少年班校友郭人杰，2020级少年班学生任真分别代表校友和在校生发言。海内外少年班校友也通过视频祝福的形式，表达了对母校的感恩之情与美好祝愿。 少年班教师代表李红分享了自己在育人历程中的感动与坚守，传递了对教育事业的赤诚与热爱。 四十载育桃李，四十年铸师魂。张立群为少年班教师代表颁发纪念证书及徽章，致敬他们“因材施教、笃学育人”的教育初心。 张立群在总结致辞中指出，四十年的实践启示我们，真正的教育创新，必须尊重学生个性和潜能、遵循教育规律、面向未来需要。从少年班出发，西安交大已构建起“强基—卓越—交叉”拔尖创新人才培养三级学科体系、“学段衔接—本研贯通—产教融合”培养模式体系，形成了多元化、多层级的拔尖创新人才培养方阵和涵盖选拔、培养、评价与发展的全链条育人机制，构筑起面向未来、开放协同的人才培养新格局，为中国教育改革积累了宝贵经验，贡献了交大智慧。 张立群指出，教育必须主动应变、科学求变，着力培养能",
-      "organizer": "钱学森学院官方活动",
-      "category": null,
-      "tags": [
-        "西安交通大学",
-        "书院活动"
-      ],
-      "startsAt": 1795924800,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "西安交通大学兴庆校区",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.246233,
-      "longitude": 108.983741,
-      "coordinateSystem": "gcj02",
-      "feeType": "unknown",
-      "sourceName": "钱学森学院官方活动",
-      "sourceUrl": "https://bjb.xjtu.edu.cn/info/1010/4297.htm",
-      "registrationUrl": "https://bjb.xjtu.edu.cn/info/1010/4297.htm"
-    },
-    {
-      "id": "op-2a7fccbb5259a8895d8f52fcf292a1c808a9eaec06222fcc000898f47d4efe6e",
-      "type": "online",
-      "title": "钱学森学院与音乐教育中心联合举办 “寒冬战疫 钱音暖心”线上音乐会",
-      "description": "2021年12月，疫情让西安的这个冬天变得不平凡。然而，封城隔离了病毒，却隔离不了温暖。12月31日， 值新的一年即将来临之际，钱学森学院和音乐教育中心采取崭新的方式，联合举办了一场以“寒冬战疫 钱音暖心”为主题的线上音乐会，为师生们的隔离生活带来温暖与亮色。音乐会以腾讯会议的形式开展，并与听众进行在线互动。钱学森学院常务副院长杨森、副院长王娟、钱学森书院院务主任田博、钱学森班项目主任罗先觉、专业模块主任张爱民、段玉岗、陈雪江、刘文凤，以及音乐教育中心党支部书记曹耿献、主任方小迪、相关任课教师、钱学森班同学等出席线上音乐会。曹耿献对本次音乐会进行指导，钱学森班2021级的同学主演，同时特别邀请了“艺术与科学的交汇”课程教师管晓宏院士、以及梁睿等音乐老师参演。 杨森进行开场致词。他充分肯定了同学们为举办本次音乐会所付出的努力，指出“音乐创作与欣赏”课程是钱学森班的特色课程之一，充分体现了钱学森“集大成 的智慧”教育思想，对于塑造形象思维、促进学科跨界融合具有重要意义。他还鼓励大家遵守防疫政策，坚定抗疫信心，西安必会安然无恙。 音乐会以丰富多彩的形式展现了音乐艺术的魅力。诗歌朗诵《长来长往长安》展现了抗疫工作中无数个平凡的英雄，带给人感动与信心。古筝、竹琴、鼓、吉他、竹笛、小提琴、钢琴、古琴等各色乐器以悠扬优美的旋律，体现了不同的人物情感和山川意境，带来醉人的艺术享受。歌曲演唱充分体现了同学们的演唱功力，展现了美好的青春岁月。 最后，西迁老教授马知恩和钱学森班项目主任罗先觉分别致辞，鼓励同学们在疫情隔离期间克服困难、努力学习，增强交大人的责任感与使命感，向时代和人民交出一份合格的答卷。 艺术欣赏与创作课程历来是钱学森班的特色课程之一，包括音乐、陶艺、书画、建筑设计等多种艺术形式，充分体现了钱学森“大成智慧学”教育思想中“量智与性智”相结合、“逻辑思维与形象思维”相结合的思想精髓。自2007年钱学森班创办起，每年钱学森班音乐课结课后，都会举行音乐汇报演出，本次音乐会是第15场汇报演出，也是西安交通大学《音乐欣赏与创作》第四届线上音乐会。 文字 吴孟晗 图片 音乐教育中心",
-      "organizer": "钱学森学院官方活动",
-      "category": null,
-      "tags": [
-        "西安交通大学",
-        "书院活动"
-      ],
-      "startsAt": 1798689600,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": null,
-      "city": "西安",
-      "isOnline": true,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "unknown",
-      "sourceName": "钱学森学院官方活动",
-      "sourceUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm",
-      "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
-    },
-    {
       "id": "op-dd0c51b2836049bd58fcc10ebc7c659c910b4581452776acdf894b7739a1b10b",
       "type": "scholarship",
       "title": "2026-10-20 2026年能动学院研究生国家奖学金推荐人选公示",
@@ -722,84 +773,6 @@
       "sourceName": "西安交大能动学院奖学金通知",
       "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5933.htm",
       "registrationUrl": "https://epe.xjtu.edu.cn/info/1483/5933.htm"
-    },
-    {
-      "id": "op-0518ba4d92c753b37e46d61ff7903b08ae08254745d87d15e1e121a467af0288",
-      "type": "recruitment",
-      "title": "中国大唐2027年校园组团招聘正式启动",
-      "description": "组团招聘。时间：2026-10-21 09:30:00 至 2026-10-21 12:00:00。地点或参与方式：兴庆校区就创中心一楼大厅。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "组团招聘",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1792546200,
-      "endsAt": 1792555200,
-      "registrationDeadline": null,
-      "venueName": "兴庆校区就创中心一楼大厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.246233,
-      "longitude": 108.983741,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=61623e95c450467690607dd672a9e664",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=61623e95c450467690607dd672a9e664"
-    },
-    {
-      "id": "op-41aa788505e803cba256aed359a297298dc5fe9a6b522dcb91aecd2dfa8ab121",
-      "type": "recruitment",
-      "title": "中国石油化工股份有限公司茂名分公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-10-21 10:10:00 至 2026-10-21 12:00:00。地点或参与方式：敏行楼1-3052。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1792548600,
-      "endsAt": 1792555200,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=c6ab07e9994648238503b5bdb8d326a3",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=c6ab07e9994648238503b5bdb8d326a3"
-    },
-    {
-      "id": "op-70c508cc21aff25c7e0ff12740cdeccdd55f669f53316bd6b04a3ad23d316271",
-      "type": "recruitment",
-      "title": "深圳能源集团股份有限公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-10-21 10:10:00 至 2026-10-21 12:00:00。地点或参与方式：敏行楼1-3059。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1792548600,
-      "endsAt": 1792555200,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3059",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=e2e7852c56424a238acfa031794b4e2a",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=e2e7852c56424a238acfa031794b4e2a"
     },
     {
       "id": "op-1593aae2d136e232f150439dd7dcd0d692485afdd486c4d3a560783c505c9dbd",
@@ -1214,30 +1187,6 @@
       "sourceName": "西安交通大学本科生院通知",
       "sourceUrl": "http://dean.xjtu.edu.cn/info/1172/10496.htm",
       "registrationUrl": "http://dean.xjtu.edu.cn/info/1172/10496.htm"
-    },
-    {
-      "id": "op-e78fc1b342f4ee5140a64eaff381c13cac909c0516b1b0bc0e4b8416f8500423",
-      "type": "lecture",
-      "title": "第二十四届金秋外语节活动预告",
-      "description": "金秋时节，西安交通大学第二十四届金秋外语节拉开精彩帷幕。本届金秋外语节将继续诠释多种语言和多种文化的魅力，通过开展丰富多彩的活动，为同学们搭建展示自我、交流学习的平台，提升其国际视野及专业素养，打造特色校园文化。 下面是本届外语节期间面向大面积学生的主要活动信息，面向具体学生群体的活动信息由相关课程教师提供。 语言展示和文化交流的舞台已搭好，期待各位同学积极参与，尽情绽放交大青年的活力光芒！ 大学英语教学中心（仅限非外语专业的学生参加） 1.英语戏剧比赛 活动时间：即日起至10月21日 活动推送方式：任课教师通知 2.第五届“我的西安交通大学”英语口语视频大赛 活动时间：即日起至10月21日 活动推送方式：任课教师通知 3.第四届“理解当代中国，讲述当代中国”英语能力大赛 活动时间：即日起至10月23日 活动地点：10月23日中午，兴庆校区外文楼四楼网络教室（A403、404、405、406、407），西校区网络教室2间（财主楼511、512） 活动推送方式：任课教师通知 英语系（仅限外国语学院学生报名参加） 4.英语书法比赛 活动时间：10月1日至10月30日 活动推送方式：“交大英语”公众号推送 报名截止日期：10月30日 5.英文翻译比赛 活动时间：10月21日 活动地点：场地待定 报名截止日期：待定 6.双语创意写作比赛 活动时间：10月1日至10月30日 报名截止日期：10月30日 7.英文朗诵比赛 活动时间：10月1日至10月30日 报名截止日期：10月30日 活动报名二维码 法语系 8.法语创意写作大赛 活动时间：即日起至10月23日 活动地点：无需场地 活动推送方式：“西交法语”公众号推送 报名截止日期：10月23日 9.法语书写大赛 活动时间：即日起至10月23日 活动地点：无需场地 活动推送方式：“西交法语”公众号推送 报名截止日期：10月23日 10.法语朗诵大赛 活动时间：11月4日14:00-16:00 活动地点：兴庆校区外文楼B-509 活动推送方式：“西交法语”公众号推送 报名截止日期：10月23日 11.法语风采大赛 活动时间：10月28日16:00-18:00 活动地点：待定 活动推送方式：“西交法语”公众号推送 报名截止日期：10月23日 活动报名二维码 日语系 12.日语风采大赛 活动时间：10月21日13:30-16:00 活动地点：兴庆校区外文楼B1001 活动推送方式：“交大日语”公众号推送 报名截止日期：10月14日 13.日语朗读大赛 活动时间：10月28日13:30-16:00 活动推送方式：“交大日语”公众号推送 14.日语配音大赛 活动时间：10月28日16:00-18:00 活动推送方式：“交大日语”公众号推送 以上三项比赛报名方式如下呦～ 15.日语口译大赛 活动时间：暂不确定 活动地点：暂不确定 活动推送方式：“交大日语”公众号推送 报名截止日期：暂不确定 16.“理解当代中国，讲述当代中国”日语能力大赛 活动时间：9月18日 活动推送方式：“交大日语”公众号推送 报名截止日期：校赛已结束 活动报名二维码 俄德语系 17.俄语配音大赛 活动时间：10月1日-10月31日 活动地点：无需教室 活动推送方式：海报宣传，俄语学生群推广 报名截止日期：10月31日 18.德语配乐诗朗诵大赛 活动时间：10月28日14:00-18:00 活动地点：外文楼（具体教室待定） 活动推送方式：传单海报，转发报名二维码 报名截止日期：10月22日 19.西班牙语书写大赛 活动时间：10月1日-10月31日 报名方式：“交大西语”公众号推送 报名截止日期：10月21日 20.西班牙语朗诵大赛 活动时间：10月21日14:00-17:00 活动地点：兴庆校区主楼A-103 报名截止日期：10月18日 21.",
-      "organizer": "西安交通大学本科生院通知",
-      "category": null,
-      "tags": [
-        "西安交通大学"
-      ],
-      "startsAt": 1792555200,
-      "endsAt": null,
-      "registrationDeadline": 1793375940,
-      "venueName": "10月23日中午，兴庆校区外文楼四楼网络教室（A403、404、405、406、407），西校区网络教室2间（财主楼511、512）",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "unknown",
-      "sourceName": "西安交通大学本科生院通知",
-      "sourceUrl": "http://dean.xjtu.edu.cn/info/1172/10493.htm",
-      "registrationUrl": "http://dean.xjtu.edu.cn/info/1172/10493.htm"
     },
     {
       "id": "op-2bb1accc4c71697812cf4a2cc4cb8a1badd28ae8076f82104ecfdeb5b8d875ca",
