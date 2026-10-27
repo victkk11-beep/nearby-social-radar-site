@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-26T23:07:13.550Z",
-  "checkedAt": "2026-10-26T23:07:13.550Z",
-  "lastSuccessfulAt": "2026-10-26T23:07:13.550Z",
+  "generatedAt": "2026-10-27T22:57:03.902Z",
+  "checkedAt": "2026-10-27T22:57:03.902Z",
+  "lastSuccessfulAt": "2026-10-27T22:57:03.902Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 34 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 35 条最近快照",
   "sourceCount": 24,
-  "sourceFailures": 1,
+  "sourceFailures": 2,
   "sourceHealth": [
     {
       "name": "西安交通大学学术资源平台",
@@ -30,7 +30,7 @@
     {
       "name": "西安交通大学就业招聘日历",
       "status": "ok",
-      "items": 262
+      "items": 265
     },
     {
       "name": "西安交大能动学院就业实践",
@@ -65,8 +65,9 @@
     },
     {
       "name": "陕汽控股人才招聘",
-      "status": "ok",
-      "items": 36
+      "status": "failed",
+      "items": 0,
+      "error": "来源网络请求失败（ETIMEDOUT）。"
     },
     {
       "name": "交大青年之声",
@@ -129,86 +130,8 @@
       "items": 36
     }
   ],
-  "geocodeRemaining": 1,
+  "geocodeRemaining": 2,
   "items": [
-    {
-      "id": "op-e014b7e726a3e19b515f2db4149b490b62fd2954e0e52c05cb1f8bd499267acd",
-      "type": "recruitment",
-      "title": "北京开源芯片研究院2027年校园招聘",
-      "description": "空中宣讲会（其他平台）。时间：2026-10-27 10:00:00 至 2026-10-27 12:00:00。地点或参与方式：校外空中宣讲会（https://meeting.dingtalk.com/j/nS9rnLTOK9p）。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "空中宣讲会（其他平台）",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线上"
-      ],
-      "startsAt": 1793066400,
-      "endsAt": 1793073600,
-      "registrationDeadline": null,
-      "venueName": null,
-      "city": "西安",
-      "isOnline": true,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=76e2e01745934a8cb08a276fa16c5d71",
-      "registrationUrl": "https://meeting.dingtalk.com/j/nS9rnLTOK9p"
-    },
-    {
-      "id": "op-8ed472b1ebba1edb533b339e4e3dc0b2d0f8df7e805e17e2f93c219ee7710083",
-      "type": "recruitment",
-      "title": "成都辰显光电有限公司2026年校园招聘",
-      "description": "校内招聘会。时间：2026-10-27 10:10:00 至 2026-10-27 12:00:00。地点或参与方式：敏行楼1-3052。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1793067000,
-      "endsAt": 1793073600,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=23ba8da71241410ca98c313f18071733",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=23ba8da71241410ca98c313f18071733"
-    },
-    {
-      "id": "op-82a9c1e550d9be47c76334c3e4c07880156648d03d7a8e7b3583075965f6644d",
-      "type": "recruitment",
-      "title": "珠海博杰电子股份有限公司2027届校园招聘宣讲会",
-      "description": "校内招聘会。时间：2026-10-27 10:10:00 至 2026-10-27 12:00:00。地点或参与方式：就创中心204报告厅。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1793067000,
-      "endsAt": 1793073600,
-      "registrationDeadline": null,
-      "venueName": "就创中心204报告厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.242475,
-      "longitude": 108.643825,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=f6c379e0f9414821ad06a454ad022c26",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=f6c379e0f9414821ad06a454ad022c26"
-    },
     {
       "id": "op-c271b0a8c96a63fe44cc420412f7a0c6a92b5da8d2a20aa0e990f7ae937e9fee",
       "type": "recruitment",
@@ -518,10 +441,10 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=bfbc20638675422abb37fdf72672c00c"
     },
     {
-      "id": "op-986f8d060156bc3a1fd37d5bed59499391f58f46b43f3fa7c0fa17f39cecc485",
+      "id": "op-73cdc9764750b271f2775c22540c3680a4df47ef3ca88b20e5bee50057542725",
       "type": "recruitment",
-      "title": "香港科技大学（广州）硕博士招生宣讲会",
-      "description": "校内招聘会。时间：2026-10-30 14:10:00 至 2026-10-30 16:00:00。地点或参与方式：就创中心204报告厅。",
+      "title": "广东绿岛风空气系统股份有限公司2027年校园招聘",
+      "description": "校内招聘会。时间：2026-10-30 14:10:00 至 2026-10-30 16:00:00。地点或参与方式：敏行楼1-3052。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "校内招聘会",
       "tags": [
@@ -532,16 +455,16 @@
       "startsAt": 1793340600,
       "endsAt": 1793347200,
       "registrationDeadline": null,
-      "venueName": "就创中心204报告厅",
+      "venueName": "敏行楼1-3052",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.242475,
-      "longitude": 108.643825,
+      "latitude": 34.250812,
+      "longitude": 108.661243,
       "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=ef8817419ae242018ebd9fc84aa702dd",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=ef8817419ae242018ebd9fc84aa702dd"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=e0f06a6fc8c6490893c6c19c161347d8",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=e0f06a6fc8c6490893c6c19c161347d8"
     },
     {
       "id": "op-e8f31ac5dad850a719733c3ffcfab9b04d0c31f30dfb4c49c1305e344169bef8",
@@ -568,6 +491,58 @@
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=532e0dd21b7a4e4690f146e3fdd76677",
       "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=532e0dd21b7a4e4690f146e3fdd76677"
+    },
+    {
+      "id": "op-1130426ef6beea83fcd94f0d0ddceb0582cab2bb506e692151f845d23ab34cc6",
+      "type": "recruitment",
+      "title": "武汉东湖新技术开发区面向西安交通大学引进储备干部公告",
+      "description": "校内招聘会。时间：2026-11-02 19:00:00 至 2026-11-02 21:00:00。地点或参与方式：涵英楼5-1E107。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1793617200,
+      "endsAt": 1793624400,
+      "registrationDeadline": null,
+      "venueName": "涵英楼5-1E107",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.255931,
+      "longitude": 108.655364,
+      "coordinateSystem": "gcj02",
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=eede059fd76e4a0f879b8c717c066bf1",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=eede059fd76e4a0f879b8c717c066bf1"
+    },
+    {
+      "id": "op-ced7f95b234a15a7bc820e2c234de232db2b3b1ae02b24231f9eea71eb03128d",
+      "type": "recruitment",
+      "title": "中国证券登记结算有限责任公司2027年度校园招聘",
+      "description": "校内招聘会。时间：2026-11-02 19:10:00 至 2026-11-02 21:00:00。地点或参与方式：敏行楼1-3052。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1793617800,
+      "endsAt": 1793624400,
+      "registrationDeadline": null,
+      "venueName": "敏行楼1-3052",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.250812,
+      "longitude": 108.661243,
+      "coordinateSystem": "gcj02",
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=7c347cc730ca4397b60acf64bdd6b6e0",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=7c347cc730ca4397b60acf64bdd6b6e0"
     },
     {
       "id": "op-fee30ab17ff45fa5ec22eba5e31070e1613f65f1a91e6f9da272c0b8e6bc57d4",
@@ -622,6 +597,32 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=68e91ca66ed34c5f83015bb6cf29dde1"
     },
     {
+      "id": "op-6b22c36f55c9130c26c95439e635bcc1d5145109412e9ff7543469b7e085444a",
+      "type": "recruitment",
+      "title": "海辰储能2027届校园招聘宣讲会",
+      "description": "校内招聘会。时间：2026-11-04 19:10:00 至 2026-11-04 21:00:00。地点或参与方式：敏行楼1-3059。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1793790600,
+      "endsAt": 1793797200,
+      "registrationDeadline": null,
+      "venueName": "敏行楼1-3059",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.250812,
+      "longitude": 108.661243,
+      "coordinateSystem": "gcj02",
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=72087828db984f3ea607513ca23f195e",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=72087828db984f3ea607513ca23f195e"
+    },
+    {
       "id": "op-36567b286cb5a5a20c9cc5bfd52a76f45143af1233f888d341801c21e5a1dde8",
       "type": "lecture",
       "title": "中文权威期刊学术论文论证设计与关键部分写作：引言、综述、讨论及结果分析",
@@ -663,9 +664,9 @@
       "venueName": "西安交通大学兴庆校区",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.246233,
-      "longitude": 108.983741,
-      "coordinateSystem": "gcj02",
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
       "feeType": "unknown",
       "sourceName": "钱学森学院官方活动",
       "sourceUrl": "https://bjb.xjtu.edu.cn/info/1010/4297.htm",
@@ -697,62 +698,36 @@
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
     },
     {
-      "id": "op-9603fac27424e31c9c43be3fa8e9128c3ce2e400a580318e0d522967a8013bc3",
+      "id": "op-e014b7e726a3e19b515f2db4149b490b62fd2954e0e52c05cb1f8bd499267acd",
       "type": "recruitment",
-      "title": "崂山国家实验室2026年校园招聘",
-      "description": "校内招聘会。时间：2026-10-26 10:10:00 至 2026-10-26 12:00:00。地点或参与方式：敏行楼1-3059。",
+      "title": "北京开源芯片研究院2027年校园招聘",
+      "description": "空中宣讲会（其他平台）。时间：2026-10-27 10:00:00 至 2026-10-27 12:00:00。地点或参与方式：校外空中宣讲会（https://meeting.dingtalk.com/j/nS9rnLTOK9p）。",
       "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
+      "category": "空中宣讲会（其他平台）",
       "tags": [
         "西安交通大学",
         "校园招聘",
-        "线下"
+        "线上"
       ],
-      "startsAt": 1792980600,
-      "endsAt": 1792987200,
+      "startsAt": 1793066400,
+      "endsAt": 1793073600,
       "registrationDeadline": null,
-      "venueName": "敏行楼1-3059",
+      "venueName": null,
       "city": "西安",
-      "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=48465ddf2f954ce8888934214df28837",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=48465ddf2f954ce8888934214df28837"
-    },
-    {
-      "id": "op-d72277d7b42c16ece7197959c8fd75741027c04d7c4c94b201734cd6b21e9702",
-      "type": "recruitment",
-      "title": "中国中煤能源集团有限公司2027届秋季校园招聘公告",
-      "description": "组团招聘。时间：2026-10-26 14:00:00 至 2026-10-26 17:00:00。地点或参与方式：20号楼（泓德楼）2楼校园招聘大厅。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "组团招聘",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1792994400,
-      "endsAt": 1793005200,
-      "registrationDeadline": null,
-      "venueName": "20号楼（泓德楼）2楼校园招聘大厅",
-      "city": "西安",
-      "isOnline": false,
+      "isOnline": true,
       "latitude": null,
       "longitude": null,
       "coordinateSystem": null,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=a081b444d5cc4fa6bc62c3f7cbce92bd",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=a081b444d5cc4fa6bc62c3f7cbce92bd"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=76e2e01745934a8cb08a276fa16c5d71",
+      "registrationUrl": "https://meeting.dingtalk.com/j/nS9rnLTOK9p"
     },
     {
-      "id": "op-dde977cc56b33c8894f960ad16ac74147379797bd332bba7d89ced5c81b208ef",
+      "id": "op-8ed472b1ebba1edb533b339e4e3dc0b2d0f8df7e805e17e2f93c219ee7710083",
       "type": "recruitment",
-      "title": "【已取消】青岛思锐智能科技股份有限公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-10-26 14:10:00 至 2026-10-26 16:00:00。地点或参与方式：敏行楼1-3052。",
+      "title": "成都辰显光电有限公司2026年校园招聘",
+      "description": "校内招聘会。时间：2026-10-27 10:10:00 至 2026-10-27 12:00:00。地点或参与方式：敏行楼1-3052。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "校内招聘会",
       "tags": [
@@ -760,8 +735,8 @@
         "校园招聘",
         "线下"
       ],
-      "startsAt": 1792995000,
-      "endsAt": 1793001600,
+      "startsAt": 1793067000,
+      "endsAt": 1793073600,
       "registrationDeadline": null,
       "venueName": "敏行楼1-3052",
       "city": "西安",
@@ -771,8 +746,60 @@
       "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=184a0d48a62d41a0908bb70ae285921b",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=184a0d48a62d41a0908bb70ae285921b"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=23ba8da71241410ca98c313f18071733",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=23ba8da71241410ca98c313f18071733"
+    },
+    {
+      "id": "op-82a9c1e550d9be47c76334c3e4c07880156648d03d7a8e7b3583075965f6644d",
+      "type": "recruitment",
+      "title": "珠海博杰电子股份有限公司2027届校园招聘宣讲会",
+      "description": "校内招聘会。时间：2026-10-27 10:10:00 至 2026-10-27 12:00:00。地点或参与方式：就创中心204报告厅。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1793067000,
+      "endsAt": 1793073600,
+      "registrationDeadline": null,
+      "venueName": "就创中心204报告厅",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.242475,
+      "longitude": 108.643825,
+      "coordinateSystem": "gcj02",
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=f6c379e0f9414821ad06a454ad022c26",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=f6c379e0f9414821ad06a454ad022c26"
+    },
+    {
+      "id": "op-986f8d060156bc3a1fd37d5bed59499391f58f46b43f3fa7c0fa17f39cecc485",
+      "type": "recruitment",
+      "title": "香港科技大学（广州）硕博士招生宣讲会",
+      "description": "校内招聘会。时间：2026-10-30 14:10:00 至 2026-10-30 16:00:00。地点或参与方式：就创中心204报告厅。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1793340600,
+      "endsAt": 1793347200,
+      "registrationDeadline": null,
+      "venueName": "就创中心204报告厅",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.242475,
+      "longitude": 108.643825,
+      "coordinateSystem": "gcj02",
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=ef8817419ae242018ebd9fc84aa702dd",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=ef8817419ae242018ebd9fc84aa702dd"
     },
     {
       "id": "op-cd4c462551ce0ca99ae2f9019a36cf3d396cd245974ea90844124adcf7852f3b",
