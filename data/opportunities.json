@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-30T22:57:38.197Z",
-  "checkedAt": "2026-10-30T22:57:38.197Z",
-  "lastSuccessfulAt": "2026-10-30T22:57:38.197Z",
+  "generatedAt": "2026-10-31T22:29:27.919Z",
+  "checkedAt": "2026-10-31T22:29:27.919Z",
+  "lastSuccessfulAt": "2026-10-31T22:29:27.919Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 35 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 29 条最近快照",
   "sourceCount": 24,
   "sourceFailures": 1,
   "sourceHealth": [
@@ -30,7 +30,7 @@
     {
       "name": "西安交通大学就业招聘日历",
       "status": "ok",
-      "items": 275
+      "items": 21
     },
     {
       "name": "西安交大能动学院就业实践",
@@ -129,7 +129,7 @@
       "items": 36
     }
   ],
-  "geocodeRemaining": 2,
+  "geocodeRemaining": 1,
   "items": [
     {
       "id": "op-ce5edea7db821608dbf281d6d1a6bb09ae2fc3eddd3de30aba6f27727dcc40f8",
@@ -200,9 +200,9 @@
       "venueName": "敏行楼1-3052",
       "city": "西安",
       "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
+      "latitude": 34.250812,
+      "longitude": 108.661243,
+      "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=0865a40b64f24c1492c007a000c13122",
@@ -647,134 +647,6 @@
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
     },
     {
-      "id": "op-588e355d8ad531e6af41a53337d5a0c4d5b885775eb16ea105a6f69f10ba0c64",
-      "type": "recruitment",
-      "title": "新百丽鞋业（深圳）有限公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-10-30 10:10:00 至 2026-10-30 12:00:00。地点或参与方式：敏行楼1-3052。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1793326200,
-      "endsAt": 1793332800,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=d7f2b7496a9f490bba12e5e50eec2192",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=d7f2b7496a9f490bba12e5e50eec2192"
-    },
-    {
-      "id": "op-c255c49f7637b99b95cf1202d3a951da30ebdfaf6fce07717b5be1562f3da102",
-      "type": "lecture",
-      "title": "周惠久论坛——Deformation and Failure of Advanced Structural Materials",
-      "description": "主讲：Bernd Gludovatz 教...。校区：兴庆校区。",
-      "organizer": "西安交通大学",
-      "category": "学术讲座",
-      "tags": [
-        "西安交通大学",
-        "兴庆校区"
-      ],
-      "startsAt": 1793332800,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "科创大厦9F报告厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "unknown",
-      "sourceName": "西安交通大学学术资源平台",
-      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7007.htm",
-      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7007.htm"
-    },
-    {
-      "id": "op-647892ec8e9385d215f068f82bc07a828e460f24a31d212c74404bc1c7b7deea",
-      "type": "lecture",
-      "title": "人工智能有自我吗？——基于社会互动视角的探讨",
-      "description": "主讲：吴胜涛。校区：兴庆校区。",
-      "organizer": "西安交通大学",
-      "category": "学术讲座",
-      "tags": [
-        "西安交通大学",
-        "兴庆校区"
-      ],
-      "startsAt": 1793332800,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "兴庆校区主楼E810",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "unknown",
-      "sourceName": "西安交通大学学术资源平台",
-      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7023.htm",
-      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7023.htm"
-    },
-    {
-      "id": "op-f82205bf06aa2808ace7366455f992e66c777c802d7ba0057109b4272590f8cb",
-      "type": "recruitment",
-      "title": "陕文投集团“青英梦想计划”2027校园招聘宣讲会",
-      "description": "校内招聘会。时间：2026-10-30 14:10:00 至 2026-10-30 16:00:00。地点或参与方式：敏行楼1-3059。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1793340600,
-      "endsAt": 1793347200,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3059",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=bfbc20638675422abb37fdf72672c00c",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=bfbc20638675422abb37fdf72672c00c"
-    },
-    {
-      "id": "op-73cdc9764750b271f2775c22540c3680a4df47ef3ca88b20e5bee50057542725",
-      "type": "recruitment",
-      "title": "广东绿岛风空气系统股份有限公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-10-30 14:10:00 至 2026-10-30 16:00:00。地点或参与方式：敏行楼1-3052。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1793340600,
-      "endsAt": 1793347200,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=e0f06a6fc8c6490893c6c19c161347d8",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=e0f06a6fc8c6490893c6c19c161347d8"
-    },
-    {
       "id": "op-011d20378268cf727548592abcc62dbe58d26f2621f7fafc8fb9271680b66dae",
       "type": "recruitment",
       "title": "【在桃李，见未来】桃李未来2027届秋季校园招聘",
@@ -903,32 +775,6 @@
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=eede059fd76e4a0f879b8c717c066bf1",
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=eede059fd76e4a0f879b8c717c066bf1"
-    },
-    {
-      "id": "op-986f8d060156bc3a1fd37d5bed59499391f58f46b43f3fa7c0fa17f39cecc485",
-      "type": "recruitment",
-      "title": "香港科技大学（广州）硕博士招生宣讲会",
-      "description": "校内招聘会。时间：2026-10-30 14:10:00 至 2026-10-30 16:00:00。地点或参与方式：就创中心204报告厅。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1793340600,
-      "endsAt": 1793347200,
-      "registrationDeadline": null,
-      "venueName": "就创中心204报告厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.242475,
-      "longitude": 108.643825,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=ef8817419ae242018ebd9fc84aa702dd",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=ef8817419ae242018ebd9fc84aa702dd"
     },
     {
       "id": "op-c086b3143ca300f01fd1fc417d7f72892c951ebaf898c787460950ce1785f0c7",
