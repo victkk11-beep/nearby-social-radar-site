@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-05T00:23:08.332Z",
-  "checkedAt": "2026-11-05T00:23:08.332Z",
-  "lastSuccessfulAt": "2026-11-05T00:23:08.332Z",
+  "generatedAt": "2026-11-06T00:14:46.246Z",
+  "checkedAt": "2026-11-06T00:14:46.246Z",
+  "lastSuccessfulAt": "2026-11-06T00:14:46.246Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 34 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 31 条最近快照",
   "sourceCount": 24,
   "sourceFailures": 1,
   "sourceHealth": [
@@ -30,7 +30,7 @@
     {
       "name": "西安交通大学就业招聘日历",
       "status": "ok",
-      "items": 34
+      "items": 37
     },
     {
       "name": "西安交大能动学院就业实践",
@@ -116,7 +116,7 @@
     {
       "name": "交大新闻网·创新港活动",
       "status": "ok",
-      "items": 126
+      "items": 127
     },
     {
       "name": "西安市体育局公开活动",
@@ -129,34 +129,8 @@
       "items": 36
     }
   ],
-  "geocodeRemaining": 0,
+  "geocodeRemaining": 1,
   "items": [
-    {
-      "id": "op-4bec51e1f47d6fe07781124b6f67898ecbde21593932a784b29b4389b44d0118",
-      "type": "scholarship",
-      "title": "2026-11-03 关于能动学院2025-2026学年研究生社会、行业奖学金提交申请的通知",
-      "description": "各班级： 现对2025-2026学年能动学院社会、行业奖学金的申请工作安排如下： 一、名额分配 如附件1（2026年能动学院研究生社会、行业奖学金名额分配及原则）所示。评奖要求依据名额分配表中的备注进行。其中行业奖学金是指能动学院签订的奖学金，社会奖学金是指学校下拨的奖学金，两者参评范围不一样，提交材料也不一样，表中均有标注，请大家注意。 附件2（2026年能动学院硕士/博士社会、行业奖学金建议申请名单）中为学院依据设奖要求以及各位同学的名次排序得出，大家可依据表格建议进行申请。各个社会奖学金与行业奖学金之间不兼得，且每人有且只有一次申请的机会。（其中表格中标黄的为社会奖学金） 同时，社会奖学金、行业奖学金的奖金一般是从设奖人下一财年的经费中列支的，学校只能在收到设奖人汇来的奖金后，方可转发给获奖研究生。在这一过程中，存在因不可抗力导致设奖人不能提供资金，学校不能发放的情形。 二、申请流程 1.社会奖学金申请流程（建议申请名单中标黄的均为社会奖学金） 1）个人提交附件4（西安交通大学社会奖学金申请表），并按照附件1中提交材料要求准备好材料，将附件材料（获奖材料等）一同编辑至文档后面，以“奖学金名称-姓名-班级”统一命名，纸质版和电子版材料均需要； 2）获奖学生均需按照要求扫描以下二维码完成表格填写，与奖学金发放有关，务必信息准确； 3）请微信扫码进群： 2.行业奖学金申请流程 1）个人提交附件3（能动学院行业奖学金申请表），并将附件材料（获奖材料等）一同编辑至文档后面，以“奖学金名称-姓名-班级”统一命名，纸质版和电子版材料均需要； 2）获奖学生均需按照要求扫描以下二维码完成表格填写，与奖学金发放有关，务必信息准确； 3）获奖学生彩色打印附件5（感谢信信纸模板），并手写感谢信，并粘贴一张个人5寸生活照，与其他材料一同上交。只需要纸质版； 4）请微信扫码进群： 所有材料和表格按照要求填报，不得更改表格内容或使用自制表格。同时，提交电子材料请一次报送完毕，不要分开发送。 请放弃本次奖学金申请的同学于2026年11月5日16:00之前提交放弃奖学金申请说明，本人签字，拍照或者扫描发送至532259050@qq.com。 请申请奖学金的同学于2026年11月6日9:00-18:00工作时间之内，将纸质版材料交至北二楼1301办公室或创新港1-5196办公室，电子版材料压缩为一个文件，以【奖学金名称-硕XXX -姓名】命名，发送至maneuxjtu@163.com。 如有问题，可及时联系。 联系人： 张老师 电 话： 82667940 能源与动力工程学院 2026年11月3日",
-      "organizer": "西安交大能动学院奖学金通知",
-      "category": "奖学金通知",
-      "tags": [
-        "西安交通大学",
-        "能动学院",
-        "奖学金"
-      ],
-      "startsAt": null,
-      "endsAt": null,
-      "registrationDeadline": 1793865600,
-      "venueName": null,
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "unknown",
-      "sourceName": "西安交大能动学院奖学金通知",
-      "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6011.htm",
-      "registrationUrl": "https://epe.xjtu.edu.cn/info/1483/6011.htm"
-    },
     {
       "id": "op-99c45fa6002c04a81553f3250e9f7580adbff04f3bf50ea161a59f2e715d634d",
       "type": "scholarship",
@@ -182,84 +156,6 @@
       "sourceName": "西安交大能动学院奖学金通知",
       "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6001.htm",
       "registrationUrl": "https://epe.xjtu.edu.cn/info/1483/6001.htm"
-    },
-    {
-      "id": "op-999c17ca3906fb31ce1f7f2dbcc3d58ad076bfae948b99233879d66f6fa0b09a",
-      "type": "recruitment",
-      "title": "“海丝泉州 人才港湾”2026—2027年送岗引才进校园招聘活动",
-      "description": "组团招聘。时间：2026-11-05 09:00:00 至 2026-11-05 12:00:00。地点或参与方式：兴庆校区就创中心一楼大厅。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "组团招聘",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1793840400,
-      "endsAt": 1793851200,
-      "registrationDeadline": null,
-      "venueName": "兴庆校区就创中心一楼大厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.246233,
-      "longitude": 108.983741,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=7f95c73cea174377b88121504fad3e05",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=7f95c73cea174377b88121504fad3e05"
-    },
-    {
-      "id": "op-0d5081ceb6d68cbbe97aefd96fb03985677f72280fdb90a2a7a1cd27023ca9dc",
-      "type": "recruitment",
-      "title": "首创证券股份有限公司",
-      "description": "校内招聘会。时间：2026-11-05 14:10:00 至 2026-11-05 16:00:00。地点或参与方式：敏行楼1-3052。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1793859000,
-      "endsAt": 1793865600,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=41dc9be5eb6649b598b4b5147924d6a3",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=41dc9be5eb6649b598b4b5147924d6a3"
-    },
-    {
-      "id": "op-3ef63a872d0b49c8ac5b3a1ea63e33c362cbd7d3fc1e11d7292ed181ed0bc9c5",
-      "type": "recruitment",
-      "title": "华东医药股份有限公司2027届校园招聘宣讲会",
-      "description": "校内招聘会。时间：2026-11-05 19:10:00 至 2026-11-05 21:00:00。地点或参与方式：西配楼101。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1793877000,
-      "endsAt": 1793883600,
-      "registrationDeadline": null,
-      "venueName": "西配楼101",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.242475,
-      "longitude": 108.643825,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=30ed78c79c2e4f558bf4102294e7c1b3",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=30ed78c79c2e4f558bf4102294e7c1b3"
     },
     {
       "id": "op-c2a0c6b9e3417f3466d63602066aa7f99ba09105f156493f018287563b7b43cb",
@@ -417,10 +313,36 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=f9aaa1ac2fac43ef9ed5cef819aed678"
     },
     {
-      "id": "op-401b1ed47785f4868a34c74d6cffb4c301dffc8542a816ff40ed61b8160181b3",
+      "id": "op-9b2e8eb367498c85974d2ba2310019ff78e698d3d4db375fb89cbe50c38ed7c5",
       "type": "recruitment",
-      "title": "上海核工程研究设计院股份有限公司（调试中心）2027年校园招聘",
-      "description": "校内招聘会。时间：2026-11-09 16:10:00 至 2026-11-09 18:00:00。地点或参与方式：敏行楼1-3059。",
+      "title": "锦绣天府 安逸四川丨2026知名高校四川人才活动季西安交通大学专场活动即将启幕",
+      "description": "组团招聘。时间：2026-11-09 14:30:00 至 2026-11-09 18:00:00。地点或参与方式：西安交通大学（创新港校区）20号楼（泓德楼）2楼校园招聘大厅。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "组团招聘",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1794205800,
+      "endsAt": 1794218400,
+      "registrationDeadline": null,
+      "venueName": "西安交通大学（创新港校区）20号楼（泓德楼）2楼校园招聘大厅",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=a28d4ed65879409482ceb72c8ecbe98e",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=a28d4ed65879409482ceb72c8ecbe98e"
+    },
+    {
+      "id": "op-fc0c3140a2e3cc8e27b066b702568d2717823965b0c76d6f85a2b89eb7bad6f0",
+      "type": "recruitment",
+      "title": "普洛药业股份有限公司2027年校园招聘",
+      "description": "校内招聘会。时间：2026-11-10 14:10:00 至 2026-11-10 16:00:00。地点或参与方式：敏行楼1-3059。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "校内招聘会",
       "tags": [
@@ -428,8 +350,8 @@
         "校园招聘",
         "线下"
       ],
-      "startsAt": 1794211800,
-      "endsAt": 1794218400,
+      "startsAt": 1794291000,
+      "endsAt": 1794297600,
       "registrationDeadline": null,
       "venueName": "敏行楼1-3059",
       "city": "西安",
@@ -439,8 +361,8 @@
       "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=c62ea6f7d82f4751a9990484bb039c7e",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=c62ea6f7d82f4751a9990484bb039c7e"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=0519209ea19d406e98c76d33ae6400ef",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=0519209ea19d406e98c76d33ae6400ef"
     },
     {
       "id": "op-0d15532ffa5ba53820a11d26882b591ff4a1fe9dff2740c9e9d853526986c330",
@@ -624,6 +546,58 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=51b6254c45fc4879b86b2ca6b3ee3047"
     },
     {
+      "id": "op-d26d7e6f4cf6613514f475822304f6c6969d1ea38df33aede9b97f6995b1e758",
+      "type": "recruitment",
+      "title": "山东省财金投资集团有限公司2027年 高层次人才校园招聘公告(西安交通大学专场)",
+      "description": "校内招聘会。时间：2026-11-17 10:10:00 至 2026-11-17 12:00:00。地点或参与方式：敏行楼1-3052。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1794881400,
+      "endsAt": 1794888000,
+      "registrationDeadline": null,
+      "venueName": "敏行楼1-3052",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.250812,
+      "longitude": 108.661243,
+      "coordinateSystem": "gcj02",
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=90ce6055cdf84095983154ee1459b607",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=90ce6055cdf84095983154ee1459b607"
+    },
+    {
+      "id": "op-8b4a14ff1e4b5a534c3790310f755a2a307ee878b85e0832c6d560854bd8b7df",
+      "type": "recruitment",
+      "title": "杭州碧澄能源发展有限公司2027年校园招聘",
+      "description": "校内招聘会。时间：2026-11-17 19:10:00 至 2026-11-17 21:00:00。地点或参与方式：敏行楼1-3052。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1794913800,
+      "endsAt": 1794920400,
+      "registrationDeadline": null,
+      "venueName": "敏行楼1-3052",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.250812,
+      "longitude": 108.661243,
+      "coordinateSystem": "gcj02",
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=9fdd334474d14ff396c290399b108e20",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=9fdd334474d14ff396c290399b108e20"
+    },
+    {
       "id": "op-2e01be15e09b9a2c96bbff3e8b9e3be7cfd46a73532b386cf7a8e36872176c15",
       "type": "lecture",
       "title": "“从少年，向未来”拔尖创新人才培养高层论坛暨 西安交通大学少年班创立40周年大会举办",
@@ -722,10 +696,36 @@
       "registrationUrl": "http://dean.xjtu.edu.cn/info/1172/10614.htm"
     },
     {
-      "id": "op-135eea06bf0eb2763c2adeec89b0b1b1e7b68db79dadf938d190d4821d17aef8",
+      "id": "op-4bec51e1f47d6fe07781124b6f67898ecbde21593932a784b29b4389b44d0118",
+      "type": "scholarship",
+      "title": "2026-11-03 关于能动学院2025-2026学年研究生社会、行业奖学金提交申请的通知",
+      "description": "各班级： 现对2025-2026学年能动学院社会、行业奖学金的申请工作安排如下： 一、名额分配 如附件1（2026年能动学院研究生社会、行业奖学金名额分配及原则）所示。评奖要求依据名额分配表中的备注进行。其中行业奖学金是指能动学院签订的奖学金，社会奖学金是指学校下拨的奖学金，两者参评范围不一样，提交材料也不一样，表中均有标注，请大家注意。 附件2（2026年能动学院硕士/博士社会、行业奖学金建议申请名单）中为学院依据设奖要求以及各位同学的名次排序得出，大家可依据表格建议进行申请。各个社会奖学金与行业奖学金之间不兼得，且每人有且只有一次申请的机会。（其中表格中标黄的为社会奖学金） 同时，社会奖学金、行业奖学金的奖金一般是从设奖人下一财年的经费中列支的，学校只能在收到设奖人汇来的奖金后，方可转发给获奖研究生。在这一过程中，存在因不可抗力导致设奖人不能提供资金，学校不能发放的情形。 二、申请流程 1.社会奖学金申请流程（建议申请名单中标黄的均为社会奖学金） 1）个人提交附件4（西安交通大学社会奖学金申请表），并按照附件1中提交材料要求准备好材料，将附件材料（获奖材料等）一同编辑至文档后面，以“奖学金名称-姓名-班级”统一命名，纸质版和电子版材料均需要； 2）获奖学生均需按照要求扫描以下二维码完成表格填写，与奖学金发放有关，务必信息准确； 3）请微信扫码进群： 2.行业奖学金申请流程 1）个人提交附件3（能动学院行业奖学金申请表），并将附件材料（获奖材料等）一同编辑至文档后面，以“奖学金名称-姓名-班级”统一命名，纸质版和电子版材料均需要； 2）获奖学生均需按照要求扫描以下二维码完成表格填写，与奖学金发放有关，务必信息准确； 3）获奖学生彩色打印附件5（感谢信信纸模板），并手写感谢信，并粘贴一张个人5寸生活照，与其他材料一同上交。只需要纸质版； 4）请微信扫码进群： 所有材料和表格按照要求填报，不得更改表格内容或使用自制表格。同时，提交电子材料请一次报送完毕，不要分开发送。 请放弃本次奖学金申请的同学于2026年11月5日16:00之前提交放弃奖学金申请说明，本人签字，拍照或者扫描发送至532259050@qq.com。 请申请奖学金的同学于2026年11月6日9:00-18:00工作时间之内，将纸质版材料交至北二楼1301办公室或创新港1-5196办公室，电子版材料压缩为一个文件，以【奖学金名称-硕XXX -姓名】命名，发送至maneuxjtu@163.com。 如有问题，可及时联系。 联系人： 张老师 电 话： 82667940 能源与动力工程学院 2026年11月3日",
+      "organizer": "西安交大能动学院奖学金通知",
+      "category": "奖学金通知",
+      "tags": [
+        "西安交通大学",
+        "能动学院",
+        "奖学金"
+      ],
+      "startsAt": null,
+      "endsAt": null,
+      "registrationDeadline": 1793865600,
+      "venueName": null,
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "unknown",
+      "sourceName": "西安交大能动学院奖学金通知",
+      "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6011.htm",
+      "registrationUrl": "https://epe.xjtu.edu.cn/info/1483/6011.htm"
+    },
+    {
+      "id": "op-999c17ca3906fb31ce1f7f2dbcc3d58ad076bfae948b99233879d66f6fa0b09a",
       "type": "recruitment",
-      "title": "才聚天府 筑梦成都2026“蓉漂人才荟”西安交通大学专场活动",
-      "description": "组团招聘。时间：2026-11-04 10:20:00 至 2026-11-04 12:30:00。地点或参与方式：学生就业创业指导服务中心一楼信息发布厅。",
+      "title": "“海丝泉州 人才港湾”2026—2027年送岗引才进校园招聘活动",
+      "description": "组团招聘。时间：2026-11-05 09:00:00 至 2026-11-05 12:00:00。地点或参与方式：兴庆校区就创中心一楼大厅。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "组团招聘",
       "tags": [
@@ -733,25 +733,25 @@
         "校园招聘",
         "线下"
       ],
-      "startsAt": 1793758800,
-      "endsAt": 1793766600,
+      "startsAt": 1793840400,
+      "endsAt": 1793851200,
       "registrationDeadline": null,
-      "venueName": "学生就业创业指导服务中心一楼信息发布厅",
+      "venueName": "兴庆校区就创中心一楼大厅",
       "city": "西安",
       "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
+      "latitude": 34.246233,
+      "longitude": 108.983741,
+      "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=00d83290a5774c5cb67ed75922e9eae8",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=00d83290a5774c5cb67ed75922e9eae8"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=7f95c73cea174377b88121504fad3e05",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=7f95c73cea174377b88121504fad3e05"
     },
     {
-      "id": "op-12bec08ab98d3abb6d6f4444dc5d5e63a7914a3a88ff7275332e05669a14ef6d",
+      "id": "op-0d5081ceb6d68cbbe97aefd96fb03985677f72280fdb90a2a7a1cd27023ca9dc",
       "type": "recruitment",
-      "title": "深圳市景旺电子股份有限公司2027届校园招聘",
-      "description": "校内招聘会。时间：2026-11-04 14:10:00 至 2026-11-04 16:00:00。地点或参与方式：敏行楼1-3052。",
+      "title": "首创证券股份有限公司",
+      "description": "校内招聘会。时间：2026-11-05 14:10:00 至 2026-11-05 16:00:00。地点或参与方式：敏行楼1-3052。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "校内招聘会",
       "tags": [
@@ -759,8 +759,8 @@
         "校园招聘",
         "线下"
       ],
-      "startsAt": 1793772600,
-      "endsAt": 1793779200,
+      "startsAt": 1793859000,
+      "endsAt": 1793865600,
       "registrationDeadline": null,
       "venueName": "敏行楼1-3052",
       "city": "西安",
@@ -770,14 +770,14 @@
       "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=68e91ca66ed34c5f83015bb6cf29dde1",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=68e91ca66ed34c5f83015bb6cf29dde1"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=41dc9be5eb6649b598b4b5147924d6a3",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=41dc9be5eb6649b598b4b5147924d6a3"
     },
     {
-      "id": "op-83286a98cc58bbf7dbdb17161f7e28ec235399c376ecaae53136b430b9796358",
+      "id": "op-3ef63a872d0b49c8ac5b3a1ea63e33c362cbd7d3fc1e11d7292ed181ed0bc9c5",
       "type": "recruitment",
-      "title": "格林美股份有限公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-11-04 14:10:00 至 2026-11-04 16:00:00。地点或参与方式：敏行楼1-3059。",
+      "title": "华东医药股份有限公司2027届校园招聘宣讲会",
+      "description": "校内招聘会。时间：2026-11-05 19:10:00 至 2026-11-05 21:00:00。地点或参与方式：西配楼101。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "校内招聘会",
       "tags": [
@@ -785,19 +785,45 @@
         "校园招聘",
         "线下"
       ],
-      "startsAt": 1793772600,
-      "endsAt": 1793779200,
+      "startsAt": 1793877000,
+      "endsAt": 1793883600,
+      "registrationDeadline": null,
+      "venueName": "西配楼101",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.242475,
+      "longitude": 108.643825,
+      "coordinateSystem": "gcj02",
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=30ed78c79c2e4f558bf4102294e7c1b3",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=30ed78c79c2e4f558bf4102294e7c1b3"
+    },
+    {
+      "id": "op-401b1ed47785f4868a34c74d6cffb4c301dffc8542a816ff40ed61b8160181b3",
+      "type": "recruitment",
+      "title": "上海核工程研究设计院股份有限公司（调试中心）2027年校园招聘",
+      "description": "校内招聘会。时间：2026-11-09 16:10:00 至 2026-11-09 18:00:00。地点或参与方式：敏行楼1-3059。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1794211800,
+      "endsAt": 1794218400,
       "registrationDeadline": null,
       "venueName": "敏行楼1-3059",
       "city": "西安",
       "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
+      "latitude": 34.250812,
+      "longitude": 108.661243,
+      "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=3a110b2ae1bb45c18d2f6c41aaa8d690",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=3a110b2ae1bb45c18d2f6c41aaa8d690"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=c62ea6f7d82f4751a9990484bb039c7e",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=c62ea6f7d82f4751a9990484bb039c7e"
     },
     {
       "id": "op-b49b65a0896fb82f888a1e74435dd99eabb9426a6533bdcc0e243f8839d25111",
@@ -824,84 +850,6 @@
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=1dc096f1c50c4bfcbf6fc8ab61dea0e0",
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=1dc096f1c50c4bfcbf6fc8ab61dea0e0"
-    },
-    {
-      "id": "op-8b4a14ff1e4b5a534c3790310f755a2a307ee878b85e0832c6d560854bd8b7df",
-      "type": "recruitment",
-      "title": "杭州碧澄能源发展有限公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-11-17 19:10:00 至 2026-11-17 21:00:00。地点或参与方式：敏行楼1-3052。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1794913800,
-      "endsAt": 1794920400,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=9fdd334474d14ff396c290399b108e20",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=9fdd334474d14ff396c290399b108e20"
-    },
-    {
-      "id": "op-011d20378268cf727548592abcc62dbe58d26f2621f7fafc8fb9271680b66dae",
-      "type": "recruitment",
-      "title": "【在桃李，见未来】桃李未来2027届秋季校园招聘",
-      "description": "空中宣讲会（其他平台）。时间：2026-11-04 16:00:00 至 2026-11-04 17:00:00。地点或参与方式：校外空中宣讲会（https://live.bilibili.com/3356592）。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "空中宣讲会（其他平台）",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线上"
-      ],
-      "startsAt": 1793779200,
-      "endsAt": 1793782800,
-      "registrationDeadline": null,
-      "venueName": null,
-      "city": "西安",
-      "isOnline": true,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=eab33241d5e44e099067427aa99697a7",
-      "registrationUrl": "https://live.bilibili.com/3356592"
-    },
-    {
-      "id": "op-6b22c36f55c9130c26c95439e635bcc1d5145109412e9ff7543469b7e085444a",
-      "type": "recruitment",
-      "title": "海辰储能2027届校园招聘宣讲会",
-      "description": "校内招聘会。时间：2026-11-04 19:10:00 至 2026-11-04 21:00:00。地点或参与方式：敏行楼1-3059。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1793790600,
-      "endsAt": 1793797200,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3059",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=72087828db984f3ea607513ca23f195e",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=72087828db984f3ea607513ca23f195e"
     },
     {
       "id": "op-c086b3143ca300f01fd1fc417d7f72892c951ebaf898c787460950ce1785f0c7",
@@ -952,30 +900,6 @@
       "sourceName": "西安交通大学本科生院通知",
       "sourceUrl": "http://dean.xjtu.edu.cn/info/1172/10496.htm",
       "registrationUrl": "http://dean.xjtu.edu.cn/info/1172/10496.htm"
-    },
-    {
-      "id": "op-2bb1accc4c71697812cf4a2cc4cb8a1badd28ae8076f82104ecfdeb5b8d875ca",
-      "type": "competition",
-      "title": "关于举办西安交通大学2026年本科教学秘书素质能力大赛的通知",
-      "description": "为全面落实立德树人根本任务，进一步夯实本科教学管理基础，坚持“以赛促学、以赛促练、以赛促建、以赛凝心”工作理念，增强基层教学管理人员之间的交流与学习，激发教学秘书的使命感、责任感和荣誉感，推动教学秘书队伍专业化、规范化建设，以高水平教学管理效能筑牢人才培养支撑体系，为学校本科人才培养质量稳步提升提供坚实保障，决定举办西安交通大学2026年本科教学秘书素质能力大赛。现将有关事项通知如下： 一、参赛对象 参赛对象为全校各学院（部、中心）从事本科教学管理工作的基层教学管理人员。各学院（部、中心）须至少推荐 1 名人员参加本次大赛。教学秘书岗位任职不满 3 年人员，须全部参赛。 二、比赛时间 初赛：2026年11月4日下午 决赛：2026年11月上旬 三、比赛安排 大赛分为初赛和决赛2个赛段。各赛段原始分均为100分，赛事考核层层递进，从基础能力测评逐步过渡到综合素养考评，全面检验教务管理人员的政策功底、实操能力、研判水平与服务履职能力。各赛段具体项目、考核范围及要求如下。 （一）初赛 初赛项目包括教学管理基础知识测试和学情分析2项内容，考试时长为90分钟，采用笔试作答的形式进行。初赛聚焦教务日常基础性、常态化业务，重点考查教学秘书必备理论知识与常规实操技能。 1.教学管理基础知识测试。本项目采用笔试作答形式，总分为70分。内容紧扣学校本科教学管理规章制度与日常业务规范，主要涵盖教学管理全流程基础知识，重点考查参赛人员对教学管理政策、基础业务知识的熟悉掌握程度，检验岗位基础理论素养与合规履职意识。 2.学情分析。本项目采用笔试作答形式，总分为30分。项目围绕本科学生学情管理核心工作开展考核，组织方提供学生学情等相关资料。参赛人员需结合教学管理要求，精准梳理学生学业问题、分析问题成因、研判学业风险，并针对性提出学情帮扶、学业预警管理措施，形成完整的学情分析报告。重点考查参赛人员数据研判、问题梳理、学业管理与精准育人保障能力。 （二）决赛 决赛采用现场实景模拟和专家问辩形式进行，聚焦教务服务育人、复杂问题处置与专业综合素养，决出大赛一、二、三等奖和优秀奖，全方位展现教务管理人员岗位担当与专业风采。 1.现场咨询模拟。本项目实景还原师生服务一线场景，总分为50分。现场模拟学生学习困难、转专业、研究生推免等各类学生咨询场景，以及教师关于课程、考试、成绩、教学材料等咨询。参赛人员赛前随机抽取咨询情景题目，每组模拟咨询互动时间为5分钟，参赛人员需在规定时间内开展答疑解惑、政策解读、情绪疏导、业务指导与帮扶建议。重点考查参赛人员服务礼仪、沟通表达、应急疏导、服务育人的综合服务能力。 2.专家现场问辩。由评审专家结合选手现场咨询模拟的整体表现进行针对性提问，总分为50分。重点围绕师生接待应对逻辑、政策精准解读、业务流程规范指导、师生情绪疏导技巧、疑难问题处置思路、服务风险防控以及教务精细化管理思路等维度开展问辩。参赛人员需结合岗位工作实际现场作答，阐述服务理念、处置方法与工作思考。本项目重点考查参赛人员的专业知识积淀、临场思辨能力、岗位实操思考以及履职担当的综合业务能力。 四、评分规则 初赛计分规则。初赛分数=教学管理基础知识测试分数+学情分析分数，若出现成绩相同的情况，以学情分析分数高者为先。 决赛计分规则。决赛分数=初赛分数*50%+（现场咨询模拟+专家现场问辩）*50%，若出现成绩相同的情况，以专家现场问辩得分高者为先。 五、工作要求 1.组织动员。各学院（部、中心）要高度重视本次大赛，认真做好内部动员组织工作，严格落实参赛人员遴选要求，以本次赛事为契机，推动岗位业务练兵，切实提升本科教学管理队伍业务实操能力。 2.材料报送。各学院（部、中心）统筹安排本单位教务管理人员参赛，规范填写参赛报名汇总表（附件1），于2026年10月10日 17:00 前将加盖单位公",
-      "organizer": "西安交通大学本科生院通知",
-      "category": null,
-      "tags": [
-        "西安交通大学"
-      ],
-      "startsAt": 1793764800,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "规定时间内",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "unknown",
-      "sourceName": "西安交通大学本科生院通知",
-      "sourceUrl": "http://dean.xjtu.edu.cn/info/1172/10483.htm",
-      "registrationUrl": "http://dean.xjtu.edu.cn/info/1172/10483.htm"
     },
     {
       "id": "op-bb423f862fd6086b1dc2a64604a2c55ca33446411afdac549b665caefeaafed3",
