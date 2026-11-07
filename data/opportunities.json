@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-06T23:43:50.567Z",
-  "checkedAt": "2026-11-06T23:43:50.567Z",
-  "lastSuccessfulAt": "2026-11-06T23:43:50.567Z",
+  "generatedAt": "2026-11-07T22:44:58.338Z",
+  "checkedAt": "2026-11-07T22:44:58.338Z",
+  "lastSuccessfulAt": "2026-11-07T22:44:58.338Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 32 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 29 条最近快照",
   "sourceCount": 24,
-  "sourceFailures": 2,
+  "sourceFailures": 1,
   "sourceHealth": [
     {
       "name": "西安交通大学学术资源平台",
@@ -65,9 +65,8 @@
     },
     {
       "name": "陕汽控股人才招聘",
-      "status": "failed",
-      "items": 0,
-      "error": "来源网络请求失败（ETIMEDOUT）。"
+      "status": "ok",
+      "items": 36
     },
     {
       "name": "交大青年之声",
@@ -117,7 +116,7 @@
     {
       "name": "交大新闻网·创新港活动",
       "status": "ok",
-      "items": 126
+      "items": 125
     },
     {
       "name": "西安市体育局公开活动",
@@ -720,83 +719,6 @@
       "sourceName": "西安交通大学本科生院通知",
       "sourceUrl": "http://dean.xjtu.edu.cn/info/1172/10614.htm",
       "registrationUrl": "http://dean.xjtu.edu.cn/info/1172/10614.htm"
-    },
-    {
-      "id": "op-c2a0c6b9e3417f3466d63602066aa7f99ba09105f156493f018287563b7b43cb",
-      "type": "recruitment",
-      "title": "杭州艾美依航空制造装备有限公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-11-06 10:10:00 至 2026-11-06 12:00:00。地点或参与方式：敏行楼1-3052。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1793931000,
-      "endsAt": 1793937600,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=5a3939d08bc14c6291d3db2460eabe8e",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=5a3939d08bc14c6291d3db2460eabe8e"
-    },
-    {
-      "id": "op-d166b75b55fba6b17dc7d692abd6080bdec9e52d6a7562fb97be058a33ff09f5",
-      "type": "lecture",
-      "title": "周惠久论坛——高比能锂离子电池硅基负极：多孔结构设计与储锂性能研究",
-      "description": "主讲：霍开富。校区：兴庆校区。",
-      "organizer": "西安交通大学",
-      "category": "学术讲座",
-      "tags": [
-        "西安交通大学",
-        "兴庆校区"
-      ],
-      "startsAt": 1793937600,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "仲英楼材料学院第一...",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 33.976849,
-      "longitude": 109.233478,
-      "coordinateSystem": "gcj02",
-      "feeType": "unknown",
-      "sourceName": "西安交通大学学术资源平台",
-      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7027.htm",
-      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7027.htm"
-    },
-    {
-      "id": "op-fd00dcce2b414e4283ce2318df9157c7dc8fc32fde5f63ac7814f547c44493eb",
-      "type": "recruitment",
-      "title": "晓禾科技27届秋招",
-      "description": "空中宣讲会（其他平台）。时间：2026-11-06 15:00:00 至 2026-11-06 15:45:00。地点或参与方式：校外空中宣讲会（856-399-171）。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "空中宣讲会（其他平台）",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线上"
-      ],
-      "startsAt": 1793948400,
-      "endsAt": 1793951100,
-      "registrationDeadline": null,
-      "venueName": null,
-      "city": "西安",
-      "isOnline": true,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=ed441914ee8c48b1807bdc0001abc6a3",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=ed441914ee8c48b1807bdc0001abc6a3"
     },
     {
       "id": "op-ab53970c0882f23aec9c95cd286ed9c7f00d77ccd044c5c3eac84cb2aae7162e",
