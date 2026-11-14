@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-14T00:20:14.476Z",
-  "checkedAt": "2026-11-14T00:20:14.476Z",
-  "lastSuccessfulAt": "2026-11-14T00:20:14.476Z",
+  "generatedAt": "2026-11-14T22:59:05.721Z",
+  "checkedAt": "2026-11-14T22:59:05.721Z",
+  "lastSuccessfulAt": "2026-11-14T22:59:05.721Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 23 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 21 条最近快照",
   "sourceCount": 24,
   "sourceFailures": 1,
   "sourceHealth": [
@@ -116,7 +116,7 @@
     {
       "name": "交大新闻网·创新港活动",
       "status": "ok",
-      "items": 125
+      "items": 126
     },
     {
       "name": "西安市体育局公开活动",
@@ -131,81 +131,6 @@
   ],
   "geocodeRemaining": 0,
   "items": [
-    {
-      "id": "op-40bcc210644d6ccbf58d9a59c58a92882e184cbfe8e198e776c56b9b11eb0782",
-      "type": "lecture",
-      "title": "朝向一种认知纯净主义",
-      "description": "主讲：郑伟平。校区：兴庆校区。",
-      "organizer": "西安交通大学",
-      "category": "学术讲座",
-      "tags": [
-        "西安交通大学",
-        "兴庆校区"
-      ],
-      "startsAt": 1794628800,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "兴庆校区主楼E810",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.244725,
-      "longitude": 108.983475,
-      "coordinateSystem": "gcj02",
-      "feeType": "unknown",
-      "sourceName": "西安交通大学学术资源平台",
-      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7030.htm",
-      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7030.htm"
-    },
-    {
-      "id": "op-e864e43700964c14c84ef1e4dc78ce420c5dedb2945ef84a1b8be04995dd0054",
-      "type": "lecture",
-      "title": "如何理解知识谎言",
-      "description": "主讲：田海滨。校区：兴庆校区。",
-      "organizer": "西安交通大学",
-      "category": "学术讲座",
-      "tags": [
-        "西安交通大学",
-        "兴庆校区"
-      ],
-      "startsAt": 1794628800,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "兴庆校区主楼E810",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.244725,
-      "longitude": 108.983475,
-      "coordinateSystem": "gcj02",
-      "feeType": "unknown",
-      "sourceName": "西安交通大学学术资源平台",
-      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7029.htm",
-      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7029.htm"
-    },
-    {
-      "id": "op-99c198e41f32fcbbbaa983758d78b36833e823f6bb5b152c8af2d0beae25eae7",
-      "type": "lecture",
-      "title": "如何明辨道德证言？",
-      "description": "主讲：王奇琦。校区：兴庆校区。",
-      "organizer": "西安交通大学",
-      "category": "学术讲座",
-      "tags": [
-        "西安交通大学",
-        "兴庆校区"
-      ],
-      "startsAt": 1794628800,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "兴庆校区主楼E810",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.244725,
-      "longitude": 108.983475,
-      "coordinateSystem": "gcj02",
-      "feeType": "unknown",
-      "sourceName": "西安交通大学学术资源平台",
-      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7031.htm",
-      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7031.htm"
-    },
     {
       "id": "op-58cb09b635790892d102c59b7414e1e158c05bf756e6c8a848d0b54fbd48f33b",
       "type": "recruitment",
@@ -515,6 +440,81 @@
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
     },
     {
+      "id": "op-40bcc210644d6ccbf58d9a59c58a92882e184cbfe8e198e776c56b9b11eb0782",
+      "type": "lecture",
+      "title": "朝向一种认知纯净主义",
+      "description": "主讲：郑伟平。校区：兴庆校区。",
+      "organizer": "西安交通大学",
+      "category": "学术讲座",
+      "tags": [
+        "西安交通大学",
+        "兴庆校区"
+      ],
+      "startsAt": 1794628800,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": "兴庆校区主楼E810",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.244725,
+      "longitude": 108.983475,
+      "coordinateSystem": "gcj02",
+      "feeType": "unknown",
+      "sourceName": "西安交通大学学术资源平台",
+      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7030.htm",
+      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7030.htm"
+    },
+    {
+      "id": "op-e864e43700964c14c84ef1e4dc78ce420c5dedb2945ef84a1b8be04995dd0054",
+      "type": "lecture",
+      "title": "如何理解知识谎言",
+      "description": "主讲：田海滨。校区：兴庆校区。",
+      "organizer": "西安交通大学",
+      "category": "学术讲座",
+      "tags": [
+        "西安交通大学",
+        "兴庆校区"
+      ],
+      "startsAt": 1794628800,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": "兴庆校区主楼E810",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.244725,
+      "longitude": 108.983475,
+      "coordinateSystem": "gcj02",
+      "feeType": "unknown",
+      "sourceName": "西安交通大学学术资源平台",
+      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7029.htm",
+      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7029.htm"
+    },
+    {
+      "id": "op-99c198e41f32fcbbbaa983758d78b36833e823f6bb5b152c8af2d0beae25eae7",
+      "type": "lecture",
+      "title": "如何明辨道德证言？",
+      "description": "主讲：王奇琦。校区：兴庆校区。",
+      "organizer": "西安交通大学",
+      "category": "学术讲座",
+      "tags": [
+        "西安交通大学",
+        "兴庆校区"
+      ],
+      "startsAt": 1794628800,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": "兴庆校区主楼E810",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": 34.244725,
+      "longitude": 108.983475,
+      "coordinateSystem": "gcj02",
+      "feeType": "unknown",
+      "sourceName": "西安交通大学学术资源平台",
+      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7031.htm",
+      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7031.htm"
+    },
+    {
       "id": "op-99c45fa6002c04a81553f3250e9f7580adbff04f3bf50ea161a59f2e715d634d",
       "type": "scholarship",
       "title": "2026-11-02 能动学院关于开展西安交通大学2026年“冯博琴人工智能奖学金”评选工作的通知",
@@ -539,58 +539,6 @@
       "sourceName": "西安交大能动学院奖学金通知",
       "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6001.htm",
       "registrationUrl": "https://epe.xjtu.edu.cn/info/1483/6001.htm"
-    },
-    {
-      "id": "op-8a91f7b37e8fc9c90a3a221cbd9bee9fe0d17b89dc2e4d84c2a23980e416004e",
-      "type": "recruitment",
-      "title": "南京林业大学信息科学技术学院招聘",
-      "description": "校内招聘会。时间：2026-11-13 09:00:00 至 2026-11-13 10:00:00。地点或参与方式：就创中心204报告厅。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1794531600,
-      "endsAt": 1794535200,
-      "registrationDeadline": null,
-      "venueName": "就创中心204报告厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.242475,
-      "longitude": 108.643825,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=a2ae929d494a4af989e74ac142e3a333",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=a2ae929d494a4af989e74ac142e3a333"
-    },
-    {
-      "id": "op-0293d431ea28f56500e605c85c8dc6b7aa8501a569c0656ccbedf192409dfa31",
-      "type": "recruitment",
-      "title": "南京乐金电子研发有限公司中国机器人执行器研究所2027届校园招聘",
-      "description": "校内招聘会。时间：2026-11-13 19:10:00 至 2026-11-13 21:00:00。地点或参与方式：敏行楼1-3052。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1794568200,
-      "endsAt": 1794574800,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=51b6254c45fc4879b86b2ca6b3ee3047",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=51b6254c45fc4879b86b2ca6b3ee3047"
     },
     {
       "id": "op-23be06f1189c78de4bc9b368b02c7c63af7e8dcc2e486d7356ffc70f0d6750f7",
