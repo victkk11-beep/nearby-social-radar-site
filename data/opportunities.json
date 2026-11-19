@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-18T08:47:36.291Z",
-  "checkedAt": "2026-11-18T08:47:36.291Z",
-  "lastSuccessfulAt": "2026-11-18T08:47:36.291Z",
+  "generatedAt": "2026-11-19T01:13:02.263Z",
+  "checkedAt": "2026-11-19T01:13:02.263Z",
+  "lastSuccessfulAt": "2026-11-19T01:13:02.263Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 25 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 27 条最近快照",
   "sourceCount": 24,
   "sourceFailures": 1,
   "sourceHealth": [
@@ -30,7 +30,7 @@
     {
       "name": "西安交通大学就业招聘日历",
       "status": "ok",
-      "items": 73
+      "items": 76
     },
     {
       "name": "西安交大能动学院就业实践",
@@ -129,60 +129,8 @@
       "items": 35
     }
   ],
-  "geocodeRemaining": 0,
+  "geocodeRemaining": 12,
   "items": [
-    {
-      "id": "op-9991d624ca8517c955fdaf9ccc4c11c942e32b79f05bd3fa354b83fb2d041399",
-      "type": "recruitment",
-      "title": "宝姿（中国）有限公司2027届秋季校园招聘",
-      "description": "校内招聘会。时间：2026-11-18 14:10:00 至 2026-11-18 16:00:00。地点或参与方式：就创中心一楼信息发布厅。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1794982200,
-      "endsAt": 1794988800,
-      "registrationDeadline": null,
-      "venueName": "就创中心一楼信息发布厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=44cb17f6b0f44467b73a7d17ae2b6cd0",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=44cb17f6b0f44467b73a7d17ae2b6cd0"
-    },
-    {
-      "id": "op-18fb8af10fcb17fe417b09e46bf017a3f06e62f3e25b745a10ca645e1b4b7368",
-      "type": "recruitment",
-      "title": "河南省医学科学院2027年校园招聘",
-      "description": "校内招聘会。时间：2026-11-18 16:10:00 至 2026-11-18 18:00:00。地点或参与方式：西配楼101。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1794989400,
-      "endsAt": 1794996000,
-      "registrationDeadline": null,
-      "venueName": "西配楼101",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=4426d95feece4837a1fab761b4e97978",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=4426d95feece4837a1fab761b4e97978"
-    },
     {
       "id": "op-ad4903c24cdccb161fb170ab040b79d9cf793f3377b7af0e069ff85abf288983",
       "type": "recruitment",
@@ -340,6 +288,32 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=5af754d2d5844c069490d3c073c3fa9c"
     },
     {
+      "id": "op-59e26e20060cbfceed3c261a3d88d5c4ec6916bd4534998edc10e3b0209e7366",
+      "type": "recruitment",
+      "title": "“职选厦一站 门纳众英才”2026秋季厦门城市引才推介暨校园招聘活动",
+      "description": "组团招聘。时间：2026-11-21 09:30:00 至 2026-11-21 12:00:00。地点或参与方式：西安交通大学兴庆校区就业创业中心一楼大厅。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "组团招聘",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1795224600,
+      "endsAt": 1795233600,
+      "registrationDeadline": null,
+      "venueName": "西安交通大学兴庆校区就业创业中心一楼大厅",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=11f3d70dac4e47c094eea8eb2e211688",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=11f3d70dac4e47c094eea8eb2e211688"
+    },
+    {
       "id": "op-46a3cb212cb9d18973a918e666f473f5fe42cb03f121bad38626906cb3d6ae23",
       "type": "recruitment",
       "title": "哈尔滨电机厂有限责任公司2027年校园招聘",
@@ -418,6 +392,32 @@
       "registrationUrl": "https://mp.weixin.qq.com/s/Skxpz08sUUKlT-pRHob3Bw"
     },
     {
+      "id": "op-6ef7cfd277387fc411fe43c0db661a8d86ade294e71f66c8bec77392853afb21",
+      "type": "recruitment",
+      "title": "国家电投集团贵州金元股份有限公司2027届招聘",
+      "description": "校内招聘会。时间：2026-11-24 19:10:00 至 2026-11-24 21:00:00。地点或参与方式：敏行楼1-3059。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1795518600,
+      "endsAt": 1795525200,
+      "registrationDeadline": null,
+      "venueName": "敏行楼1-3059",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=c089d7275e3e48e5a89274cbdbfa39d9",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=c089d7275e3e48e5a89274cbdbfa39d9"
+    },
+    {
       "id": "op-04a0e6e509e3d320e21a3ed6afa259075351fa7394194c2e7de39973cac7bef7",
       "type": "recruitment",
       "title": "中国电建集团四川工程有限公司2027年校园招聘",
@@ -435,9 +435,9 @@
       "venueName": "敏行楼1-3052",
       "city": "西安",
       "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
+      "latitude": 34.250812,
+      "longitude": 108.661243,
+      "coordinateSystem": "gcj02",
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=8fb6686b3af349c790839b05d3fac42c",
@@ -470,6 +470,32 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=489ad2ab1e8a42c99c3e869d51f9766a"
     },
     {
+      "id": "op-43601175529c3118ae46eafbf597e44bc2d951f0ce9af96888b355d68d927a22",
+      "type": "recruitment",
+      "title": "央企校招 | 国家数据集团2027届秋季校园招聘正式启动",
+      "description": "校内招聘会。时间：2026-11-27 14:00:00 至 2026-11-27 16:00:00。地点或参与方式：涵英楼5-1E105。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1795759200,
+      "endsAt": 1795766400,
+      "registrationDeadline": null,
+      "venueName": "涵英楼5-1E105",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=8c74af77cdb1454d9bf1fc8945e6dcc4",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=8c74af77cdb1454d9bf1fc8945e6dcc4"
+    },
+    {
       "id": "op-2e01be15e09b9a2c96bbff3e8b9e3be7cfd46a73532b386cf7a8e36872176c15",
       "type": "lecture",
       "title": "“从少年，向未来”拔尖创新人才培养高层论坛暨 西安交通大学少年班创立40周年大会举办",
@@ -493,30 +519,6 @@
       "sourceName": "钱学森学院官方活动",
       "sourceUrl": "https://bjb.xjtu.edu.cn/info/1010/4297.htm",
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1010/4297.htm"
-    },
-    {
-      "id": "op-5a3b3ef538ee81c8758ff30973eeaffb4cc0db9cbfc974221905955daad4af4b",
-      "type": "workshop",
-      "title": "攀登计划 | 西安交通大学2026“攀登计划”AI训练营报名开启",
-      "description": "西安交通大学 “攀登计划”AI训练营 从AI使用者迈向AI创造者 10亿token，10000积分，等你来领! 为推进人工智能通识教育与创新创业实践，西安交通大学2026年「攀登计划」AI训练营将于即日起开放报名。训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团 AI 大学堂联合主办，面向全体在校学生（本科、硕士、博士），不限年级、不限专业，围绕 AI Agent、Skill 开发、RAG 三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。学员完成课程学习并提交实操成果，符合要求后可获西安交通大学与科大讯飞AI大学堂联合认证的结营证书，报名即享算力与产品积分支持。 01活动概览 活动名称：西安交通大学2026年「攀登计划」AI训练营。 活动时间：即日起至11月30日（共21天）。 参加对象：西安交通大学全体在校学生（本科、硕士、博士），不限年级、不限专业，均可报名参加。 报名要求：无需软件开发基础；仅「RAG 实战训练营」要求具备基础编程能力。 训练营设置：四个主题训练营，单个训练营 4 课时，RAG 实战训练营 8 课时。 学习方式：线上课程学习与实操任务提交，报名后领取算力及产品积分。 营员评优：需参加后续线下黑客松，根据任务完成情况评选AI训练营优秀营员。 报名方式：登录活动官方页面在线报名，详见本文第六部分。 02四大主题训练营 每名学员可选择1-2个训练营报名，累计学习课时不少于8小时。 训练营1 行业研究与金融投研训练营 训练营2 办公提效训练营 训练营3 开发实战训练营 训练营4 RAG实战训练营 选营建议 1、拟从事行业研究、投研工作：行业研究与金融投研训练营； 2、希望提升学习与办公效率：办公提效训练营； 3、有工具开发需求、希望把重复工作封装为Skill：Skill开发实战训练营； 4、计算机相关专业、希望参与企业级项目：RAG实战训练营。 03学习流程与证书发放 从选择到实践，从学习到认证，四步开启你的 AI 进阶之路。 1选择训练营并报名 根据专业背景与学习兴趣选择1-2 个训练营，累计学习课时不少于8小时。 2领取算力与产品积分 报名后可领取 算力及 AI Agent 产品积分，用于课程实操与作品开发。 3完成课程学习 跟随讯飞技术专家完成全部课程，每节视频有效播放时长须达到总时长的 80%。 4提交实操任务 提交实操作品，审核通过后获得结营证书；优秀作品另行评选并给予奖励。 证书发放要求 完成以下任一任务，即可领取西安交通大学与科大讯飞 AI 大学堂联合认证的结营证书： ①完成前3门训练营中的任意2门； ②完成RAG实战训练营。 说明：各训练营实操通关任务须审核通过；每节视频有效播放时长须达到总时长的80%，整营课程全部完成后方计入课时。 04报名权益 10亿Token 星火 Spark-X2.5 免费算力额度，覆盖课程实操、作品开发与反复调试。 结营证书 实习推荐 表现优异的学员有机会获得科大讯飞实习邀约。 硬件奖品 面向优秀学员评选发放，结营后 15 个工作日内寄出。 05心愿Skill，帮你实现！ 面向全校学生，征集希望拥有的 AI Skill： 为使训练营成果更贴近同学们的实际需求，本次训练营同步开展 Skill 需求征集。全校学生均可提交希望拥有的 AI Skill，并说明希望由 AI 承担的具体工作。征集结束后，组织方将对需求进行汇总与评议，呼声较高的需求由 Skill 开发实战训练营学员组队认领，在讯飞技术专家指导下开发，成果于结营后向全校学生开放共享。 参考需求方向 · 课程课件自动整理、提炼课堂重点 · 校园活动策划方案、宣传文案生成 · 日程规划、待办清单与复习计划自动编排 · 活动录音转写、整理活动纪要 · 社团报名表、活动问卷自动汇总分析 （以上仅为示例） 征集截",
-      "organizer": "交大青年之声",
-      "category": null,
-      "tags": [
-        "西安交通大学"
-      ],
-      "startsAt": 1796011200,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": null,
-      "city": "西安",
-      "isOnline": true,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "交大青年之声",
-      "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
-      "registrationUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794"
     },
     {
       "id": "op-2a7fccbb5259a8895d8f52fcf292a1c808a9eaec06222fcc000898f47d4efe6e",
@@ -544,10 +546,10 @@
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
     },
     {
-      "id": "op-8b4a14ff1e4b5a534c3790310f755a2a307ee878b85e0832c6d560854bd8b7df",
+      "id": "op-9991d624ca8517c955fdaf9ccc4c11c942e32b79f05bd3fa354b83fb2d041399",
       "type": "recruitment",
-      "title": "杭州碧澄能源发展有限公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-11-17 19:10:00 至 2026-11-17 21:00:00。地点或参与方式：敏行楼1-3052。",
+      "title": "宝姿（中国）有限公司2027届秋季校园招聘",
+      "description": "校内招聘会。时间：2026-11-18 14:10:00 至 2026-11-18 16:00:00。地点或参与方式：就创中心一楼信息发布厅。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "校内招聘会",
       "tags": [
@@ -555,19 +557,69 @@
         "校园招聘",
         "线下"
       ],
-      "startsAt": 1794913800,
-      "endsAt": 1794920400,
+      "startsAt": 1794982200,
+      "endsAt": 1794988800,
       "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
+      "venueName": "就创中心一楼信息发布厅",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=9fdd334474d14ff396c290399b108e20",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=9fdd334474d14ff396c290399b108e20"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=44cb17f6b0f44467b73a7d17ae2b6cd0",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=44cb17f6b0f44467b73a7d17ae2b6cd0"
+    },
+    {
+      "id": "op-18fb8af10fcb17fe417b09e46bf017a3f06e62f3e25b745a10ca645e1b4b7368",
+      "type": "recruitment",
+      "title": "河南省医学科学院2027年校园招聘",
+      "description": "校内招聘会。时间：2026-11-18 16:10:00 至 2026-11-18 18:00:00。地点或参与方式：西配楼101。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1794989400,
+      "endsAt": 1794996000,
+      "registrationDeadline": null,
+      "venueName": "西配楼101",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=4426d95feece4837a1fab761b4e97978",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=4426d95feece4837a1fab761b4e97978"
+    },
+    {
+      "id": "op-5a3b3ef538ee81c8758ff30973eeaffb4cc0db9cbfc974221905955daad4af4b",
+      "type": "workshop",
+      "title": "攀登计划 | 西安交通大学2026“攀登计划”AI训练营报名开启",
+      "description": "西安交通大学 “攀登计划”AI训练营 从AI使用者迈向AI创造者 10亿token，10000积分，等你来领! 为推进人工智能通识教育与创新创业实践，西安交通大学2026年「攀登计划」AI训练营将于即日起开放报名。训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团 AI 大学堂联合主办，面向全体在校学生（本科、硕士、博士），不限年级、不限专业，围绕 AI Agent、Skill 开发、RAG 三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。学员完成课程学习并提交实操成果，符合要求后可获西安交通大学与科大讯飞AI大学堂联合认证的结营证书，报名即享算力与产品积分支持。 01活动概览 活动名称：西安交通大学2026年「攀登计划」AI训练营。 活动时间：即日起至11月30日（共21天）。 参加对象：西安交通大学全体在校学生（本科、硕士、博士），不限年级、不限专业，均可报名参加。 报名要求：无需软件开发基础；仅「RAG 实战训练营」要求具备基础编程能力。 训练营设置：四个主题训练营，单个训练营 4 课时，RAG 实战训练营 8 课时。 学习方式：线上课程学习与实操任务提交，报名后领取算力及产品积分。 营员评优：需参加后续线下黑客松，根据任务完成情况评选AI训练营优秀营员。 报名方式：登录活动官方页面在线报名，详见本文第六部分。 02四大主题训练营 每名学员可选择1-2个训练营报名，累计学习课时不少于8小时。 训练营1 行业研究与金融投研训练营 训练营2 办公提效训练营 训练营3 开发实战训练营 训练营4 RAG实战训练营 选营建议 1、拟从事行业研究、投研工作：行业研究与金融投研训练营； 2、希望提升学习与办公效率：办公提效训练营； 3、有工具开发需求、希望把重复工作封装为Skill：Skill开发实战训练营； 4、计算机相关专业、希望参与企业级项目：RAG实战训练营。 03学习流程与证书发放 从选择到实践，从学习到认证，四步开启你的 AI 进阶之路。 1选择训练营并报名 根据专业背景与学习兴趣选择1-2 个训练营，累计学习课时不少于8小时。 2领取算力与产品积分 报名后可领取 算力及 AI Agent 产品积分，用于课程实操与作品开发。 3完成课程学习 跟随讯飞技术专家完成全部课程，每节视频有效播放时长须达到总时长的 80%。 4提交实操任务 提交实操作品，审核通过后获得结营证书；优秀作品另行评选并给予奖励。 证书发放要求 完成以下任一任务，即可领取西安交通大学与科大讯飞 AI 大学堂联合认证的结营证书： ①完成前3门训练营中的任意2门； ②完成RAG实战训练营。 说明：各训练营实操通关任务须审核通过；每节视频有效播放时长须达到总时长的80%，整营课程全部完成后方计入课时。 04报名权益 10亿Token 星火 Spark-X2.5 免费算力额度，覆盖课程实操、作品开发与反复调试。 结营证书 实习推荐 表现优异的学员有机会获得科大讯飞实习邀约。 硬件奖品 面向优秀学员评选发放，结营后 15 个工作日内寄出。 05心愿Skill，帮你实现！ 面向全校学生，征集希望拥有的 AI Skill： 为使训练营成果更贴近同学们的实际需求，本次训练营同步开展 Skill 需求征集。全校学生均可提交希望拥有的 AI Skill，并说明希望由 AI 承担的具体工作。征集结束后，组织方将对需求进行汇总与评议，呼声较高的需求由 Skill 开发实战训练营学员组队认领，在讯飞技术专家指导下开发，成果于结营后向全校学生开放共享。 参考需求方向 · 课程课件自动整理、提炼课堂重点 · 校园活动策划方案、宣传文案生成 · 日程规划、待办清单与复习计划自动编排 · 活动录音转写、整理活动纪要 · 社团报名表、活动问卷自动汇总分析 （以上仅为示例） 征集截",
+      "organizer": "交大青年之声",
+      "category": null,
+      "tags": [
+        "西安交通大学"
+      ],
+      "startsAt": 1796011200,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": null,
+      "city": "西安",
+      "isOnline": true,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "free",
+      "sourceName": "交大青年之声",
+      "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+      "registrationUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794"
     },
     {
       "id": "op-023edd6b50b270c56b19257be1bc6719a9b678f23f2651569ce2aea2ddbab533",
