@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-19T01:13:02.263Z",
-  "checkedAt": "2026-11-19T01:13:02.263Z",
-  "lastSuccessfulAt": "2026-11-19T01:13:02.263Z",
+  "generatedAt": "2026-11-19T13:42:36.258Z",
+  "checkedAt": "2026-11-19T13:42:36.258Z",
+  "lastSuccessfulAt": "2026-11-19T13:42:36.258Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 27 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 29 条最近快照",
   "sourceCount": 24,
   "sourceFailures": 1,
   "sourceHealth": [
@@ -30,7 +30,7 @@
     {
       "name": "西安交通大学就业招聘日历",
       "status": "ok",
-      "items": 76
+      "items": 78
     },
     {
       "name": "西安交大能动学院就业实践",
@@ -116,7 +116,7 @@
     {
       "name": "交大新闻网·创新港活动",
       "status": "ok",
-      "items": 125
+      "items": 127
     },
     {
       "name": "西安市体育局公开活动",
@@ -129,7 +129,7 @@
       "items": 35
     }
   ],
-  "geocodeRemaining": 12,
+  "geocodeRemaining": 0,
   "items": [
     {
       "id": "op-ad4903c24cdccb161fb170ab040b79d9cf793f3377b7af0e069ff85abf288983",
@@ -366,6 +366,108 @@
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=0dea2d520def44f1bd139084841fe808"
     },
     {
+      "id": "op-5f379b4c01debf416f7606bd21918f03c6a6df186a6a715ef713b24ef91e7973",
+      "type": "lecture",
+      "title": "周惠久论坛——钠离子电池磷酸盐正极材料",
+      "description": "主讲：吴兴隆。校区：兴庆校区。",
+      "organizer": "西安交通大学",
+      "category": "学术讲座",
+      "tags": [
+        "西安交通大学",
+        "兴庆校区"
+      ],
+      "startsAt": 1795406400,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": "兴庆校区-仲英楼第...",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "unknown",
+      "sourceName": "西安交通大学学术资源平台",
+      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7033.htm",
+      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7033.htm"
+    },
+    {
+      "id": "op-a4bf9b03771807467232eaeb4d106b17494c3aede7a4556f5bfc73ba8f01d431",
+      "type": "lecture",
+      "title": "周惠久论坛——宏观超分子组装及其应用",
+      "description": "主讲：石峰。校区：兴庆校区。",
+      "organizer": "西安交通大学",
+      "category": "学术讲座",
+      "tags": [
+        "西安交通大学",
+        "兴庆校区"
+      ],
+      "startsAt": 1795406400,
+      "endsAt": null,
+      "registrationDeadline": null,
+      "venueName": "创新港-3号巨构躬行...",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "unknown",
+      "sourceName": "西安交通大学学术资源平台",
+      "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7034.htm",
+      "registrationUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7034.htm"
+    },
+    {
+      "id": "op-1bf00d556fee711606ede540adfda28a6f087ad569724eb0fdf6a054fa0ba27b",
+      "type": "recruitment",
+      "title": "百万青年聚金陵·百校巡回招引 西安站",
+      "description": "组团招聘。时间：2026-11-23 14:00:00 至 2026-11-23 17:00:00。地点或参与方式：创新港20号楼(泓德楼)2楼校园招聘大厅。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "组团招聘",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1795413600,
+      "endsAt": 1795424400,
+      "registrationDeadline": null,
+      "venueName": "创新港20号楼(泓德楼)2楼校园招聘大厅",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=45f6e8e1558e4e6aa8910537bd01b281",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=45f6e8e1558e4e6aa8910537bd01b281"
+    },
+    {
+      "id": "op-11dee1d2ae2f9e3ec563d51643d29d1379b4af379ad69ffa033864d907e883ef",
+      "type": "recruitment",
+      "title": "好年华 聚福州！福州市卫健系统赴西安、长沙诚聘英才！",
+      "description": "校内招聘会。时间：2026-11-24 09:30:00 至 2026-11-24 12:00:00。地点或参与方式：西安交通大学雁塔校区护理楼多功能厅。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1795483800,
+      "endsAt": 1795492800,
+      "registrationDeadline": null,
+      "venueName": "西安交通大学雁塔校区护理楼多功能厅",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=b0abefc88308459785bfed691b8e80d1",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=b0abefc88308459785bfed691b8e80d1"
+    },
+    {
       "id": "op-574c581420ef4597ac855b66053718ee219b6d3a96fc6cdd25ec7ff130b0736d",
       "type": "recruitment",
       "title": "深圳新东方培训学校2027年校园招聘",
@@ -435,9 +537,9 @@
       "venueName": "敏行楼1-3052",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=8fb6686b3af349c790839b05d3fac42c",
@@ -468,32 +570,6 @@
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=489ad2ab1e8a42c99c3e869d51f9766a",
       "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=489ad2ab1e8a42c99c3e869d51f9766a"
-    },
-    {
-      "id": "op-43601175529c3118ae46eafbf597e44bc2d951f0ce9af96888b355d68d927a22",
-      "type": "recruitment",
-      "title": "央企校招 | 国家数据集团2027届秋季校园招聘正式启动",
-      "description": "校内招聘会。时间：2026-11-27 14:00:00 至 2026-11-27 16:00:00。地点或参与方式：涵英楼5-1E105。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1795759200,
-      "endsAt": 1795766400,
-      "registrationDeadline": null,
-      "venueName": "涵英楼5-1E105",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=8c74af77cdb1454d9bf1fc8945e6dcc4",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=8c74af77cdb1454d9bf1fc8945e6dcc4"
     },
     {
       "id": "op-2e01be15e09b9a2c96bbff3e8b9e3be7cfd46a73532b386cf7a8e36872176c15",
@@ -546,10 +622,10 @@
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
     },
     {
-      "id": "op-9991d624ca8517c955fdaf9ccc4c11c942e32b79f05bd3fa354b83fb2d041399",
+      "id": "op-43601175529c3118ae46eafbf597e44bc2d951f0ce9af96888b355d68d927a22",
       "type": "recruitment",
-      "title": "宝姿（中国）有限公司2027届秋季校园招聘",
-      "description": "校内招聘会。时间：2026-11-18 14:10:00 至 2026-11-18 16:00:00。地点或参与方式：就创中心一楼信息发布厅。",
+      "title": "央企校招 | 国家数据集团2027届秋季校园招聘正式启动",
+      "description": "校内招聘会。时间：2026-11-27 14:00:00 至 2026-11-27 16:00:00。地点或参与方式：涵英楼5-1E105。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "校内招聘会",
       "tags": [
@@ -557,10 +633,10 @@
         "校园招聘",
         "线下"
       ],
-      "startsAt": 1794982200,
-      "endsAt": 1794988800,
+      "startsAt": 1795759200,
+      "endsAt": 1795766400,
       "registrationDeadline": null,
-      "venueName": "就创中心一楼信息发布厅",
+      "venueName": "涵英楼5-1E105",
       "city": "西安",
       "isOnline": false,
       "latitude": null,
@@ -568,34 +644,8 @@
       "coordinateSystem": null,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=44cb17f6b0f44467b73a7d17ae2b6cd0",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=44cb17f6b0f44467b73a7d17ae2b6cd0"
-    },
-    {
-      "id": "op-18fb8af10fcb17fe417b09e46bf017a3f06e62f3e25b745a10ca645e1b4b7368",
-      "type": "recruitment",
-      "title": "河南省医学科学院2027年校园招聘",
-      "description": "校内招聘会。时间：2026-11-18 16:10:00 至 2026-11-18 18:00:00。地点或参与方式：西配楼101。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1794989400,
-      "endsAt": 1794996000,
-      "registrationDeadline": null,
-      "venueName": "西配楼101",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=4426d95feece4837a1fab761b4e97978",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=4426d95feece4837a1fab761b4e97978"
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=8c74af77cdb1454d9bf1fc8945e6dcc4",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=8c74af77cdb1454d9bf1fc8945e6dcc4"
     },
     {
       "id": "op-5a3b3ef538ee81c8758ff30973eeaffb4cc0db9cbfc974221905955daad4af4b",

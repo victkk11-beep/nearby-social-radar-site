@@ -15,7 +15,9 @@ a { color: inherit; text-decoration: none; }
 .sidebar { position: fixed; z-index: 20; inset: 0 auto 0 0; display: flex; width: 15rem; flex-direction: column; border-right: 1px solid var(--line); background: var(--sidebar); padding: 2rem 1.25rem; }
 .brand { display: flex; align-items: center; gap: .75rem; margin: 0 .5rem 3rem; font-size: .9rem; font-weight: 650; letter-spacing: -.02em; }
 .brand small { display: block; margin-top: .25rem; color: var(--muted); font-size: .7rem; font-weight: 400; letter-spacing: .12em; }
-.brand-mark { display: grid; width: 2.5rem; height: 2.5rem; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--gold); }
+.brand-mark { display: grid; width: 2.5rem; height: 2.5rem; place-items: center; color: var(--text); }
+.brand-mark svg, .mobile-brand svg { stroke-width: 1.3; stroke-linecap: square; stroke-linejoin: miter; }
+.mobile-brand.mobile-brand svg { color: var(--text); }
 .sidebar nav a { display: flex; min-height: 3rem; align-items: center; gap: .75rem; border-radius: 12px; padding: 0 1rem; font-size: .9rem; }
 .sidebar nav .nav-active { background: var(--blue-light); font-weight: 650; }
 .sidebar-foot { margin: auto 0 0 .5rem; color: var(--muted); font-size: .75rem; line-height: 1.8; }
