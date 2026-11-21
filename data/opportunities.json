@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-21T12:54:26.889Z",
-  "checkedAt": "2026-11-21T12:54:26.889Z",
-  "lastSuccessfulAt": "2026-11-21T12:54:26.889Z",
+  "generatedAt": "2026-11-21T23:48:23.431Z",
+  "checkedAt": "2026-11-21T23:48:23.431Z",
+  "lastSuccessfulAt": "2026-11-21T23:48:23.431Z",
   "status": "degraded",
   "statusMessage": "部分来源采集失败，显示 27 条最近快照",
   "sourceCount": 24,
-  "sourceFailures": 1,
+  "sourceFailures": 2,
   "sourceHealth": [
     {
       "name": "西安交通大学学术资源平台",
@@ -65,8 +65,9 @@
     },
     {
       "name": "陕汽控股人才招聘",
-      "status": "ok",
-      "items": 37
+      "status": "failed",
+      "items": 0,
+      "error": "来源网络请求失败（ETIMEDOUT）。"
     },
     {
       "name": "交大青年之声",
@@ -129,60 +130,8 @@
       "items": 34
     }
   ],
-  "geocodeRemaining": 0,
+  "geocodeRemaining": 11,
   "items": [
-    {
-      "id": "op-59e26e20060cbfceed3c261a3d88d5c4ec6916bd4534998edc10e3b0209e7366",
-      "type": "recruitment",
-      "title": "“职选厦一站 门纳众英才”2026秋季厦门城市引才推介暨校园招聘活动",
-      "description": "组团招聘。时间：2026-11-21 09:30:00 至 2026-11-21 12:00:00。地点或参与方式：西安交通大学兴庆校区就业创业中心一楼大厅。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "组团招聘",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1795224600,
-      "endsAt": 1795233600,
-      "registrationDeadline": null,
-      "venueName": "西安交通大学兴庆校区就业创业中心一楼大厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=11f3d70dac4e47c094eea8eb2e211688",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=11f3d70dac4e47c094eea8eb2e211688"
-    },
-    {
-      "id": "op-46a3cb212cb9d18973a918e666f473f5fe42cb03f121bad38626906cb3d6ae23",
-      "type": "recruitment",
-      "title": "哈尔滨电机厂有限责任公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-11-21 19:10:00 至 2026-11-21 21:00:00。地点或参与方式：敏行楼1-3052。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1795259400,
-      "endsAt": 1795266000,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=51b1be780a3e4588989c80bab6aad294",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=51b1be780a3e4588989c80bab6aad294"
-    },
     {
       "id": "op-a3713bb1d6f9eed37af6eb4b6023fc401712ca3acfc8ec3c868d75bf1ce42f01",
       "type": "recruitment",
@@ -568,6 +517,58 @@
       "sourceName": "钱学森学院官方活动",
       "sourceUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm",
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
+    },
+    {
+      "id": "op-59e26e20060cbfceed3c261a3d88d5c4ec6916bd4534998edc10e3b0209e7366",
+      "type": "recruitment",
+      "title": "“职选厦一站 门纳众英才”2026秋季厦门城市引才推介暨校园招聘活动",
+      "description": "组团招聘。时间：2026-11-21 09:30:00 至 2026-11-21 12:00:00。地点或参与方式：西安交通大学兴庆校区就业创业中心一楼大厅。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "组团招聘",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1795224600,
+      "endsAt": 1795233600,
+      "registrationDeadline": null,
+      "venueName": "西安交通大学兴庆校区就业创业中心一楼大厅",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=11f3d70dac4e47c094eea8eb2e211688",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=11f3d70dac4e47c094eea8eb2e211688"
+    },
+    {
+      "id": "op-46a3cb212cb9d18973a918e666f473f5fe42cb03f121bad38626906cb3d6ae23",
+      "type": "recruitment",
+      "title": "哈尔滨电机厂有限责任公司2027年校园招聘",
+      "description": "校内招聘会。时间：2026-11-21 19:10:00 至 2026-11-21 21:00:00。地点或参与方式：敏行楼1-3052。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1795259400,
+      "endsAt": 1795266000,
+      "registrationDeadline": null,
+      "venueName": "敏行楼1-3052",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=51b1be780a3e4588989c80bab6aad294",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=51b1be780a3e4588989c80bab6aad294"
     },
     {
       "id": "op-43601175529c3118ae46eafbf597e44bc2d951f0ce9af96888b355d68d927a22",
