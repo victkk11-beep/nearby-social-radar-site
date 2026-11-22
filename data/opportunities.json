@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-21T23:48:23.431Z",
-  "checkedAt": "2026-11-21T23:48:23.431Z",
-  "lastSuccessfulAt": "2026-11-21T23:48:23.431Z",
+  "generatedAt": "2026-11-22T12:46:52.188Z",
+  "checkedAt": "2026-11-22T12:46:52.188Z",
+  "lastSuccessfulAt": "2026-11-22T12:46:52.188Z",
   "status": "degraded",
-  "statusMessage": "部分来源采集失败，显示 27 条最近快照",
+  "statusMessage": "部分来源采集失败，显示 24 条最近快照",
   "sourceCount": 24,
   "sourceFailures": 2,
   "sourceHealth": [
@@ -130,7 +130,7 @@
       "items": 34
     }
   ],
-  "geocodeRemaining": 11,
+  "geocodeRemaining": 0,
   "items": [
     {
       "id": "op-a3713bb1d6f9eed37af6eb4b6023fc401712ca3acfc8ec3c868d75bf1ce42f01",
@@ -290,7 +290,7 @@
       "id": "op-6ef7cfd277387fc411fe43c0db661a8d86ade294e71f66c8bec77392853afb21",
       "type": "recruitment",
       "title": "国家电投集团贵州金元股份有限公司2027届招聘",
-      "description": "校内招聘会。时间：2026-11-24 19:10:00 至 2026-11-24 21:00:00。地点或参与方式：敏行楼1-3059。",
+      "description": "校内招聘会。时间：2026-11-24 19:00:00 至 2026-11-24 20:00:00。地点或参与方式：创新港校区敏行楼1-6117会议室。",
       "organizer": "西安交通大学就业招聘日历",
       "category": "校内招聘会",
       "tags": [
@@ -298,10 +298,10 @@
         "校园招聘",
         "线下"
       ],
-      "startsAt": 1795518600,
-      "endsAt": 1795525200,
+      "startsAt": 1795518000,
+      "endsAt": 1795521600,
       "registrationDeadline": null,
-      "venueName": "敏行楼1-3059",
+      "venueName": "创新港校区敏行楼1-6117会议室",
       "city": "西安",
       "isOnline": false,
       "latitude": null,
@@ -519,58 +519,6 @@
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
     },
     {
-      "id": "op-59e26e20060cbfceed3c261a3d88d5c4ec6916bd4534998edc10e3b0209e7366",
-      "type": "recruitment",
-      "title": "“职选厦一站 门纳众英才”2026秋季厦门城市引才推介暨校园招聘活动",
-      "description": "组团招聘。时间：2026-11-21 09:30:00 至 2026-11-21 12:00:00。地点或参与方式：西安交通大学兴庆校区就业创业中心一楼大厅。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "组团招聘",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1795224600,
-      "endsAt": 1795233600,
-      "registrationDeadline": null,
-      "venueName": "西安交通大学兴庆校区就业创业中心一楼大厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=11f3d70dac4e47c094eea8eb2e211688",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=11f3d70dac4e47c094eea8eb2e211688"
-    },
-    {
-      "id": "op-46a3cb212cb9d18973a918e666f473f5fe42cb03f121bad38626906cb3d6ae23",
-      "type": "recruitment",
-      "title": "哈尔滨电机厂有限责任公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-11-21 19:10:00 至 2026-11-21 21:00:00。地点或参与方式：敏行楼1-3052。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1795259400,
-      "endsAt": 1795266000,
-      "registrationDeadline": null,
-      "venueName": "敏行楼1-3052",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=51b1be780a3e4588989c80bab6aad294",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=51b1be780a3e4588989c80bab6aad294"
-    },
-    {
       "id": "op-43601175529c3118ae46eafbf597e44bc2d951f0ce9af96888b355d68d927a22",
       "type": "recruitment",
       "title": "央企校招 | 国家数据集团2027届秋季校园招聘正式启动",
@@ -698,32 +646,6 @@
       "sourceName": "交大西迁博物馆主题活动",
       "sourceUrl": "https://jdxqmuseum.xjtu.edu.cn/info/1039/1546.htm",
       "registrationUrl": "https://jdxqmuseum.xjtu.edu.cn/info/1039/1546.htm"
-    },
-    {
-      "id": "op-48a3e865412a9955b85bedf19ab5465220de3f6da6f1d8b660f5d2e3dc620d49",
-      "type": "lecture",
-      "title": "【陕图讲坛】2026年11月21日（周六）：秘境之国 ——古格王国的历史与遗迹",
-      "description": "讲 题：秘境之国 ——古格王国的历史与遗迹 主 讲 人：张建林 陕西省考古研究院研究员 时间：2026年11月21日（周六）14:30 地点：陕西省图书馆(长安路馆区) 报告厅 主办：陕西省图书馆（陕西省古籍保护中心） 【讲座引言】 在广袤苍茫的西藏阿里高原，巍峨土林连绵起伏，静谧的荒原之上，留存着一座沉睡的文明遗址。这里便是神秘的古格王国，一个在中国西部历史上存续七百余年、璀璨一时，却骤然湮灭的秘境古国，留给世人无尽的遐想与谜题。古格王国为何会覆灭？荒原遗址中藏着怎样的文明密码？雪域秘境里的遗存，又承载着怎样的民族交融与历史变迁？本期讲座，我们特邀陕西省考古研究院，深耕高原考古领域的张建林研究员，带我们穿越时光，解锁古格王国的兴衰脉络，探秘高原遗珠的独特历史与人文遗迹，读懂这片秘境土地上尘封的文明故事。 【主讲人简介】 张建林，陕西省考古研究院研究员，曾任陕西省考古研究院副院长。研究方向为隋唐考古、西藏考古。30余年来主持过多项国家级、省部级项目，是唐代帝陵考古、藏东地区吐蕃佛教造像调查与研究项目负责人。对唐代帝陵考古调查与研究有较大推进；主持的陕西唐陵大遗址考古项目，曾获2003年＂中国十大考古新发现＂、2007年＂田野考古一等奖＂。对西藏古格王国时期遗址、西藏岩画、吐蕃时期佛教造像考古调查与研究具有开创性意义。著有《古格故城》《慈善寺与麟溪桥》《唐顺陵》《唐祖陵》《西藏东部吐蕃佛教造像——芒康、察雅考古调查与研究报告》《秘境之国》等，发表论文及其他文章110余篇。 温馨提示 1. 听讲需预约，预约成功者请提前10分钟，扫码签到入场； 2.会场于讲座开始前半小时开放。迟到超30分钟，不予入场； 3.一些爆款讲座，无法保证每位入场听众都有座位，敬请谅解； 4.进入会场后请将手机调至静音模式，保持安静； 5. 请勿携带各类食品及有色饮料入场； 6. 65岁以上老年读者、持残疾证人士，可凭有效证件现场登记入场。名额有限，额满即止。 7. 儿童凭家长预约信息入场，不另占座位。不建议6岁以下小童参加； 8. 未经允许，严禁私自摄像、录音、直播。且不得将讲座课件发布至网络平台，感谢您对知识产权的保护。 预约方式，扫码获悉",
-      "organizer": "陕西省图书馆",
-      "category": "公益讲座",
-      "tags": [
-        "陕西省图书馆",
-        "公益讲座"
-      ],
-      "startsAt": 1795242600,
-      "endsAt": null,
-      "registrationDeadline": null,
-      "venueName": "陕西省图书馆(长安路馆区) 报告厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "locationKey": "4d89b7fe9a0f6772816ef17681d0ff536cf65ba63ee7461bc4a39caf356edff3",
-      "feeType": "unknown",
-      "sourceName": "陕西省图书馆活动预告",
-      "sourceUrl": "https://www.sxlib.org.cn/hd/hdyg/stjt/202610/t20261030_1183280.html",
-      "registrationUrl": "https://www.sxlib.org.cn/hd/hdyg/stjt/202610/t20261030_1183280.html"
     },
     {
       "id": "op-afa0be08b96f435b6ea2accd994ea7d4663c77cb3e9bf1791c2f2853eaa205f2",
