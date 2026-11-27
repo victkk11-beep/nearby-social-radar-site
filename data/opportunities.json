@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-27T02:10:30.014Z",
-  "checkedAt": "2026-11-27T02:10:30.014Z",
-  "lastSuccessfulAt": "2026-11-27T02:10:30.014Z",
+  "generatedAt": "2026-11-27T14:09:28.816Z",
+  "checkedAt": "2026-11-27T14:09:28.816Z",
+  "lastSuccessfulAt": "2026-11-27T14:09:28.816Z",
   "status": "degraded",
   "statusMessage": "部分来源采集失败，显示 23 条最近快照",
   "sourceCount": 24,
-  "sourceFailures": 1,
+  "sourceFailures": 4,
   "sourceHealth": [
     {
       "name": "西安交通大学学术资源平台",
@@ -30,7 +30,7 @@
     {
       "name": "西安交通大学就业招聘日历",
       "status": "ok",
-      "items": 95
+      "items": 97
     },
     {
       "name": "西安交大能动学院就业实践",
@@ -65,8 +65,9 @@
     },
     {
       "name": "陕汽控股人才招聘",
-      "status": "ok",
-      "items": 37
+      "status": "failed",
+      "items": 0,
+      "error": "来源网络请求失败（ETIMEDOUT）。"
     },
     {
       "name": "交大青年之声",
@@ -116,20 +117,22 @@
     {
       "name": "交大新闻网·创新港活动",
       "status": "ok",
-      "items": 127
+      "items": 125
     },
     {
       "name": "西安市体育局公开活动",
-      "status": "ok",
-      "items": 54
+      "status": "failed",
+      "items": 0,
+      "error": "来源网络请求失败（UND_ERR_CONNECT_TIMEOUT）。"
     },
     {
       "name": "西安市文物局公开活动",
-      "status": "ok",
-      "items": 34
+      "status": "failed",
+      "items": 0,
+      "error": "来源网络请求失败（UND_ERR_CONNECT_TIMEOUT）。"
     }
   ],
-  "geocodeRemaining": 1,
+  "geocodeRemaining": 0,
   "items": [
     {
       "id": "op-d0115ba22ebd71c2e6869ce505d51fec8622eb720d6c637cab4707a5a66adba7",
@@ -149,9 +152,9 @@
       "venueName": "敏行楼1-3059",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=6b9c19e09d3a4b1184f52e6d24cf0f2f",
@@ -175,9 +178,9 @@
       "venueName": "涵英楼5-1E105",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.255931,
-      "longitude": 108.655364,
-      "coordinateSystem": "gcj02",
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=cd881d1f014f48389d93210972d6e1d5",
@@ -226,9 +229,9 @@
       "venueName": "兴庆校区仲英楼B241...",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.247803,
-      "longitude": 108.980218,
-      "coordinateSystem": "gcj02",
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
       "feeType": "unknown",
       "sourceName": "西安交通大学学术资源平台",
       "sourceUrl": "https://meeting.xjtu.edu.cn/lecturenotice/7036.htm",
@@ -251,9 +254,9 @@
       "venueName": "西安交通大学兴庆校区",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.246233,
-      "longitude": 108.983741,
-      "coordinateSystem": "gcj02",
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
       "feeType": "unknown",
       "sourceName": "钱学森学院官方活动",
       "sourceUrl": "https://bjb.xjtu.edu.cn/info/1010/4297.htm",
@@ -277,9 +280,9 @@
       "venueName": "涵英楼5-1E107",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.255931,
-      "longitude": 108.655364,
-      "coordinateSystem": "gcj02",
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=094e851788f343aaab8428459d69de9d",
@@ -303,9 +306,9 @@
       "venueName": "就创中心204报告厅",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.242425,
-      "longitude": 108.644175,
-      "coordinateSystem": "gcj02",
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=e425c1cca716472c86cc9a2c04a5bdf9",
@@ -355,9 +358,9 @@
       "venueName": "敏行楼1-3059",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=fb1c7ac99fa24f62945fbe145b373efe",
@@ -390,6 +393,32 @@
       "registrationUrl": "https://www.wjx.top/vm/YY3OvjE.aspx#"
     },
     {
+      "id": "op-df61177f2b66da465450e56e4c13538e9f714349663bd6dcfeda566bcd7f0352",
+      "type": "recruitment",
+      "title": "潮奔黄海 才到盐城 盐城市校园人才招引宣讲会 西安地区专场",
+      "description": "校内招聘会。时间：2026-12-03 09:30:00 至 2026-12-03 11:30:00。地点或参与方式：涵英楼5-2W204。",
+      "organizer": "西安交通大学就业招聘日历",
+      "category": "校内招聘会",
+      "tags": [
+        "西安交通大学",
+        "校园招聘",
+        "线下"
+      ],
+      "startsAt": 1796261400,
+      "endsAt": 1796268600,
+      "registrationDeadline": null,
+      "venueName": "涵英楼5-2W204",
+      "city": "西安",
+      "isOnline": false,
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
+      "feeType": "free",
+      "sourceName": "西安交通大学就业招聘日历",
+      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=10e2dfd2489743ec86ec869ddcc1334a",
+      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=10e2dfd2489743ec86ec869ddcc1334a"
+    },
+    {
       "id": "op-b27f90c7077e4784a7a6d6b74a71cabd1902628656fc664aecfd27823c8cc15a",
       "type": "recruitment",
       "title": "第29届全国卫生健康人才招聘会",
@@ -407,9 +436,9 @@
       "venueName": "西安交通大学-雁塔校区505体育馆",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.242425,
-      "longitude": 108.644175,
-      "coordinateSystem": "gcj02",
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/bilateralchosefairGroup/show?bilateralchosefairGroupId=26e3a50da52342688b3f673c31ea6c05",
@@ -433,9 +462,9 @@
       "venueName": "敏行楼1-3052",
       "city": "西安",
       "isOnline": false,
-      "latitude": 34.250812,
-      "longitude": 108.661243,
-      "coordinateSystem": "gcj02",
+      "latitude": null,
+      "longitude": null,
+      "coordinateSystem": null,
       "feeType": "free",
       "sourceName": "西安交通大学就业招聘日历",
       "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=2ffa37324f4849a5ad915fd135f2c164",
@@ -491,32 +520,6 @@
       "sourceName": "钱学森学院官方活动",
       "sourceUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm",
       "registrationUrl": "https://bjb.xjtu.edu.cn/info/1077/2776.htm"
-    },
-    {
-      "id": "op-157157011b2afea9dc47f0590af2afac1b98f8191e53919b752f247344a5de76",
-      "type": "recruitment",
-      "title": "咸阳优然智慧牧业有限责任公司2027年校园招聘",
-      "description": "校内招聘会。时间：2026-11-26 14:10:00 至 2026-11-26 16:00:00。地点或参与方式：就创中心204报告厅。",
-      "organizer": "西安交通大学就业招聘日历",
-      "category": "校内招聘会",
-      "tags": [
-        "西安交通大学",
-        "校园招聘",
-        "线下"
-      ],
-      "startsAt": 1795673400,
-      "endsAt": 1795680000,
-      "registrationDeadline": null,
-      "venueName": "就创中心204报告厅",
-      "city": "西安",
-      "isOnline": false,
-      "latitude": null,
-      "longitude": null,
-      "coordinateSystem": null,
-      "feeType": "free",
-      "sourceName": "西安交通大学就业招聘日历",
-      "sourceUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=8ad6489e86b74c168ee14e4323c6ebf3",
-      "registrationUrl": "https://job.xjtu.edu.cn/f/recruitmentFair/show?recruitmentFairId=8ad6489e86b74c168ee14e4323c6ebf3"
     },
     {
       "id": "op-43601175529c3118ae46eafbf597e44bc2d951f0ce9af96888b355d68d927a22",
